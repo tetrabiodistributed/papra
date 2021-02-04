@@ -1,5 +1,5 @@
-baseURL = "https://tetrabiodistributed.github.io/project-tetra-docs"
-title = "Project Tetra"
+baseURL = "https://tetrabiodistributed.github.io/papra-docs"
+title = "PAPRa"
 canonifyURLs = false
 
 enableRobotsTXT = true
@@ -50,7 +50,7 @@ anchor = "smart"
 [[menu.main]]
     name = "GitHub"
     weight = 40
-    url = "https://github.com/tetrabiodistributed/project-tetra-docs"
+    url = "https://github.com/tetrabiodistributed/papra-docs"
 [[menu.main]]
     name = "Slack"
     weight = 50
@@ -65,8 +65,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Project Tetra"
-description = "An open-source specification ventilator splitter for combating COVID-19"
+title = "PAPRa"
+description = "A Personal Air Purifying Respirator (PAPR)"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -114,9 +114,9 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/tetrabiodistributed/project-tetra-docs"
+github_repo = "https://github.com/tetrabiodistributed/papra-docs"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/tetrabiodistributed/project-tetra"
+github_project_repo = "https://github.com/tetrabiodistributed/papr-print-files"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -163,7 +163,7 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/tetrabiodistributed/project-tetra-docs/"
+	url = "https://github.com/tetrabiodistributed/papra-docs/"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
