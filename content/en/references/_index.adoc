@@ -1,8 +1,0 @@
-
----
-title: "References"
-linkTitle: "References"
-weight: 5
-description: >
-  Technical documents relevant to the project.
----
