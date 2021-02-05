@@ -1,9 +1,9 @@
 ---
-title: "How to build a Tetra PAPRa Mask (v1)"
-linkTitle: "How to build a Tetra PAPRa Mask (v1)"
+title: "How to build a PAPRa Mask (v1)"
+linkTitle: "PAPRa Mask (v1)"
 weight: 1
 description: >
-  Describes how to build the January 2021 version of the Tetra PAPRa Mask component.
+  How-To guide for building the Tetra PAPRa mask (January 2021 version).
 ---
 
 == Quick Synopsis

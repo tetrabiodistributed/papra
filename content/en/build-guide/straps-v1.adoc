@@ -1,9 +1,9 @@
 ---
-title: "Tetra PAPRa over-the-shoulder strap setup"
-linkTitle: "Tetra PAPRa over-the-shoulder strap setup"
+title: "How to configure the PAPRa over-the-shoulder strap setup"
+linkTitle: "PAPRa over-the-shoulder strap setup"
 weight: 1
 description: >
-  Describes how configure the over-the-shoulder straps for the Tetra PAPRa.
+  How-To guide for configuring the over-the-shoulder straps for the Tetra PAPRa.
 ---
 
 == Quick Synopsis

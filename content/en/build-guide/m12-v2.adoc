@@ -1,9 +1,9 @@
 ---
-title: "How to build a Tetra PAPRa m12 Battery Controller (v2)"
-linkTitle: "How to build a Tetra PAPRa m12 Battery Controller (v2)"
+title: "How to build a PAPRa m12 Battery Controller (v2)"
+linkTitle: "PAPRa m12 Battery Controller (v2)"
 weight: 1
 description: >
-  Describes how to build the January 2021 version of the Tetra PAPRa m12 battery controller component.
+  How-To guide for building the Tetra PAPRa m12 battery controller (January 2021 version).
 ---
 
 == Quick Synopsis
