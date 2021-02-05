@@ -1,68 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Build Guide</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/</link><description>Recent content in PAPRa Build Guide on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra-docs/build-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Build-Guide: How to build a Tetra PAPRa (Jan 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/building-tetra-papr-v2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra-docs/build-guide/building-tetra-papr-v2/</guid><description>
-&lt;div class="sect1">
-&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
-&lt;div class="sectionbody">
-&lt;div class="paragraph">
-&lt;p>This guide will walk you through how to build a Personal Air Purifying Respirator, also known as a PAPR. We assume that you have some knowledge of 3D-printing, and cutting foam with a knife or using a stencil or a cricut, and perhaps some soldering. In the end, you will have four things: a box with a filter and a fan in it, a second box with batteries and a fan controller, a mask, and straps and hoses to hold it all together.&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>Please note that this system will not protect you from anything landing in your eyes. For that protection, either the mask will need to be modified to be a helmet, or you will need a face shield.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="sect1">
-&lt;h2 id="_introduction">Introduction&lt;/h2>
-&lt;div class="sectionbody">
-&lt;div class="paragraph">
-&lt;p>Now, in the time of COVID-19, many people are at risk for exposure to the virus and cannot afford to get infected. These people can isolate themselves, but often, their professions or requirements for daily life will take them in contact with other people, and they need some form of protection. Masks definitely help, but can become uncomfortable to wear, and also obscure the face of the wearer. This guide will walk you through creating a Powered Air-Purifying Respirator, which will protect the wearer and those around them from airborne viruses and bacteria, while at the same time providing positive airflow to the wearer’s face. That airflow makes sure that the wearer has a supply of fresh, cooled, clean air that has gone through a filtration process, and, in our tests, is the equivalent of wearing an N95 mask.&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>The core of the idea is fairly simple: put a fan behind a filter in an airtight box, have the fan pull air through the filter, and push that air through a hose. The hose goes to a mask on the wearer’s face. When the wearer breathes out, air travels out through the filter in the front of the mask.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="sect1">
-&lt;h2 id="_parts_needed">Parts needed&lt;/h2>
-&lt;div class="sectionbody">
-&lt;div class="paragraph">
-&lt;p>The entire set of parts to build the PAPR is:&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-LqbpfFH/0/5d2a4db0/X2/DSC09674-X2.jpg" alt="DSC09674 X2"/>&lt;/span>&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>There are four components to build:&lt;/p>
-&lt;/div>
-&lt;div class="olist arabic">
-&lt;ol class="arabic">
-&lt;li>
-&lt;p>The M12 Controller Box (v2 if you have the controller circuit board found here: &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB" class="bare">https://github.com/tetrabiodistributed/PAPRA-PCB&lt;/a>, v1 if you do not)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The Fan Box&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The Mask&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The Straps&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>And the instructions to build all of these components can be found in the Tetra PAPRA Components section.&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>A completed build looks like:&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-3bqTxD7/0/e647b344/X2/DSC09963-X2.jpg" alt="DSC09963 X2"/>&lt;/span>&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>We have worn these PAPRas for multiple hours at a time and found them to be quite comfortable. Please send us any images you have of wearing your Tetra PAPRa that you’ve built, and if you want, we’ll post them on our website!&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: How to build a Tetra PAPRa Fan Box (v1)</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-fan-box-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-fan-box-v1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Build Guide (Jan 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra/build-guide/</link><description>Recent content in PAPRa Build Guide (Jan 2021 Edition) on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/build-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Build-Guide: How to build a PAPRa Fan Box (v1)</title><link>https://tetrabiodistributed.github.io/papra/build-guide/fan-box-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/fan-box-v1/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -531,7 +467,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: How to build a Tetra PAPRa m12 Battery Controller (v1)</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-m12-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-m12-v1/</guid><description>
+&lt;/div></description></item><item><title>Build-Guide: How to build a PAPRa m12 Battery Controller (v1)</title><link>https://tetrabiodistributed.github.io/papra/build-guide/m12-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/m12-v1/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -999,7 +935,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: How to build a Tetra PAPRa m12 Battery Controller (v2)</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-m12-v2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-m12-v2/</guid><description>
+&lt;/div></description></item><item><title>Build-Guide: How to build a PAPRa m12 Battery Controller (v2)</title><link>https://tetrabiodistributed.github.io/papra/build-guide/m12-v2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/m12-v2/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -1240,7 +1176,7 @@ Your browser does not support the video tag.
 &lt;p>Congratulations! You have built a Tetra PAPRa M12 Controller Box v2!&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: How to build a Tetra PAPRa Mask (v1)</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-mask-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-mask-v1/</guid><description>
+&lt;/div></description></item><item><title>Build-Guide: How to build a PAPRa Mask (v1)</title><link>https://tetrabiodistributed.github.io/papra/build-guide/mask-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/mask-v1/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -1441,7 +1377,7 @@ Your browser does not support the video tag.
 &lt;p>Changing the filter depends on how much you use the device. If you’re using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every few days or so. If you’re using the device where there are less particulates, every two to three weeks should be fine. If the filter material gets dirty or wet, you should change it. The blue layer is intended to be water proof, but we don’t know how much actual water it can take.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: Tetra PAPRa over-the-shoulder strap setup</title><link>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-straps-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra-docs/build-guide/components/building-tetra-papr-straps-v1/</guid><description>
+&lt;/div></description></item><item><title>Build-Guide: How to configure the PAPRa over-the-shoulder strap setup</title><link>https://tetrabiodistributed.github.io/papra/build-guide/straps-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/straps-v1/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
