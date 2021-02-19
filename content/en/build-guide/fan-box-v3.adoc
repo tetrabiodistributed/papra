@@ -1,0 +1,284 @@
+---
+title: "How to build a PAPRa Fan Box (v3)"
+linkTitle: "PAPRa Fan Box (v3)"
+weight: 1
+description: >
+  How-To guide for building the Tetra PAPRa fan box (January 31 2021 version).
+---
+
+== Quick Synopsis ==
+
+The Tetra Powered Air Purified Respirator requires that the air be purified; this purification is accomplished by powering a fan to pull air through a filter and then pushing that purified air through a hose to a mask worn on the face.  This section contains the instructions for building the box that holds the fan and filter.
+
+== Parts Required ==
+
+This photo shows all the parts laid out for building this component:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/5K/_MMR0281-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/L/_MMR0281-L.jpg[]
+
+== 3D Printed Parts ==
+
+These parts should be printed at 0.2 spacing.  They should be oriented such that the large plates are closest to the build plate:
+
+.Table Printed Parts
+|===
+| Part | Quantity | Material | Supports required? | STL File Location
+
+| The Fan Box (holds the fan) 
+| 1
+| PLA
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000112-2%20Fan%20Box.stl
+
+| The Bottom Plate
+| 1
+| PLA
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000110-1%20Fan%20Box%20Base%20Plate.stl
+
+| UniFrame Cover
+| 1
+| PLA
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000116-1%20Fan%20Box%20UniFrameCover.stl
+
+| The Funnel (attaches hose to fan box)
+| 1
+| PLA
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000113-2%20Fan%20Box%20Funnel%20Single.stl
+
+
+|===
+
+== Gaskets ==
+
+Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by something such as Cricut (https://www.cricut.com/), but can also be cut using scissors or an Xacto knife so long as the templates are followed closely.
+
+.Table Gaskets
+|===
+
+| Part | Quantity | Material | Pattern
+
+| Box Gasket
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000111-1%20Fan%20Box%20Gasket.svg
+
+| Fan Gasket
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000114-0%20Fan%20Gasket.svg
+
+| Filter Gasket
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000115-0%20Filter%20Gasket.svg
+
+| Funnel Gasket
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000117-0%20Funnel%20Gasket.svg
+
+|===
+
+== PCB ==
+
+.Table PCB's
+|===
+| Part | Quantity | PCB files location
+| Fan Box PCB
+| 1
+| https://github.com/tetrabiodistributed/PAPRA-PCB/tree/main/pcb/PapraFanBoxPCB
+|===
+
+== Vendor Bill Of Materials
+
+These are components that need to be purchased.  Prices fluctuate, and so are not included here.  Alternative versions can be sourced, and we welcome edits for tested alternatives.
+
+.Table Vendor Bill Of Materials (BOM)
+|===
+| Count | Description | URL | Number in Package 
+| 1 
+| UTUO Brushless Radial Blower Dual Ball Bearing High Speed 12V DC Centrifugal Fan with XH-2.5 Plug 120mm by 120mm by 32mm 4.72x4.72x1.26 inch  
+| https://www.amazon.com/gp/product/B01CSNEO2G/ 
+| 1 
+
+| 2 
+| TOTOT 30 Pack 5.5mm x 2.1mm 3 Pin Female DC Power Jack Panel Mount Screw Nut Kit DC Socket Electrical Plug 
+| https://www.amazon.com/gp/product/B077YC457J/ 
+| 30  
+
+| 1 
+| Donner 60CM Guitar Pedal Power Cable Cord 10-Pack 
+| https://www.amazon.com/gp/product/B078XRM3W4/ 
+| 10  
+
+| 8 
+| binifiMux 150pcs M4 x 0.7mm 304 Stainless Steel Hex Nuts Bright Finish 
+| https://www.amazon.com/gp/product/B07J6C1XTD/ 
+| 150 
+
+| 8 
+| 50 Pcs M4-0.70 x 20mm Button Head Socket Cap Bolts Screws, 18-8 Stainless Steel, Allen Hex Drive, ISO 7380, by Fullerkreg,Come in a Plastic Case 
+| https://www.amazon.com/M4-0-7X-Available-Stainless-Machine-Fastener/dp/B081JYXLK7/ 
+| 50  
+
+| 6"  
+| 20 awg Solid wire kit Electrical wire Cable 7 colors 23ft each spools 20 gauge UL1007 Tinned Copper Hook up wire kit breadboard wire for DIY 
+| https://www.amazon.com/Electrical-colors-spools-UL1007-breadboard/dp/B083DNGSPV/ 
+| 276  
+
+| 
+| Heat shrink connector covering (optional)
+|
+|
+
+| 1
+| 2mm Craft Foam 
+| https://www.amazon.com/Foam-Sheet-X18-2mm-White-pack/dp/B004M5QGBQ
+| 10
+
+| 7
+| Frost King EPDM Rubber Self-Stick Weatherseal Tape, D-Section, 
+| https://www.amazon.com/Frost-King-Self-Stick-Weatherseal-D-Section/dp/B00FQ5A5RM
+| 204
+|===
+
+== Recommended Tools ==
+
+These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:
+
+.Table Tool List
+|===
+| Description | URL
+
+| Iwiss SN-48B Pin Crimping Tool 
+| https://www.amazon.com/gp/product/B00OMMZ502
+
+| 4-3/4 In. Bent Long Nose Pliers
+| https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html
+
+| Soldering iron
+| https://www.amazon.com/gp/product/B01MD12DYT
+
+| A hex screwdriver for the m4 screws
+| https://www.amazon.com/gp/product/B007ICWAJC
+
+| Flush cutter
+| https://www.harborfreight.com/micro-flush-cutter-90708.html
+
+| X-acto knife
+| https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ
+
+| 3D Printer (note the size of the print bed for the fan box)
+|  https://www.creality3d.shop/collections/ender-series-3d-printer/products/creality3d-ender-3-pro-high-precision-3d-printer
+
+| A deburring tool
+| https://www.amazon.com/gp/product/B01L2XR4P2
+
+| #0 Phillips head screwdriver
+| https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976
+
+| CPAP hose cleaner (for maintenance)
+| https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/
+|===
+
+== Build Steps ==
+
+=== Remove printed supports ===
+
+Removing print supports can be done with a chisel, an x-acto knife, the bent-nose pliers, or your fingernails (which can be painful if something slips).
+
+Here are some ways in which we've removed supports:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/5K/_MMR0055-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/L/_MMR0055-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/5K/_MMR0102-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/L/_MMR0102-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-tHmVtNK/0/1266b367/5K/_MMR0250-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-tHmVtNK/0/1266b367/L/_MMR0250-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nMMPpFk/0/afe4828a/5K/_MMR0215-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nMMPpFk/0/afe4828a/L/_MMR0215-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-33PcDdS/0/2d6a2c0d/5K/_MMR0298-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-33PcDdS/0/2d6a2c0d/L/_MMR0298-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-HTw8KXv/0/a8da3c3c/5K/_MMR0404-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-HTw8KXv/0/a8da3c3c/L/_MMR0404-L.jpg[]
+
+=== Assembly ===
+
+Place the PAPRa PCB into the Fan Box:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxVfvHh/0/beb80987/5K/_MMR0309-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxVfvHh/0/beb80987/L/_MMR0309-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-wxSVjFT/0/8edce1f2/5K/_MMR0313-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-wxSVjFT/0/8edce1f2/L/_MMR0313-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hJHprfV/0/0d8218c0/5K/_MMR0316-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hJHprfV/0/0d8218c0/L/_MMR0316-L.jpg[]
+
+Place & washer and tighten nut onto PAPRa Fan Box power jack: 
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rGrspjK/0/27669958/5K/_MMR0318-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rGrspjK/0/27669958/L/_MMR0318-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Mj6ksFX/0/8664e5c4/5K/_MMR0320-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Mj6ksFX/0/8664e5c4/L/_MMR0320-L.jpg[]
+
+Insert the Funnel & Gasket into the Fan Box:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Rf5thQR/0/25273083/5K/_MMR0379-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Rf5thQR/0/25273083/L/_MMR0379-L.jpg[]
+
+Prepare tape around the Funnel:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hNW4jgm/0/e716f3a0/5K/_MMR0387-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hNW4jgm/0/e716f3a0/L/_MMR0387-L.jpg[]
+
+Insert the fan into the Fan Box and tape the fan to the Funnel, sealing any potential leaks between the fan and funnel. Make sure to trim and remove any tape that may block the fan:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rXpR6M6/0/a7b581bc/5K/_MMR0388-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rXpR6M6/0/a7b581bc/L/_MMR0388-L.jpg[]
+
+Place the Box Gasket into the Bottom Plate:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XDWmFRT/0/c6ea139a/5K/_MMR0405-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XDWmFRT/0/c6ea139a/L/_MMR0405-L.jpg[]
+
+Place nuts into the slots in the Fan Box and Screw the Bottom Plate onto the Fan Box.  The Bottom Plate may bow out a bit:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-qRrvFLW/0/b769d899/5K/_MMR0413-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-qRrvFLW/0/b769d899/L/_MMR0413-L.jpg[]
+
+Place the Filter Gasket on the Fan Box:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kVpc2Js/0/d5d484ed/5K/_MMR0423-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kVpc2Js/0/d5d484ed/L/_MMR0423-L.jpg[]
+
+Place the filter into the Filter Box, ripple side up.  The gasket on the side of the filter may move a bit, which is fine, as that snugness indicates a good fit:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bTWSqpb/0/1aaf909b/5K/_MMR0425-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bTWSqpb/0/1aaf909b/L/_MMR0425-L.jpg[]
+
+Flip the Filter Box and screw it into the Fan Box:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Bnw6S7b/0/40d7784d/5K/_MMR0432-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Bnw6S7b/0/40d7784d/L/_MMR0432-L.jpg[]
+
+Congratulations!  You've now built a Tetra PAPRa Fan Box!  The Guitar Pedal Power cable can now be plugged into the M12 unit to power the device.
+
+[link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wXx4TF5/0/a62d4e50/5K/DSC09784-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wXx4TF5/0/a62d4e50/L/DSC09784-5K.jpg[]
+
+== Questions ==
+
+=== How frequently should I change the filter? ===
+
+Changing the filter depends on how much you use the device.  If you're using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every month or so.  If you're using the device where there are less particulates, every two to three months should be fine.  HEPA filters just get dirtier and eventually the fan will have a hard time pulling air through the filter, and the filter should be swapped before that happens.  
