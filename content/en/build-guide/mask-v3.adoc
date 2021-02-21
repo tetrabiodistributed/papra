@@ -14,7 +14,9 @@ The Tetra Powered Air Purified Respirator requires a Mask component to deliver p
 
 This photo shows all the parts laid out for building this component:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kfLSx45/0/2e89f579/X2/IMG_5115_HEIC-X2.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kfLSx45/0/2e89f579/5K/IMG_5115-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kfLSx45/0/2e89f579/L/IMG_5115-L.jpg[]
 
 The assembly diagram can be found here:
 
@@ -114,53 +116,67 @@ Once the mask has been printed, the build consists mainly of getting the 3-ply M
 
 Cut the side supports of the surgical mask off so the accordion folds can be unfolded:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-LnsKZxQ/0/504e9c38/X2/_MMR0577-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-LnsKZxQ/0/504e9c38/5K/_MMR0577-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-LnsKZxQ/0/504e9c38/L/_MMR0577-L.jpg[]
 
 Draw a circle on the mask where you want to cut out the filter material (You might be able to get two filters from one mask):
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XVVfDJc/0/a42e3091/X2/_MMR0581-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XVVfDJc/0/a42e3091/5K/_MMR0581-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XVVfDJc/0/a42e3091/L/_MMR0581-L.jpg[]
 
 Cut out the filter material:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-cSP5WNp/0/1073af1e/X2/_MMR0584-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-cSP5WNp/0/1073af1e/5K/_MMR0584-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-cSP5WNp/0/1073af1e/L/_MMR0584-L.jpg[]
 
 Place the circular gasket into the cap:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-88555fG/0/61ceca29/X2/_MMR0596-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-88555fG/0/61ceca29/5K/_MMR0596-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-88555fG/0/61ceca29/L/_MMR0596-L.jpg[]
 
 Place the filter material over the gasket and cap:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7WszwLc/0/b6cdd577/X2/_MMR0598-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7WszwLc/0/b6cdd577/5K/_MMR0598-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7WszwLc/0/b6cdd577/L/_MMR0598-L.jpg[]
 
 Fold the mask so you can place the Mount over the nose portion of the mask:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-VdMFNk7/0/1fce67c4/X2/_MMR0595-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-VdMFNk7/0/1fce67c4/5K/_MMR0595-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-VdMFNk7/0/1fce67c4/L/_MMR0595-L.jpg[]
 
 Seat the mask over the filter material in the cap:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-GRkFtS3/0/e1a36329/X2/_MMR0599-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-GRkFtS3/0/e1a36329/5K/_MMR0599-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-GRkFtS3/0/e1a36329/L/_MMR0599-L.jpg[]
 
 Clip all of the clips to hold the filter in place:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fRXLwch/0/d352faed/X2/_MMR0604-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fRXLwch/0/d352faed/5K/_MMR0604-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fRXLwch/0/d352faed/L/_MMR0604-L.jpg[]
 
 Cut a hole in the bottom of the mask for the grommet (note-- if you just want a passive respirator, no need to do this step!):
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-DHnCtqc/0/d6a90ff2/X2/IMG_5117_HEIC-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-DHnCtqc/0/d6a90ff2/5K/IMG_5117-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-DHnCtqc/0/d6a90ff2/L/IMG_5117-L.jpg[]
 
 Force the grommet through the hole, taking care to rotate the grommet so airflow goes away from the face:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-R9PsFB9/0/3675dd71/X2/IMG_5118_HEIC-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-R9PsFB9/0/3675dd71/5K/IMG_5118-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-R9PsFB9/0/3675dd71/L/IMG_5118-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bRMR7Fn/0/608f9cde/X2/IMG_5119_HEIC-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bRMR7Fn/0/608f9cde/5K/IMG_5119-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bRMR7Fn/0/608f9cde/L/IMG_5119-L.jpg[]
 
 Push the bathing suit elastic through the attachment points on the mask as one long strand.  Some prefer to tie at the top of the head, while others may prefer behind the neck.  Note how the elastic emerges from behind the attachment points to wrap around the head and neck:
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-KgNKtVC/0/8387024c/X2/DSC09910-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-KgNKtVC/0/8387024c/5K/DSC09910-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-KgNKtVC/0/8387024c/L/DSC09910-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-7Qh5Pm6/0/c3b67dbe/X2/DSC09918-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-7Qh5Pm6/0/c3b67dbe/5K/DSC09918-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-7Qh5Pm6/0/c3b67dbe/L/DSC09918-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-JzSC3n4/0/c8f1efb4/X2/DSC09920-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-JzSC3n4/0/c8f1efb4/5K/DSC09920-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-JzSC3n4/0/c8f1efb4/L/DSC09920-L.jpg[]
 
 Congratulations!  You now have a TETRA PAPRa face mask v3!
 

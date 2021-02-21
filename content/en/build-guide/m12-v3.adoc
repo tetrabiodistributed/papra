@@ -16,7 +16,8 @@ This build differs from the v1 version in that it uses a custom-built circuitboa
 
 This build will require printed parts, purchased parts, and several tools.  Here is a picture of all the components used in this build:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/X2/_MMR0088-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/5K/_MMR0088-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/L/_MMR0088-L.jpg[]
 
 This is the assembly diagram of the controller itself:
 
@@ -123,61 +124,78 @@ Building this version of the controller is more a matter of ensuring that the Co
 
 Remove the support material:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rzbptK8/0/c5fc023e/X2/_MMR0031-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rzbptK8/0/c5fc023e/5K/_MMR0031-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rzbptK8/0/c5fc023e/L/_MMR0031-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/X2/_MMR0055-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/5K/_MMR0055-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/L/_MMR0055-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/X2/_MMR0102-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/5K/_MMR0102-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/L/_MMR0102-L.jpg[]
 
 Test that the board can be seated into the controller body:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-58MDCdd/0/3f8e305d/X2/_MMR0111-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-58MDCdd/0/3f8e305d/5K/_MMR0111-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-58MDCdd/0/3f8e305d/L/_MMR0111-L.jpg[]
 
 Seat the Plate on the board:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nSFqwwc/0/0e6c232c/X2/_MMR0453-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nSFqwwc/0/0e6c232c/5K/_MMR0453-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nSFqwwc/0/0e6c232c/L/_MMR0453-L.jpg[]
 
 Place the washer over the power port, and then finger tighten a hex nut over the same power port to hold the Plate in place:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxFh96B/0/01622c4a/X2/_MMR0461-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxFh96B/0/01622c4a/5K/_MMR0461-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxFh96B/0/01622c4a/L/_MMR0461-L.jpg[]
 
 Tighten the complex down with a tool, being careful not to overly tighten and damage the board:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BtnQvfh/0/6c0dd6e1/X2/_MMR0471-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BtnQvfh/0/6c0dd6e1/5K/_MMR0471-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BtnQvfh/0/6c0dd6e1/L/_MMR0471-L.jpg[]
 
 Separate the light pipe from the board:
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wCHBtsf/0/16af8969/X2/DSC09850-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wCHBtsf/0/16af8969/5K/DSC09850-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wCHBtsf/0/16af8969/L/DSC09850-L.jpg[]
 
 Seat the board into the Controller Box:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-5hTDnq3/0/ff424453/X2/_MMR0475-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-5hTDnq3/0/ff424453/5K/_MMR0475-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-5hTDnq3/0/ff424453/L/_MMR0475-L.jpg[]
 
 Place the light pipe onto the board:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-JHVsBWt/0/f62caa1b/X2/_MMR0481-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-JHVsBWt/0/f62caa1b/5K/_MMR0481-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-JHVsBWt/0/f62caa1b/L/_MMR0481-L.jpg[]
 
 Place washers and nuts on both external components of the Controller Box, and tighten with the socket wrench:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XGZHwZ9/0/bd96e383/X2/_MMR0490-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XGZHwZ9/0/bd96e383/5K/_MMR0490-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XGZHwZ9/0/bd96e383/L/_MMR0490-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-RLpVb6M/0/913498a7/X2/_MMR0508-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-RLpVb6M/0/913498a7/5K/_MMR0508-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-RLpVb6M/0/913498a7/L/_MMR0508-L.jpg[]
 
 Place the light clip over the light pipe, and secure in place using pliers to pull the clip over the top of the pipe:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-SHh7CvX/0/4e698dbf/X2/_MMR0502-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-SHh7CvX/0/4e698dbf/5K/_MMR0502-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-SHh7CvX/0/4e698dbf/L/_MMR0502-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-2ndQ2Rr/0/d828f1e4/X2/_MMR0505-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-2ndQ2Rr/0/d828f1e4/5K/_MMR0505-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-2ndQ2Rr/0/d828f1e4/L/_MMR0505-L.jpg[]
 
 Place the Knob onto the potentiometer, and twist to turn on.  If there is a charged battery in the Controller, you should see the lights in the light pipe:
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wRdL8LF/0/24003e26/X2/DSC09848-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wRdL8LF/0/24003e26/5K/DSC09848-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wRdL8LF/0/24003e26/L/DSC09848-L.jpg[]
 
 Snap the Lid in place.  Note the orientation; snapping the lid in in the opposite orientation may cause the lower lip to break off:
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-WZgQVz8/0/1b6f0128/X2/_MMR0515-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-WZgQVz8/0/1b6f0128/5K/_MMR0515-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-WZgQVz8/0/1b6f0128/L/_MMR0515-L.jpg[]
 
-image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fCjtH44/0/782edc91/X2/_MMR0516-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fCjtH44/0/782edc91/5K/_MMR0516-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fCjtH44/0/782edc91/L/_MMR0516-L.jpg[]
 
 Congratulations!  You have built a Tetra PAPRa M12 Controller Box v3!
 

@@ -14,7 +14,7 @@ The Tetra Powered Air Purified Respirator requires that the air be purified; thi
 
 This photo shows all the parts laid out for building this component:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/5K/_MMR0281-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/5K/_MMR0281-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/L/_MMR0281-L.jpg[]
 
 
@@ -173,89 +173,89 @@ Removing print supports can be done with a chisel, an x-acto knife, the bent-nos
 
 Here are some ways in which we've removed supports:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/5K/_MMR0055-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/5K/_MMR0055-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hKCrqcG/0/1e482995/L/_MMR0055-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/5K/_MMR0102-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/5K/_MMR0102-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-MvJGQs3/0/da0c9381/L/_MMR0102-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-tHmVtNK/0/1266b367/5K/_MMR0250-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-tHmVtNK/0/1266b367/5K/_MMR0250-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-tHmVtNK/0/1266b367/L/_MMR0250-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nMMPpFk/0/afe4828a/5K/_MMR0215-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nMMPpFk/0/afe4828a/5K/_MMR0215-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-nMMPpFk/0/afe4828a/L/_MMR0215-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-33PcDdS/0/2d6a2c0d/5K/_MMR0298-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-33PcDdS/0/2d6a2c0d/5K/_MMR0298-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-33PcDdS/0/2d6a2c0d/L/_MMR0298-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-HTw8KXv/0/a8da3c3c/5K/_MMR0404-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-HTw8KXv/0/a8da3c3c/5K/_MMR0404-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-HTw8KXv/0/a8da3c3c/L/_MMR0404-L.jpg[]
 
 === Assembly ===
 
 Place the PAPRa PCB into the Fan Box:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxVfvHh/0/beb80987/5K/_MMR0309-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxVfvHh/0/beb80987/5K/_MMR0309-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-NxVfvHh/0/beb80987/L/_MMR0309-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-wxSVjFT/0/8edce1f2/5K/_MMR0313-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-wxSVjFT/0/8edce1f2/5K/_MMR0313-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-wxSVjFT/0/8edce1f2/L/_MMR0313-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hJHprfV/0/0d8218c0/5K/_MMR0316-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hJHprfV/0/0d8218c0/5K/_MMR0316-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hJHprfV/0/0d8218c0/L/_MMR0316-L.jpg[]
 
 Place & washer and tighten nut onto PAPRa Fan Box power jack: 
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rGrspjK/0/27669958/5K/_MMR0318-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rGrspjK/0/27669958/5K/_MMR0318-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rGrspjK/0/27669958/L/_MMR0318-L.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Mj6ksFX/0/8664e5c4/5K/_MMR0320-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Mj6ksFX/0/8664e5c4/5K/_MMR0320-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Mj6ksFX/0/8664e5c4/L/_MMR0320-L.jpg[]
 
 Insert the Funnel & Gasket into the Fan Box:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Rf5thQR/0/25273083/5K/_MMR0379-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Rf5thQR/0/25273083/5K/_MMR0379-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Rf5thQR/0/25273083/L/_MMR0379-L.jpg[]
 
 Prepare tape around the Funnel:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hNW4jgm/0/e716f3a0/5K/_MMR0387-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hNW4jgm/0/e716f3a0/5K/_MMR0387-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-hNW4jgm/0/e716f3a0/L/_MMR0387-L.jpg[]
 
 Insert the fan into the Fan Box and tape the fan to the Funnel, sealing any potential leaks between the fan and funnel. Make sure to trim and remove any tape that may block the fan:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rXpR6M6/0/a7b581bc/5K/_MMR0388-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rXpR6M6/0/a7b581bc/5K/_MMR0388-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-rXpR6M6/0/a7b581bc/L/_MMR0388-L.jpg[]
 
 Place the Box Gasket into the Bottom Plate:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XDWmFRT/0/c6ea139a/5K/_MMR0405-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XDWmFRT/0/c6ea139a/5K/_MMR0405-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XDWmFRT/0/c6ea139a/L/_MMR0405-L.jpg[]
 
 Place nuts into the slots in the Fan Box and Screw the Bottom Plate onto the Fan Box.  The Bottom Plate may bow out a bit:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-qRrvFLW/0/b769d899/5K/_MMR0413-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-qRrvFLW/0/b769d899/5K/_MMR0413-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-qRrvFLW/0/b769d899/L/_MMR0413-L.jpg[]
 
 Place the Filter Gasket on the Fan Box:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kVpc2Js/0/d5d484ed/5K/_MMR0423-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kVpc2Js/0/d5d484ed/5K/_MMR0423-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kVpc2Js/0/d5d484ed/L/_MMR0423-L.jpg[]
 
 Place the filter into the Filter Box, ripple side up.  The gasket on the side of the filter may move a bit, which is fine, as that snugness indicates a good fit:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bTWSqpb/0/1aaf909b/5K/_MMR0425-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bTWSqpb/0/1aaf909b/5K/_MMR0425-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bTWSqpb/0/1aaf909b/L/_MMR0425-L.jpg[]
 
 Flip the Filter Box and screw it into the Fan Box:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Bnw6S7b/0/40d7784d/5K/_MMR0432-L.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Bnw6S7b/0/40d7784d/5K/_MMR0432-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-Bnw6S7b/0/40d7784d/L/_MMR0432-L.jpg[]
 
 Congratulations!  You've now built a Tetra PAPRa Fan Box!  The Guitar Pedal Power cable can now be plugged into the M12 unit to power the device.
 
 [link=https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wXx4TF5/0/a62d4e50/5K/DSC09784-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wXx4TF5/0/a62d4e50/L/DSC09784-5K.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-wXx4TF5/0/a62d4e50/L/DSC09784-L.jpg[]
 
 == Questions ==
 
