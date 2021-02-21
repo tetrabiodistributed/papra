@@ -3,7 +3,7 @@ title: "How to build a PAPRa Fan Box (v3)"
 linkTitle: "PAPRa Fan Box (v3)"
 weight: 1
 description: >
-  How-To guide for building the Tetra PAPRa fan box (January 31 2021 version).
+  How-To guide for building the Tetra PAPRa fan box (Late January 2021 version).
 ---
 
 == Quick Synopsis ==
@@ -17,6 +17,7 @@ This photo shows all the parts laid out for building this component:
 [link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/5K/_MMR0281-L.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-B4JzQNk/0/c734abd5/L/_MMR0281-L.jpg[]
 
+
 == 3D Printed Parts ==
 
 These parts should be printed at 0.2 spacing.  They should be oriented such that the large plates are closest to the build plate:
@@ -29,25 +30,25 @@ These parts should be printed at 0.2 spacing.  They should be oriented such that
 | 1
 | PLA
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000112-2%20Fan%20Box.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/fan_box/P-TET-000112-0%20Fan%20Box.stl
 
 | The Bottom Plate
 | 1
 | PLA
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000110-1%20Fan%20Box%20Base%20Plate.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/fan_box/P-TET-000110-0%20Fan%20Box%20Base%20Plate.stl
 
 | UniFrame Cover
 | 1
 | PLA
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000116-1%20Fan%20Box%20UniFrameCover.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/fan_box/P-TET-000116-0%20Fan%20Box%20UniFrameCover.stl
 
 | The Funnel (attaches hose to fan box)
 | 1
 | PLA
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/STLs/fan_box/P-TET-000113-2%20Fan%20Box%20Funnel%20Single.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/fan_box/P-TET-000113-0%20Fan%20Box%20Funnel%20Single.stl
 
 
 |===
@@ -64,22 +65,18 @@ Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by somet
 | Box Gasket
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000111-1%20Fan%20Box%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/Gaskets/BoxGasket.svg
 
 | Fan Gasket
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000114-0%20Fan%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/Gaskets/FanGasket.svg
 
 | Filter Gasket
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000115-0%20Filter%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/Gaskets/FilterGasket.svg
 
-| Funnel Gasket
-| 1
-| Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/9c9eebc7c29308c5ddc6a99569f82c5193d0e1dd/Gaskets/P-TET-000117-0%20Funnel%20Gasket.svg
 
 |===
 
@@ -90,8 +87,10 @@ Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by somet
 | Part | Quantity | PCB files location
 | Fan Box PCB
 | 1
-| https://github.com/tetrabiodistributed/PAPRA-PCB/tree/main/pcb/PapraFanBoxPCB
+| https://github.com/tetrabiodistributed/PAPRA-PCB/blob/e296c875e8b5c45dff56e3ab48fc499b717f58f9/pcb/PapraFanBoxPCB
 |===
+
+link:../D-TET-001101-0.PapraFanBoxPCBA.Drawing.pdf[The PCB assembly diagram can be found here]
 
 == Vendor Bill Of Materials
 
@@ -105,35 +104,18 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 | https://www.amazon.com/gp/product/B01CSNEO2G/ 
 | 1 
 
-| 2 
-| TOTOT 30 Pack 5.5mm x 2.1mm 3 Pin Female DC Power Jack Panel Mount Screw Nut Kit DC Socket Electrical Plug 
-| https://www.amazon.com/gp/product/B077YC457J/ 
-| 30  
 
 | 1 
 | Donner 60CM Guitar Pedal Power Cable Cord 10-Pack 
 | https://www.amazon.com/gp/product/B078XRM3W4/ 
 | 10  
 
-| 8 
-| binifiMux 150pcs M4 x 0.7mm 304 Stainless Steel Hex Nuts Bright Finish 
-| https://www.amazon.com/gp/product/B07J6C1XTD/ 
-| 150 
 
 | 8 
 | 50 Pcs M4-0.70 x 20mm Button Head Socket Cap Bolts Screws, 18-8 Stainless Steel, Allen Hex Drive, ISO 7380, by Fullerkreg,Come in a Plastic Case 
 | https://www.amazon.com/M4-0-7X-Available-Stainless-Machine-Fastener/dp/B081JYXLK7/ 
 | 50  
 
-| 6"  
-| 20 awg Solid wire kit Electrical wire Cable 7 colors 23ft each spools 20 gauge UL1007 Tinned Copper Hook up wire kit breadboard wire for DIY 
-| https://www.amazon.com/Electrical-colors-spools-UL1007-breadboard/dp/B083DNGSPV/ 
-| 276  
-
-| 
-| Heat shrink connector covering (optional)
-|
-|
 
 | 1
 | 2mm Craft Foam 
