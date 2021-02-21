@@ -20,12 +20,7 @@ image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-20
 
 This is the assembly diagram of the controller itself:
 
-link:../A-TET-001102-0.M12.PAPRA.Controller.Drawing.pdf[Get Assembly Diagram]
-
 The assembly diagram for the board can be found here:
-
-
-link:../D-TET-.Papra.PCBA.Drawing.pdf[The PCB assembly diagram can be found here]
 
 ## 3D Printed Parts
 

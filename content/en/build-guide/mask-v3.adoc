@@ -18,8 +18,6 @@ image:https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-20
 
 The assembly diagram can be found here:
 
-link:../D-TET-001104-0.Mask.Assembly.Drawing.pdf[Get Assembly Diagram]
-
 ## 3D printed Parts
 
 .Table Printed Parts

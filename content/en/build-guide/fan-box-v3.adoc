@@ -90,8 +90,6 @@ Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by somet
 | https://github.com/tetrabiodistributed/PAPRA-PCB/blob/e296c875e8b5c45dff56e3ab48fc499b717f58f9/pcb/PapraFanBoxPCB
 |===
 
-link:../D-TET-001101-0.PapraFanBoxPCBA.Drawing.pdf[The PCB assembly diagram can be found here]
-
 == Vendor Bill Of Materials
 
 These are components that need to be purchased.  Prices fluctuate, and so are not included here.  Alternative versions can be sourced, and we welcome edits for tested alternatives.
