@@ -19,10 +19,6 @@ This build will require printed parts, purchased parts, and several tools.  Here
 [link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/5K/_MMR0088-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/L/_MMR0088-L.jpg[]
 
-This is the assembly diagram of the controller itself:
-
-The assembly diagram for the board can be found here:
-
 ## 3D Printed Parts
 
 These parts should be printed at 0.2 spacing:
