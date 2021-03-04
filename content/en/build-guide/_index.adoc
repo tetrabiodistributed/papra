@@ -1,10 +1,10 @@
 
 ---
-title: "PAPRa Build Guide (Jan 2021 Edition)"
+title: "PAPRa Build Guide (Jan 31 2021 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
 description: >
-  How to build the January 2021 version of the Tetra PAPR.
+  How to build the January 31 2021 version of the Tetra PAPR.
 ---
 
 == Quick Synopsis
@@ -17,14 +17,15 @@ Please note that this system will not protect you from anything landing in your 
 
 The entire set of parts to build the PAPR is:
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-LqbpfFH/0/5d2a4db0/X2/DSC09674-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BsXGD93/0/8b980a69/5K/_MMR0019-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BsXGD93/0/8b980a69/L/_MMR0019-L.jpg[]
 
 There are four components to build:
 
-1.  The M12 Controller Box (v2 if you have the controller circuit board found here: https://github.com/tetrabiodistributed/PAPRA-PCB, v1 if you do not)
-2.  The Fan Box
-3.  The Mask
-4.  The Straps
+1.  The M12 Controller Box (link:m12-v3[v3] if you have the controller circuit board https://github.com/tetrabiodistributed/PAPRA-PCB[in this github repository], link:m12-v1[v1] if you do not)
+2.  link:fan-box-v2[The Fan Box]
+3.  link:mask-v1[The Mask]
+4.  link:straps-v1[The Straps]
 
 And the instructions to build all of these components can be found in the Tetra PAPRA Components section.
 
