@@ -1,9 +1,9 @@
 ---
-title: "How to build a PAPRa m12 Battery Controller (v3)"
-linkTitle: "PAPRa m12 Battery Controller (v3)"
+title: "How to build a PAPRa m12 Battery Controller"
+linkTitle: "PAPRa m12 Battery Controller"
 weight: 1
 description: >
-  How-To guide for building the Tetra PAPRa m12 battery controller (Late January 2021 version).
+  How-To guide for building the Tetra PAPRa m12 battery controller (March 2021 version).
 ---
 
 == Quick Synopsis
@@ -16,8 +16,8 @@ This build differs from the v1 version in that it uses a custom-built circuitboa
 
 This build will require printed parts, purchased parts, and several tools.  Here is a picture of all the components used in this build:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/5K/_MMR0088-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7W25d6J/0/ca9a585b/L/_MMR0088-L.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-NWTC2Dz/0/39d6081d/L/_MMR0198-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-NWTC2Dz/0/39d6081d/L/_MMR0198-L.jpg[]
 
 ## 3D Printed Parts
 

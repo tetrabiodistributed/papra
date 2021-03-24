@@ -1,0 +1,62 @@
+
+---
+title: "PAPRa Testing Guide (13 March 2021 Edition)"
+linkTitle: "PAPRa Testing Guide"
+weight: 1
+description: >
+  How we tested the PAPRa to arrive at claims of N95/N99 levels of protection
+---
+
+== Quick Synopsis
+
+This page will walk you through how we established that the PAPRa can offer N95 levels of protection on a mask when worn by someone with a beard, and N99 levels of protection by the fan box itself.  These tests are by no means exhaustive; far more testing is needed to ensure that these results can be achieved consistently, and the testing should be done in a more controlled environment than what we have done.
+
+Furthermore, we offer no warranty, explicit or implied, that any device that you create will achieve similar standards of filtration.  We are currently working to determine the best path forward for individuals who make their PAPRs to test them.
+
+== Parts Needed
+
+In addition to the PAPR to be tested, we tested using a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] with a hose assembly as depicted below:
+
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/5K/_MMR0431-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/L/_MMR0431-L.jpg[] 
+
+It is important to note that the Portacount is effective at showing the isolation of airborne particles, but not at identifying the sizes of particles measured, and did not have a setting for an N100 level of protection.  When testing for N95 levels of protection, the Portacount has a range from 0 to 200+, with 100 passing, while N99 testing has a range from 0 to 2000+, with 500 passing.  All tests depicted in this document were done using online testing, waiting several seconds to ensure that the readings were stable before recording them.
+
+Prior to testing, a saline solution was aerosolized to ensure that there would be a sufficient quantity of airborne particles to demonstrate effective filtration.  
+
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-h594S5t/0/ab2e7757/5K/_MMR0404-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-h594S5t/0/ab2e7757/L/_MMR0404-L.jpg[] 
+
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5rXgW/0/ea8ea9ed/5K/_MMR0405-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5rXgW/0/ea8ea9ed/L/_MMR0405-L.jpg[] 
+
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/5K/_MMR0414-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/L/_MMR0414-L.jpg[] 
+
+
+The Portacount measurement hose was attached to the port in the hose array depicted below:
+
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jjzRxbT/0/5267278f/5K/_MMR0424-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jjzRxbT/0/5267278f/L/_MMR0424-L.jpg[] 
+
+The other hose, the blue hose, is left exposed to the air to provide a sample of the ambient air to the Portacount.
+
+Here are the videos of the various tests performed:
+
+video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-Kq8Lp8G/0/37bf76f3/1920/IMG_5191-1920.mp4[]
+
+Testing the fit of the mask itself:
+
+video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-QkqNg2x/0/764af364/1920/IMG_5189-1920.mp4[]
+
+Testing the efficacy of various HEPA filters (takeaway: make sure you have good filters from https://germguardian.com[germguardian.com], as specified in the BOM, or something similar):
+
+video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-GgKRbwK/0/a835042a/1920/IMG_5188-1920.mp4[]
+
+As you can see, while these tests are promising, they are not yet completely rigorous.  We are currently working on a full PAPR testing system, and will likely also reach out to third party testing labs for further verification of individual units.
+
+
+
+
+
+

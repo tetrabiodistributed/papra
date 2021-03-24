@@ -2,3 +2,7 @@
 [submodule "themes/docsy"]
 	path = themes/docsy
 	url = https://github.com/google/docsy
+
+[submodule "extras/pdf_shortcodes"]
+	path = extras/pdf_shortcodes
+	url = https://github.com/anvithks/hugo-embed-pdf-shortcode
