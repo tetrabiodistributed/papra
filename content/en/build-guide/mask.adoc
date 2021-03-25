@@ -33,7 +33,7 @@ image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2
 | The Respirator Body
 | 1
 | Ninjaflex
-| Yes
+| Yes (just on the nosepiece, anchor points, and interior stem hole; no supports on the rim for the mount)
 | https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/respirator/P-TET-000120-0%20Mask.stl
 
 | The Stem

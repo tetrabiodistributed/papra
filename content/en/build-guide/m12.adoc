@@ -62,7 +62,7 @@ These parts should be printed at 0.2 spacing:
 | 1 
 | PLA
 | No
-| hhttps://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/battery_controller/P-TET-000104-0%20M12%20Light%20Pipe%20Clip.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/battery_controller/P-TET-000104-0%20M12%20Light%20Pipe%20Clip.stl
 
 |===
 
