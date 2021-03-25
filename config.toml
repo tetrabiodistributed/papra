@@ -19,6 +19,9 @@ enableMissingTranslationPlaceholders = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# Static dirs
+staticDir = "static"
+
 # Highlighting config
 pygmentsCodeFences = true
 pygmentsUseClasses = false

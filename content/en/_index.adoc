@@ -7,6 +7,7 @@ description: >
   Overview of the Tetra PAPRa.
 ---
 
+
 == Introduction
 
 Many people are at risk for exposure to the COVID-19 virus and cannot afford to get infected.  These people can isolate themselves, but often, their professions or requirements for daily life will take them in contact with other people, and they need some form of protection.  Masks definitely help, but can become uncomfortable to wear, especially over long periods of time.  This guide will walk you through creating a Powered Air-Purifying Respirator, which will protect the wearer and those around them from airborne viruses and bacteria, while at the same time providing positive airflow to the wearer's face.  That airflow makes sure that the wearer has a supply of fresh, clean air that has gone through a filtration process, and, in our tests, is the equivalent of wearing an N95 mask.
@@ -17,11 +18,11 @@ The core of the idea is fairly simple: put a fan behind a filter in an airtight 
 
 A completed build looks like:
 
-image:https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-3bqTxD7/0/e647b344/X2/DSC09963-X2.jpg[]
+image:https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-2jp6k87/0/c76b8e10/X2/_MMR0321-X2.jpg[]
 
 We have worn these PAPRas for multiple hours at a time and found them to be quite comfortable.  Please send us any images you have of wearing your Tetra PAPRa that you've built, and if you want, we'll post them on our website!
 
-An important point: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+*WARNING:* We provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 
 
