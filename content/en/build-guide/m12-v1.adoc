@@ -12,7 +12,7 @@ The Tetra Powered Air Purified Respirator requires power to function, and the m1
 
 If you can build or buy custom circuitboards, then the other version is much more straightforward to assemble.  The plans can be found here: https://github.com/tetrabiodistributed/PAPRA-PCB
 
-An important point: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 == Parts required
 

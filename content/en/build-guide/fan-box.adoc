@@ -10,11 +10,11 @@ description: >
 
 The Tetra Powered Air Purified Respirator requires that the air be purified; this purification is accomplished by powering a fan to pull air through a filter and then pushing that purified air through a hose to a mask worn on the face.  This section contains the instructions for building the box that holds the fan and filter.
 
-Please note that this version of the fanbox has a known problem-- the power connector specified on the PCB is proprietary, and does not properly link into the provided DC cables.  The next version of the fan box will fix this problem.
+*NOTE:* this version of the fanbox has a known problem-- the power connector specified on link:../fan-box-circuits[the PCB] is proprietary, and does not properly link into the provided DC cables.  The next version of the fan box will fix this problem.
 
 The main goal of this iteration of the fan box is to reach N99 filtration levels by ensuring that the DC jack is dustproof and using an IP68-rated jack. 
 
-An important point: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 == Parts Required ==
 

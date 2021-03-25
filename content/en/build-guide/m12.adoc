@@ -10,9 +10,9 @@ description: >
 
 The Tetra Powered Air Purified Respirator requires power to function, and the m12 battery controller provides that power for these models.  The controller consists of internal circuitry, a potentiometer to adjust fan speeds, a cable to connect to the fan box, and a port for a Milwaulkee M12 Battery to be inserted.
 
-This build differs from the v1 version in that it uses a custom-built circuitboard to remove many of the difficult steps of the build, add a battery charge indicator, and a separate power port for use in a car.  If you cannot get the custom board (found in this repository: https://github.com/tetrabiodistributed/PAPRA-PCB), then please refer to the v1 version of this guide.
+This build differs from the v1 version in that it uses a custom-built circuitboard to remove many of the difficult steps of the build, add a battery charge indicator, and a separate power port for use in a car.  If you cannot get link:../m12-circuit[the custom board], then please refer to the v1 version of this guide.
 
-An important point: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 == Parts Required
 
@@ -25,6 +25,9 @@ image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-NWTC
 
 {{< embed-pdf hidePaginator=true url="./D-TET-001102-1 M12 PAPRA Controller Drawing.pdf" >}}
 
+== Circuit Diagram == 
+
+{{< embed-pdf hidePaginator=true url="./D-TET-001100-0 Papra PCBA Drawing.pdf" >}}
 
 ## 3D Printed Parts
 

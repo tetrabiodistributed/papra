@@ -1,17 +1,22 @@
 
 ---
-title: "PAPRa Testing Guide (13 March 2021 Edition)"
+title: "PAPRa Testing Guide (March 2021 Edition)"
 linkTitle: "PAPRa Testing Guide"
 weight: 1
 description: >
   How we tested the PAPRa to arrive at claims of N95/N99 levels of protection
 ---
 
+
+
+:note-caption: :information_source:
+:warning-caption: :warning:
+
 == Quick Synopsis
 
 This page will walk you through how we established that the PAPRa can offer N95 levels of protection on a mask when worn by someone with a beard, and N99 levels of protection by the fan box itself.  These tests are by no means exhaustive; far more testing is needed to ensure that these results can be achieved consistently, and the testing should be done in a more controlled environment than what we have done.
 
-Furthermore, we offer no warranty, explicit or implied, that any device that you create will achieve similar standards of filtration.  We are currently working to determine the best path forward for individuals who make their PAPRs to test them.
+WARNING:* We offer no warranty, explicit or implied, that any device that you create will achieve similar standards of filtration.  We are currently working to determine the best path forward for individuals who make their PAPRs to test them.
 
 == Parts Needed
 
@@ -20,7 +25,9 @@ In addition to the PAPR to be tested, we tested using a https://tsi.com/products
 [link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/5K/_MMR0431-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/L/_MMR0431-L.jpg[] 
 
-It is important to note that the Portacount is effective at showing the isolation of airborne particles, but not at identifying the sizes of particles measured, and did not have a setting for an N100 level of protection.  When testing for N95 levels of protection, the Portacount has a range from 0 to 200+, with 100 passing, while N99 testing has a range from 0 to 2000+, with 500 passing.  All tests depicted in this document were done using online testing, waiting several seconds to ensure that the readings were stable before recording them.
+*NOTE:* The Portacount is effective at showing the isolation of airborne particles, but not at identifying the sizes of particles measured, and did not have a setting for an N100 level of protection.  When testing for N95 levels of protection, the Portacount has a range from 0 to 200+, with 100 passing, while N99 testing has a range from 0 to 2000+, with 500 passing.  All tests depicted in this document were done using online testing, waiting several seconds to ensure that the readings were stable before recording them.
+
+== Testing Procedure
 
 Prior to testing, a saline solution was aerosolized to ensure that there would be a sufficient quantity of airborne particles to demonstrate effective filtration.  
 
@@ -32,7 +39,6 @@ image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5r
 
 [link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/5K/_MMR0414-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/L/_MMR0414-L.jpg[] 
-
 
 The Portacount measurement hose was attached to the port in the hose array depicted below:
 
@@ -54,8 +60,6 @@ Testing the efficacy of various HEPA filters (takeaway: make sure you have good 
 video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-GgKRbwK/0/a835042a/1920/IMG_5188-1920.mp4[]
 
 As you can see, while these tests are promising, they are not yet completely rigorous.  We are currently working on a full PAPR testing system, and will likely also reach out to third party testing labs for further verification of individual units.
-
-
 
 
 

@@ -9,11 +9,11 @@ description: >
 
 == Quick Synopsis
 
-This guide will walk you through how to build a Personal Air Purifying Respirator, also known as a PAPR.  We assume that you have some knowledge of 3D-printing, and cutting foam with a knife or using a stencil or a cricut, and perhaps some soldering.  In the end, you will have four things: a box with a filter and a fan in it, a second box with batteries and a fan controller, a mask, and straps and hoses to hold it all together. 
+This guide will walk you through how to build a Powered Air Purifying Respirator, also known as a PAPR.  We assume that you have some knowledge of 3D-printing, and cutting foam with a knife or using a stencil or a cricut, and perhaps some soldering.  In the end, you will have four things: a box with a filter and a fan in it, a second box with batteries and a fan controller, a mask, and straps and hoses to hold it all together. 
 
 Please note that this system will not protect you from anything landing in your eyes.  For that protection, either the mask will need to be modified to be a helmet or you will need a face shield.
 
-An important point: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 == Parts needed
 
@@ -24,8 +24,8 @@ image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-TKv3
 
 There are four components to build:
 
-1.  The M12 Controller Box (link:m12[the March version] if you have the controller circuit board https://github.com/tetrabiodistributed/PAPRA-PCB[in this github repository], link:m12-v1[v1] if you do not)
-2.  link:fan-box[The Fan Box]
+1.  The M12 Controller Box (link:m12[the March 2021 version] if you have link:m12-circuit[the controller circuit board], link:m12-v1[v1] if you do not)
+2.  link:fan-box[The Fan Box] with the appropriate link:fan-box-circuits[circuit board]
 3.  link:mask[The Mask]
 4.  link:straps[The Straps]/link:molle[The MOLLE Setup]
 

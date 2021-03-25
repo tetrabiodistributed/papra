@@ -10,6 +10,8 @@ description: >
 
 The Tetra Powered Air Purified Respirator can be strapped to a https://en.wikipedia.org/wiki/MOLLE[MOLLE] backpack/belt/etc.
 
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
 == Parts Required
 
 You should have assembled the Mask, Fan Box, and M12 Controller Box at this point.
