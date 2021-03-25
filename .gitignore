@@ -9,3 +9,6 @@ static/
 .asciidoctor/
 *.svg
 .DS_Store
+
+# this file should be brought in through submodules and build.sh
+layouts/shortcodes/embed-pdf.html

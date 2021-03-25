@@ -1,24 +1,28 @@
 ---
-title: "How to build a PAPRa Mask (v3)"
-linkTitle: "PAPRa Mask (v3)"
+title: "How to build a PAPRa Mask"
+linkTitle: "PAPRa Mask"
 weight: 1
 description: >
-  How-To guide for building the Tetra PAPRa mask (Late January 2021 version).
+  How-To guide for building the Tetra PAPRa mask (March 2021 version).
 ---
 
 == Quick Synopsis
 
 The Tetra Powered Air Purified Respirator requires a Mask component to deliver purified air to the face of the wearer.  This mask will be connected to the Fan Box via a CPAP hose.  In our testing of the mask, it has been comfortable to wear for several hours, and provides protection while the device is powered on.  When the device is powered off, the mask is not effective, and so we are still iterating on the mask design to provide protection when the device is powered off.  A single battery charge can provide up to 4 hours of protection, which is sufficient for many use cases for us to feel comfortable publishing this mask.
 
+An important point: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
 == Parts Required
 
 This photo shows all the parts laid out for building this component:
 
-
 [link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kfLSx45/0/2e89f579/5K/IMG_5115-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-kfLSx45/0/2e89f579/L/IMG_5115-L.jpg[]
 
-The assembly diagram can be found here:
+== Assembly Diagram
+
+{{< embed-pdf hidePaginator=true url="./D-TET-001104-0 Mask Assembly Drawing.pdf" >}}
+
 
 ## 3D printed Parts
 
@@ -30,31 +34,31 @@ The assembly diagram can be found here:
 | 1
 | Ninjaflex
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/respirator/MaskFaceV1-6-2Ring%20v1.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/respirator/P-TET-000120-0%20Mask.stl
 
-| The Grommet
+| The Stem
 | 1 
 | PLA
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/respirator/PAPR_Grommet-v1-6.STL
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/respirator/P-TET-000130-0%20Mask%20Stem.stl
 
 | The Clip
 | 4
 | PLA
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/respirator/FitMaskClip.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/respirator/P-TET-000124-0%20Mask%20Clip.stl
 
 | The Cap
 | 1
 | PLA
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/respirator/FitMaskHoneycombCap.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/respirator/P-TET-000122-0%20Mask%20Cap.stl
 
 | The Mount
 | 1 
 | PLA
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v2.2/STLs/respirator/FitMaskMount.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/respirator/P-TET-000123-0%20Mask%20Cap%20Mount.stl
 
 |===
 
@@ -68,7 +72,7 @@ The assembly diagram can be found here:
 | Box Gasket
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/a4520bd01cda8ab235c05b2cbecdda57ebceb76e/Gaskets/P-TET-000125-0%20Mask%20Filter%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/Gaskets/P-TET-000125-0%20Mask%20Filter%20Gasket.dxf
 
 |===
 

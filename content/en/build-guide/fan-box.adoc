@@ -24,9 +24,9 @@ This photo shows all the parts laid out for building this component:
 image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-cn4MJLS/0/51d8b387/L/_MMR0085-L.jpg[]
 
 
-== Assembly Diagram ==
+== Assembly Diagram == 
 
-{{< embed-pdf hidePaginator=true url="./D-TET-001103-0 Fan Box Drawing.pdf" >}}
+{{< embed-pdf hidePaginator=true url="./D-TET-001103-1 Fan Box Drawing.pdf" >}}
 
 == 3D Printed Parts ==
 
