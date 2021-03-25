@@ -24,7 +24,7 @@ image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-TKv3
 
 There are four components to build:
 
-1.  The M12 Controller Box (link:m12[v3] if you have the controller circuit board https://github.com/tetrabiodistributed/PAPRA-PCB[in this github repository], link:m12-v1[v1] if you do not)
+1.  The M12 Controller Box (link:m12[the March version] if you have the controller circuit board https://github.com/tetrabiodistributed/PAPRA-PCB[in this github repository], link:m12-v1[v1] if you do not)
 2.  link:fan-box[The Fan Box]
 3.  link:mask[The Mask]
 4.  link:straps[The Straps]/link:molle[The MOLLE Setup]
