@@ -1,10 +1,10 @@
 
 ---
-title: "PAPRa Build Guide (13 March 2021 Edition)"
+title: "PAPRa Build Guide (March 2021 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
 description: >
-  How to build the 13 March 2021 version of the Tetra PAPR.
+  How to build the March 2021 version of the Tetra PAPR.
 ---
 
 == Quick Synopsis
@@ -27,7 +27,7 @@ There are four components to build:
 1.  The M12 Controller Box (link:m12[v3] if you have the controller circuit board https://github.com/tetrabiodistributed/PAPRA-PCB[in this github repository], link:m12-v1[v1] if you do not)
 2.  link:fan-box[The Fan Box]
 3.  link:mask[The Mask]
-4.  link:straps[The Straps]
+4.  link:straps[The Straps]/link:molle[The MOLLE Setup]
 
 And the instructions to build all of these components can be found in the Tetra PAPRA Components section.
 

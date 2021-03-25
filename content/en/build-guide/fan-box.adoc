@@ -60,17 +60,6 @@ These parts should be printed at 0.2 spacing.  They should be oriented such that
 | Yes
 | https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000113-3%20Fan%20Box%20Outlet.stl
 
-| (OPTIONAL) MOLLE Short Adapter
-| 1
-| PLA
-| Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000128-0%20MOLLE%20Adapter%20Short.stl
-
-| (OPTIONAL) MOLLE Long Adapter
-| 1
-| PLA
-| Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000129-0%20MOLLE%20Adapter%20Long.stl
 |===
 
 == Gaskets ==
