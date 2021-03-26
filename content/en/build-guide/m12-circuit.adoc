@@ -14,4 +14,4 @@ The following is the circuit diagram for the M12 controller PCB.  Further inform
 
 == Circuit Diagram == 
 
-{{< embed-pdf hidePaginator=true url="./D-TET-001100-0 Papra PCBA Drawing.pdf" >}}
+{{< embed-pdf hidePaginator=true url="/D-TET-001100-0 Papra PCBA Drawing.pdf" >}}

@@ -21,7 +21,7 @@ image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2
 
 == Assembly Diagram
 
-{{< embed-pdf hidePaginator=true url="./D-TET-001104-0 Mask Assembly Drawing.pdf" >}}
+{{< embed-pdf hidePaginator=true url="/D-TET-001104-0 Mask Assembly Drawing.pdf" >}}
 
 
 ## 3D printed Parts
