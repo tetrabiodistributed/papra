@@ -540,12 +540,12 @@ renderPage(pageNum);
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: PAPRa Fan Box Circuit Diagram</title><link>https://tetrabiodistributed.github.io/papra/build-guide/fan-box-circuits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/fan-box-circuits/</guid><description>
+&lt;/div></description></item><item><title>Build-Guide: PAPRa Fan Box Board Diagram</title><link>https://tetrabiodistributed.github.io/papra/build-guide/fan-box-circuits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/fan-box-circuits/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
-&lt;p>The following is the circuit diagram for the Fan Box PCB. Further information can be found in &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB">the PAPRA-PCB project.&lt;/a>&lt;/p>
+&lt;p>The following is the board diagram for the Fan Box PCB. Further information can be found in &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB">the PAPRA-PCB project.&lt;/a>&lt;/p>
 &lt;/div>
 &lt;div class="paragraph">
 &lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
@@ -553,7 +553,7 @@ renderPage(pageNum);
 &lt;/div>
 &lt;/div>
 &lt;div class="sect1">
-&lt;h2 id="_circuit_diagram">Circuit Diagram&lt;/h2>
+&lt;h2 id="_board_diagram">Board Diagram&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
 &lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
@@ -1532,12 +1532,12 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Build-Guide: PAPRa M12 Circuit Diagram</title><link>https://tetrabiodistributed.github.io/papra/build-guide/m12-circuit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/m12-circuit/</guid><description>
+&lt;/div></description></item><item><title>Build-Guide: PAPRa M12 Board Diagram</title><link>https://tetrabiodistributed.github.io/papra/build-guide/m12-circuit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/build-guide/m12-circuit/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
-&lt;p>The following is the circuit diagram for the M12 controller PCB. Further information can be found in &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB">the PAPRA-PCB project.&lt;/a>&lt;/p>
+&lt;p>The following is the board diagram for the M12 controller PCB. Further information can be found in &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB">the PAPRA-PCB project.&lt;/a>&lt;/p>
 &lt;/div>
 &lt;div class="paragraph">
 &lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
@@ -1545,7 +1545,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;/div>
 &lt;div class="sect1">
-&lt;h2 id="_circuit_diagram">Circuit Diagram&lt;/h2>
+&lt;h2 id="_board_diagram">Board Diagram&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
 &lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
