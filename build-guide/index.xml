@@ -57,7 +57,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001103-1 Fan Box Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001103-1 Fan Box Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -580,7 +580,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -703,103 +703,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001102-1 M12 PAPRA Controller Drawing.pdf';
-var hidePaginator = "true";
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
-var pdfDoc = null,
-pageNum = 1,
-pageRendering = false,
-pageNumPending = null,
-scale = 3,
-canvas = document.getElementById('the-canvas'),
-ctx = canvas.getContext('2d');
-function renderPage(num) {
-pageRendering = true;
-pdfDoc.getPage(num).then(function(page) {
-var viewport = page.getViewport({scale: scale});
-canvas.height = viewport.height;
-canvas.width = viewport.width;
-var renderContext = {
-canvasContext: ctx,
-viewport: viewport
-};
-var renderTask = page.render(renderContext);
-renderTask.promise.then(function() {
-pageRendering = false;
-if (pageNumPending !== null) {
-renderPage(pageNumPending);
-pageNumPending = null;
-}
-});
-});
-document.getElementById('page_num').textContent = num;
-}
-function queueRenderPage(num) {
-if (pageRendering) {
-pageNumPending = num;
-} else {
-renderPage(num);
-}
-}
-if (hidePaginator) {
-document.getElementById("paginator").style.display = 'none';
-}
-function onPrevPage() {
-if (pageNum &lt;= 1) {
-return;
-}
-pageNum--;
-queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-function onNextPage() {
-if (pageNum >= pdfDoc.numPages) {
-return;
-}
-pageNum++;
-queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-pdfDoc = pdfDoc_;
-document.getElementById('page_count').textContent = pdfDoc.numPages;
-renderPage(pageNum);
-});
-}
-&lt;/script>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="sect1">
-&lt;h2 id="_circuit_diagram">Circuit Diagram&lt;/h2>
-&lt;div class="sectionbody">
-&lt;div class="paragraph">
-&lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
-&lt;style>
-#the-canvas {
-border: 1px solid black;
-direction: ltr;
-width: 100%;
-height: auto;
-}
-#paginator{
-text-align: center;
-margin-bottom: 10px;
-}
-&lt;/style>
-&lt;div id="paginator">
-&lt;button id="prev">Previous&lt;/button>
-&lt;button id="next">Next&lt;/button>
-&amp;nbsp; &amp;nbsp;
-&lt;span>Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
-&lt;/div>
-&lt;div id="embed-pdf-container">
-&lt;canvas id="the-canvas">&lt;/canvas>
-&lt;/div>
-&lt;script type="text/javascript">
-window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001100-0 Papra PCBA Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001102-1 M12 PAPRA Controller Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -1668,7 +1572,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001100-0 Papra PCBA Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001100-0 Papra PCBA Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -1788,7 +1692,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001104-0 Mask Assembly Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001104-0 Mask Assembly Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
