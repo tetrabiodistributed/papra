@@ -1,0 +1,32 @@
+
+---
+title: "PAPRa Build Guide (Jan 31 2021 Edition)"
+linkTitle: "PAPRa Build Guide (Jan 31 2021 Edition)"
+weight: 1
+toc_hide: true
+description: >
+  How to build the January 31 2021 version of the Tetra PAPR.
+---
+
+== Quick Synopsis
+
+This guide will walk you through how to build a Personal Air Purifying Respirator, also known as a PAPR.  We assume that you have some knowledge of 3D-printing, and cutting foam with a knife or using a stencil or a cricut, and perhaps some soldering.  In the end, you will have four things: a box with a filter and a fan in it, a second box with batteries and a fan controller, a mask, and straps and hoses to hold it all together. 
+
+Please note that this system will not protect you from anything landing in your eyes.  For that protection, either the mask will need to be modified to be a helmet, or you will need a face shield.
+
+== Parts needed
+
+The entire set of parts to build the PAPR is:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BsXGD93/0/8b980a69/5K/_MMR0019-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-BsXGD93/0/8b980a69/L/_MMR0019-L.jpg[]
+
+There are four components to build:
+
+1.  The M12 Controller Box (link:m12-v3[v3] if you have the controller circuit board https://github.com/tetrabiodistributed/PAPRA-PCB[in this github repository], link:m12-v1[v1] if you do not)
+2.  link:fan-box-v2[The Fan Box]
+3.  link:mask-v1[The Mask]
+4.  link:straps-v1[The Straps]
+
+And the instructions to build all of these components can be found in the Tetra PAPRA Components section.
+
