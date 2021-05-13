@@ -23,7 +23,11 @@ image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-NWTC
 
 == Assembly Diagram == 
 
-{{< embed-pdf hidePaginator=true url="/D-TET-001102-1 M12 PAPRA Controller Drawing.pdf" >}}
+{{< embed-pdf hidePaginator=true url="./D-TET-001102-1 M12 PAPRA Controller Drawing.pdf" >}}
+
+== Circuit Diagram == 
+
+{{< embed-pdf hidePaginator=true url="./D-TET-001100-0 Papra PCBA Drawing.pdf" >}}
 
 ## 3D Printed Parts
 
