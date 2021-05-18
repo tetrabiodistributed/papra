@@ -25,7 +25,6 @@ image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-cn4M
 
 
 == Assembly Diagram == 
-
 {{< embed-pdf hidePaginator=true url="./D-TET-001103-1 Fan Box Drawing.pdf" >}}
 
 == 3D Printed Parts ==

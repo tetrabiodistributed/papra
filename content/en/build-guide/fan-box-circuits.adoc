@@ -14,4 +14,4 @@ The following is the board diagram for the Fan Box PCB.  Further information can
 
 == Board Diagram == 
 
-{{< embed-pdf hidePaginator=true url="/D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf" >}}
+{{< embed-pdf hidePaginator=true url="./D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf" >}}

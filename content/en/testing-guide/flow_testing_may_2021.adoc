@@ -3,7 +3,7 @@ title: "PAPRa Flow Testing (May 2021)"
 linkTitle: "PAPRa Flow Testing"
 weight: 1
 description: >
-  How we tested the PAPRa to determine the amount of air flow provided by the unit
+  How we tested the PAPRa to determine the amount of air flow it produces
 ---
 
 == Quick Synopsis
@@ -11,6 +11,8 @@ description: >
 While we have worn the PAPR units ourselves for many hours, we need to determine the efficacy of the units in providing sufficient flow for all potential wearers of the device and in all conditions.  Our reference is link:https://multimedia.3m.com/mws/media/378601O/interpretation-of-inhalation-airflow-measurements.pdf[this paper published by 3M in 2005], which shows that the half facepiece design espoused by the PAPR should target 4 CFM, or 113 L/min.  Units were tested by placing a spirometer at various points of the air exhaust in the system to measure the effect of the hose resistance on the flow.  
 
 With no hose, the system achieves airflow between 82 and 102 L/min, varying with the potentiometer setting, and unaffected by different versions of the circuit board.  With a hose, the system achieves between 67 and 92 L/min, depending on the length and configuration of the exhaust hose.
+
+It was determined later that the spirometer used to measure flow was not accurate above 60 lpm.  As such, these tests will need to be revisited using a different flow meter.
 
 == Testing Configurations
 
