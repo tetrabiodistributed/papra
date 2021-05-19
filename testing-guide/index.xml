@@ -1,1 +1,404 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Testing Guide (March 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/</link><description>Recent content in PAPRa Testing Guide (March 2021 Edition) on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/testing-guide/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Testing</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/</link><description>Recent content in PAPRa Testing on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/testing-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing-Guide: PAPRa Flow Testing (May 2021)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/flow_testing_may_2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/flow_testing_may_2021/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>While we have worn the PAPR units ourselves for many hours, we need to determine the efficacy of the units in providing sufficient flow for all potential wearers of the device and in all conditions. Our reference is &lt;a href="https://multimedia.3m.com/mws/media/378601O/interpretation-of-inhalation-airflow-measurements.pdf">this paper published by 3M in 2005&lt;/a>, which shows that the half facepiece design espoused by the PAPR should target 4 CFM, or 113 L/min. Units were tested by placing a spirometer at various points of the air exhaust in the system to measure the effect of the hose resistance on the flow.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>With no hose, the system achieves airflow between 82 and 102 L/min, varying with the potentiometer setting, and unaffected by different versions of the circuit board. With a hose, the system achieves between 67 and 92 L/min, depending on the length and configuration of the exhaust hose.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>It was determined later that the spirometer used to measure flow was not accurate above 60 lpm. As such, these tests will need to be revisited using a different flow meter.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_testing_configurations">Testing Configurations&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>A PAPR was set up with a spirometer, a battery pack, and a stopwatch. The spirometer was attached to the system, either by a direct female to female connection, or at the end of a CPAP hose. The system was turned on and the spirometer detached after a minute of running to determine the amount of liters of airflow during that minute. Various different PAPR fan units, battery units, and hose configurations were tested once each.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>A direct spirometer configuration:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TWZS2dG/0/0724c2df/5K/_DSC0405-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TWZS2dG/0/0724c2df/L/_DSC0405-L.jpg" alt=" DSC0405 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>A 3 foot bent configuration:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-m6hHLVZ/0/33d06509/XL/_DSC0393-XL.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-m6hHLVZ/0/33d06509/L/_DSC0393-L.jpg" alt=" DSC0393 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>A 6 foot direct configuration:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-89XLt4P/0/8548c502/5K/_DSC0399-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-89XLt4P/0/8548c502/L/_DSC0399-L.jpg" alt=" DSC0399 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>A 6 foot bent configuration:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jhdVc8N/0/a086c716/5K/_DSC0401-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jhdVc8N/0/a086c716/L/_DSC0401-L.jpg" alt=" DSC0401 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>A 6 foot coil configuration (unlikely to be used in the real world, considered the worst flow case):&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-39tb8Xj/0/a85ef274/L/_DSC0402-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-39tb8Xj/0/a85ef274/L/_DSC0402-L.jpg" alt=" DSC0402 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Two PAPR units were flow tested in the direct configuration, and one unit was tested with all the hosing configuration. This second unit was tested in a direct configuration before and after hose configurations to ensure that a small reduction in battery life did not significantly impact performance, and to demonstrate that direct measurements were repeatable. Three m12 controller units were tested with one PAPR to demonstrate that there was no change in flow attributable to the board.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The fan units were:&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>OW (Orange top, white funnel, no weather shield)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>GB (Grey top, black funnel)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The battery units were:
+1. OG (Orange casing, grey potentiometer)
+2. GG (Grey casing, grey potentiometer)
+3. GB (Grey casing, black potentiometer)&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The potentiometers were set to L (low, just turned on) and H (high, turned to the maximum flow).&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_test_results">Test Results&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>A series of combinations of fan units, battery units, and hoses were tested for flow using the spirometer.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Flow Test Results&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 14.2857%;"/>
+&lt;col style="width: 14.2857%;"/>
+&lt;col style="width: 14.2857%;"/>
+&lt;col style="width: 14.2857%;"/>
+&lt;col style="width: 14.2857%;"/>
+&lt;col style="width: 14.2857%;"/>
+&lt;col style="width: 14.2858%;"/>
+&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Fan Unit&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Battery Unit&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Test Time&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Potentiometer Setting&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Hose Configuration&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Volume (L)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">85&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">102&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&amp;#39; Straight&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">74&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&amp;#39; Straight&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">92&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&amp;#39; Bent&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">72&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&amp;#39; Bent&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">92&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#39; Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">68&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#39; Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">82&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#39; Bent&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">68&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#39; Bent&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">82&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#39; Coil&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">67&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#39; Coil&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">83&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct (repeat)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">82&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct (repeat)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">102&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">82&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">102&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">82&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">OW&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">104&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">L&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">80&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GB&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">GG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 min&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">H&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Direct&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">102&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="paragraph">
+&lt;p>Thus, a range of 67 - 104 L/min were recorded during these tests, with a target of 113 L/min per the 1969 specification for a half facepiece. In practice, the &amp;#34;bent&amp;#34; configuration with a 3-4 foot hose is what most testers have opted to use (generally without so severe a bend, but there is some bend to get the hose around the body), meaning that the unit has a practical maximum air output of 92 L/min.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_conclusion">Conclusion&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The unit will require more air to be pushed to meet the specification, but not too much more. Possible improvements to the fan outlet and fan placement relative to the outlet may provide the needed flow boosts, as the fan itself is rated to 33 CFM, so the construction and the filter must be providing severe flow resistance.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Testing-Guide: PAPRa Testing Guide (March 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/testing_march_2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/testing_march_2021/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>This page will walk you through how we established that the PAPRa can offer N95 levels of protection on a mask when worn by someone with a beard, and N99 levels of protection by the fan box itself. These tests are by no means exhaustive; far more testing is needed to ensure that these results can be achieved consistently, and the testing should be done in a more controlled environment than what we have done.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>WARNING:* We offer no warranty, explicit or implied, that any device that you create will achieve similar standards of filtration. We are currently working to determine the best path forward for individuals who make their PAPRs to test them.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_needed">Parts Needed&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>In addition to the PAPR to be tested, we tested using a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> with a hose assembly as depicted below:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/5K/_MMR0431-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/L/_MMR0431-L.jpg" alt=" MMR0431 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>NOTE:&lt;/strong> The Portacount is effective at showing the isolation of airborne particles, but not at identifying the sizes of particles measured, and did not have a setting for an N100 level of protection. When testing for N95 levels of protection, the Portacount has a range from 0 to 200+, with 100 passing, while N99 testing has a range from 0 to 2000+, with 500 passing. All tests depicted in this document were done using online testing, waiting several seconds to ensure that the readings were stable before recording them.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_testing_procedure">Testing Procedure&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Prior to testing, a saline solution was aerosolized to ensure that there would be a sufficient quantity of airborne particles to demonstrate effective filtration.&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-h594S5t/0/ab2e7757/5K/_MMR0404-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-h594S5t/0/ab2e7757/L/_MMR0404-L.jpg" alt=" MMR0404 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5rXgW/0/ea8ea9ed/5K/_MMR0405-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5rXgW/0/ea8ea9ed/L/_MMR0405-L.jpg" alt=" MMR0405 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/5K/_MMR0414-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/L/_MMR0414-L.jpg" alt=" MMR0414 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The Portacount measurement hose was attached to the port in the hose array depicted below:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jjzRxbT/0/5267278f/5K/_MMR0424-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jjzRxbT/0/5267278f/L/_MMR0424-L.jpg" alt=" MMR0424 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The other hose, the blue hose, is left exposed to the air to provide a sample of the ambient air to the Portacount.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Here are the videos of the various tests performed:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-Kq8Lp8G/0/37bf76f3/1920/IMG_5191-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Testing the fit of the mask itself:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-QkqNg2x/0/764af364/1920/IMG_5189-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Testing the efficacy of various HEPA filters (takeaway: make sure you have good filters from &lt;a href="https://germguardian.com">germguardian.com&lt;/a>, as specified in the BOM, or something similar):&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-GgKRbwK/0/a835042a/1920/IMG_5188-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>As you can see, while these tests are promising, they are not yet completely rigorous. We are currently working on a full PAPR testing system, and will likely also reach out to third party testing labs for further verification of individual units.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

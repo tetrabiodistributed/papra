@@ -57,7 +57,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001103-1 Fan Box Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001103-1 Fan Box Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -580,7 +580,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -1572,7 +1572,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001100-0 Papra PCBA Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001100-0 Papra PCBA Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
@@ -1692,7 +1692,7 @@ margin-bottom: 10px;
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001104-0 Mask Assembly Drawing.pdf';
+var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001104-0 Mask Assembly Drawing.pdf';
 var hidePaginator = "true";
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
