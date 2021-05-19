@@ -1,65 +1,23 @@
 
 ---
-title: "PAPRa Testing Guide (March 2021 Edition)"
-linkTitle: "PAPRa Testing Guide"
+title: "PAPRa Testing"
+linkTitle: "PAPRa Testing"
 weight: 1
 description: >
-  How we tested the PAPRa to arrive at claims of N95/N99 levels of protection
+  Descriptions of the various tests and their results
 ---
-
-
-
-:note-caption: :information_source:
-:warning-caption: :warning:
 
 == Quick Synopsis
 
-This page will walk you through how we established that the PAPRa can offer N95 levels of protection on a mask when worn by someone with a beard, and N99 levels of protection by the fan box itself.  These tests are by no means exhaustive; far more testing is needed to ensure that these results can be achieved consistently, and the testing should be done in a more controlled environment than what we have done.
+We came up with a series of tests to ensure that the PAPRa would be performant.  Performant means:
 
-WARNING:* We offer no warranty, explicit or implied, that any device that you create will achieve similar standards of filtration.  We are currently working to determine the best path forward for individuals who make their PAPRs to test them.
+1.  When worn, the wearer received N99 levels of protection. link:testing_march_2021[This page] describes how we did that testing in March of 2021 on both individual fan units and on a tester wearing the entire PAPRa.
+2.  The unit must provide a minimum amount of flow.  Hooded PAPRs require a flow of 6 CFM; since the PAPRa is designed to provide airflow for a half facepiece, the flow requirement is 4 CFM, or 113.27 L/minfootnote:[link:https://multimedia.3m.com/mws/media/378601O/interpretation-of-inhalation-airflow-measurements.pdf[Interpretation of Inhalation Airflow Measurements for Respirator Design and Testing. L.L. Janssen, N.J. Anderson, P.E. Cassidy, R.A. Weber, and T.J. Nelson. Journal of the International Society for Respiratory Protection, Vol. 22, pp. 122-141] referencing Burgess WA, Reist PC (1969) Supply rates for powered air purifying respirators.   Am Ind Hyg Assoc J 30:1-6.].  link:flow_testing_may_2021[This page] shows that as of May 2021, PAPRas provide 67-92 L/min of airflow, depending on hose configuration, so more work is necessary to bring the units up to this flow specification. 
 
-== Parts Needed
+== WARNING
 
-In addition to the PAPR to be tested, we tested using a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] with a hose assembly as depicted below:
+Before you wear a PAPRa in any kind of potentially hazardous situation, it is critical that you test it to ensure that the unit is performing at an adequate level.  We have personally worn these units for many hours and tested these units to ensure an N99 level of performance, but we cannot guarantee that the units you make will perform at the same levels.  We provide no warranty, implicit or explicit, that any such units will provide protection.  Please make sure to test your units accordingly and to your own level of comfort and in compliance with whatever local regulations require.
 
-[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/5K/_MMR0431-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-N5dwqjg/0/a18cf5f4/L/_MMR0431-L.jpg[] 
-
-*NOTE:* The Portacount is effective at showing the isolation of airborne particles, but not at identifying the sizes of particles measured, and did not have a setting for an N100 level of protection.  When testing for N95 levels of protection, the Portacount has a range from 0 to 200+, with 100 passing, while N99 testing has a range from 0 to 2000+, with 500 passing.  All tests depicted in this document were done using online testing, waiting several seconds to ensure that the readings were stable before recording them.
-
-== Testing Procedure
-
-Prior to testing, a saline solution was aerosolized to ensure that there would be a sufficient quantity of airborne particles to demonstrate effective filtration.  
-
-[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-h594S5t/0/ab2e7757/5K/_MMR0404-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-h594S5t/0/ab2e7757/L/_MMR0404-L.jpg[] 
-
-[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5rXgW/0/ea8ea9ed/5K/_MMR0405-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vJ5rXgW/0/ea8ea9ed/L/_MMR0405-L.jpg[] 
-
-[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/5K/_MMR0414-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-rwBPpgs/0/e1b9d481/L/_MMR0414-L.jpg[] 
-
-The Portacount measurement hose was attached to the port in the hose array depicted below:
-
-[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jjzRxbT/0/5267278f/5K/_MMR0424-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jjzRxbT/0/5267278f/L/_MMR0424-L.jpg[] 
-
-The other hose, the blue hose, is left exposed to the air to provide a sample of the ambient air to the Portacount.
-
-Here are the videos of the various tests performed:
-
-video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-Kq8Lp8G/0/37bf76f3/1920/IMG_5191-1920.mp4[]
-
-Testing the fit of the mask itself:
-
-video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-QkqNg2x/0/764af364/1920/IMG_5189-1920.mp4[]
-
-Testing the efficacy of various HEPA filters (takeaway: make sure you have good filters from https://germguardian.com[germguardian.com], as specified in the BOM, or something similar):
-
-video::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-GgKRbwK/0/a835042a/1920/IMG_5188-1920.mp4[]
-
-As you can see, while these tests are promising, they are not yet completely rigorous.  We are currently working on a full PAPR testing system, and will likely also reach out to third party testing labs for further verification of individual units.
 
 
 

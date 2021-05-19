@@ -1,0 +1,96 @@
+---
+title: "PAPRa Flow Testing (May 2021)"
+linkTitle: "PAPRa Flow Testing"
+weight: 1
+description: >
+  How we tested the PAPRa to determine the amount of air flow it produces
+---
+
+== Quick Synopsis
+
+While we have worn the PAPR units ourselves for many hours, we need to determine the efficacy of the units in providing sufficient flow for all potential wearers of the device and in all conditions.  Our reference is link:https://multimedia.3m.com/mws/media/378601O/interpretation-of-inhalation-airflow-measurements.pdf[this paper published by 3M in 2005], which shows that the half facepiece design espoused by the PAPR should target 4 CFM, or 113 L/min.  Units were tested by placing a spirometer at various points of the air exhaust in the system to measure the effect of the hose resistance on the flow.  
+
+With no hose, the system achieves airflow between 82 and 102 L/min, varying with the potentiometer setting, and unaffected by different versions of the circuit board.  With a hose, the system achieves between 67 and 92 L/min, depending on the length and configuration of the exhaust hose.
+
+It was determined later that the spirometer used to measure flow was not accurate above 60 lpm.  As such, these tests will need to be revisited using a different flow meter.
+
+== Testing Configurations
+
+A PAPR was set up with a spirometer, a battery pack, and a stopwatch.  The spirometer was attached to the system, either by a direct female to female connection, or at the end of a CPAP hose.  The system was turned on and the spirometer detached after a minute of running to determine the amount of liters of airflow during that minute.  Various different PAPR fan units, battery units, and hose configurations were tested once each.
+
+A direct spirometer configuration:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TWZS2dG/0/0724c2df/5K/_DSC0405-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TWZS2dG/0/0724c2df/L/_DSC0405-L.jpg[]
+
+
+A 3 foot bent configuration:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-m6hHLVZ/0/33d06509/XL/_DSC0393-XL.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-m6hHLVZ/0/33d06509/L/_DSC0393-L.jpg[]
+
+A 6 foot direct configuration:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-89XLt4P/0/8548c502/5K/_DSC0399-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-89XLt4P/0/8548c502/L/_DSC0399-L.jpg[]
+
+A 6 foot bent configuration:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jhdVc8N/0/a086c716/5K/_DSC0401-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jhdVc8N/0/a086c716/L/_DSC0401-L.jpg[]
+
+A 6 foot coil configuration (unlikely to be used in the real world, considered the worst flow case):
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-39tb8Xj/0/a85ef274/L/_DSC0402-L.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-39tb8Xj/0/a85ef274/L/_DSC0402-L.jpg[]
+
+
+Two PAPR units were flow tested in the direct configuration, and one unit was tested with all the hosing configuration.  This second unit was tested in a direct configuration before and after hose configurations to ensure that a small reduction in battery life did not significantly impact performance, and to demonstrate that direct measurements were repeatable.  Three m12 controller units were tested with one PAPR to demonstrate that there was no change in flow attributable to the board.
+
+The fan units were:
+
+1.  OW (Orange top, white funnel, no weather shield)
+2.  GB (Grey top, black funnel)
+
+The battery units were:
+1. OG (Orange casing, grey potentiometer)
+2. GG (Grey casing, grey potentiometer)
+3. GB (Grey casing, black potentiometer)
+
+The potentiometers were set to L (low, just turned on) and H (high, turned to the maximum flow).
+
+== Test Results
+
+A series of combinations of fan units, battery units, and hoses were tested for flow using the spirometer.
+
+.Table Flow Test Results
+|===
+| Fan Unit | Battery Unit | Test Time | Potentiometer Setting | Hose Configuration | Volume (L) |
+| OW | GB | 1 min | L | Direct | 85 |
+| OW | GB | 1 min | H | Direct | 102 |
+| OW | GB | 1 min | L | 3' Straight | 74 |
+| OW | GB | 1 min | H | 3' Straight | 92 |
+| OW | GB | 1 min | L | 3' Bent | 72 |
+| OW | GB | 1 min | H | 3' Bent | 92 |
+| OW | GB | 1 min | L | 6' Direct | 68 |
+| OW | GB | 1 min | H | 6' Direct | 82 |
+| OW | GB | 1 min | L | 6' Bent | 68 |
+| OW | GB | 1 min | H | 6' Bent | 82 |
+| OW | GB | 1 min | L | 6' Coil | 67 |
+| OW | GB | 1 min | H | 6' Coil | 83 |
+| OW | GB | 1 min | L | Direct (repeat) | 82 |
+| OW | GB | 1 min | H | Direct (repeat) | 102 |
+| OW | OG | 1 min | L | Direct | 82 |
+| OW | OG | 1 min | H | Direct | 102 |
+| OW | GG | 1 min | L | Direct | 82 |
+| OW | GG | 1 min | H | Direct | 104 |
+| GB | GG | 1 min | L | Direct | 80 |
+| GB | GG | 1 min | H | Direct | 102 |
+|===
+
+Thus, a range of 67 - 104 L/min were recorded during these tests, with a target of 113 L/min per the 1969 specification for a half facepiece.  In practice, the "bent" configuration with a 3-4 foot hose is what most testers have opted to use (generally without so severe a bend, but there is some bend to get the hose around the body), meaning that the unit has a practical maximum air output of 92 L/min.  
+
+== Conclusion
+
+The unit will require more air to be pushed to meet the specification, but not too much more.  Possible improvements to the fan outlet and fan placement relative to the outlet may provide the needed flow boosts, as the fan itself is rated to 33 CFM, so the construction and the filter must be providing severe flow resistance.
+
