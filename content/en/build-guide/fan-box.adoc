@@ -337,3 +337,7 @@ Unfortunately, no.  We have found in our testing that only some filters work.  T
 === Is the fan box waterproof? ===
 
 No, the fan box is not water proof.  With the weather guard in place, water should not get into the filter directly, but increased humidity could decrease the effectiveness of the device.
+
+=== Any other maintenance tasks? ===
+
+It is important to periodically check that the nuts are tight on the fan box, to ensure that the box is properly sealed against the elements.
