@@ -2,6 +2,7 @@
 title: "How to build a PAPRa Mask"
 linkTitle: "PAPRa Mask"
 weight: 1
+toc_hide: true
 description: >
   How-To guide for building the Tetra PAPRa mask (March 2021 version).
 ---
