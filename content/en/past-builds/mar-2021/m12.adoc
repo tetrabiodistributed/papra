@@ -38,7 +38,7 @@ These parts should be printed at 0.2 spacing:
 | 1 
 | PLA
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/main/STLs/battery_controller/P-TET-000104-3%20M12%20Controller%20Body.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/battery_controller/P-TET-000104-3%20M12%20Controller%20Body.stl
 
 | The Lid
 | 1 
