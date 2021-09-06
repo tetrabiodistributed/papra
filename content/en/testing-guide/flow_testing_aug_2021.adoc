@@ -20,7 +20,7 @@ All three units were placed on a bench, with the 22mm hose moved from the fan bo
 
 This video shows the results of the test:
 
-{{< embed-video "https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-j2vWbXg/0/e9a009c5/1280/Full%20Flow%20Test-1280.mp4" "my-5" >}}
+{{< embed-video "https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-j2vWbXg/0/e9a009c5/1280/Full%20Flow%20Test-1280.mp4" "flow-testing-aug-2021" >}}
 
 The 154 unit is able to just achieve 113 lpm, while the 168 comfortably exceeds it, but the additional power needed to meet that standard will result in much lower battery efficiency.  The March 2021 model of the PAPRa uses a mere 0.3 amps to run at full speed of 60 lpm, while the 154 uses 1.25 Amps, effectively dropping the battery life by a factor of 4, from ~10 hours to 2.5.  The 168 can be run at the much higher flow of 148 lpm, but at 2.5 amps, effectively dropping the battery life to a bit more than an hour.  When run at half speed, the 168 fan achieves a flow of 80 lpm at roughly 1 amps, or a rough battery life of 3 hours.  
 

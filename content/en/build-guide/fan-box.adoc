@@ -185,6 +185,10 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 
 == Build Steps ==
 
+A video on how to build the BNC connector:
+
+{{< embed-video "https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-8tQGqNz/0/9ee8f740/1280/00002-1280.mp4" "BNC-construction" >}}
+
 Strip the red wire on the fan:
 
 image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-mbt8Hvf/0/b5bb6678/L/_DSC4240-L.jpg[]
