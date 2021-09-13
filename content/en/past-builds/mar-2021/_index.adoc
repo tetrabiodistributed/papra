@@ -1,11 +1,12 @@
 
 
 ---
-title: "PAPRa Build Guide (August 2021 Edition)"
+title: "PAPRa Build Guide (March 2021 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
+toc_hide: true
 description: >
-  How to build the August 2021 version of the Tetra PAPR.
+  How to build the March 2021 version of the Tetra PAPR.
 ---
 
 == Quick Synopsis
@@ -16,16 +17,12 @@ Please note that this system will not protect you from anything landing in your 
 
 *WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
-*WARNING 2:* This version of the PAPRa is being presented because it passes the flow requirements, but it does not pass at an N95 level.  As such, we suggest holding off building this particular version for the fixed one, which is currently in development as of September 2021.
-
-Please refer to the link:testing-guide[Testing] section for the flow and fit testing done to verify PAPR functionality.
-
 == Parts needed
 
 The entire set of parts to build the PAPR is:
 
-[link=https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-3Nd7XS6/0/593e1e87/5K/_DSC4228-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-3Nd7XS6/0/593e1e87/L/_DSC4228-L.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-TKv37x4/0/597fcdf9/5K/_MMR0080-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-TKv37x4/0/597fcdf9/L/_MMR0080-L.jpg[]
 
 There are four components to build:
 

@@ -1,0 +1,34 @@
+---
+title: "PAPRa Flow Testing (Aug 2021)"
+linkTitle: "PAPRa Flow Testing (Aug 2021)"
+weight: 1
+description: >
+  How we tested the PAPRa to determine the amount of air flow it produces
+---
+
+== Quick Synopsis
+
+While we have worn the PAPR units ourselves for many hours, we need to determine the efficacy of the units in providing sufficient flow for all potential wearers of the device and in all conditions.  Our reference is link:https://multimedia.3m.com/mws/media/378601O/interpretation-of-inhalation-airflow-measurements.pdf[this paper published by 3M in 2005], which shows that the half facepiece design espoused by the PAPR should target 4 CFM, or 113 L/min.  Units were tested by placing a spirometer at various points of the air exhaust in the system to measure the effect of the hose resistance on the flow.  
+
+In this test, we placed a flow meter on the end of the 22mm hose that will connect to the facemask, with the intent of testing the different fans used in the boxes.  This test compared the March 2021 version of the build to two different CUI fans (the 154 and the 168 models).  
+
+*WARNING:* This version of the PAPRa is being presented because it passes the flow requirements, but it does not pass at an N95 level.  As such, we suggest holding off building this particular version for the fixed one, which is currently in development as of September 2021.
+
+== Testing Configurations
+
+All three units were placed on a bench, with the 22mm hose moved from the fan box funnel exit between units.  To isolate the effects of battery voltage drops, the units were connected to a bench power supply, which had the added benefit of displaying the amperage needed to run the fan.  This amperage display allows us to estimate the battery life of the unit, given a 3 Ah battery.
+
+== Results
+
+This video shows the results of the test:
+
+{{< embed-video "https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-j2vWbXg/0/e9a009c5/1280/Full%20Flow%20Test-1280.mp4" "flow-testing-aug-2021" >}}
+
+The 154 unit is able to just achieve 113 lpm, while the 168 comfortably exceeds it, but the additional power needed to meet that standard will result in much lower battery efficiency.  The March 2021 model of the PAPRa uses a mere 0.3 amps to run at full speed of 60 lpm, while the 154 uses 1.25 Amps, effectively dropping the battery life by a factor of 4, from ~10 hours to 2.5.  The 168 can be run at the much higher flow of 148 lpm, but at 2.5 amps, effectively dropping the battery life to a bit more than an hour.  When run at half speed, the 168 fan achieves a flow of 80 lpm at roughly 1 amps, or a rough battery life of 3 hours.  
+
+== Conclusion
+
+The more power fan necessary to achieve the higher flow rates will drop the battery life significantly.  We believe that these limitations are the result of the physical limitations of running the fan through the 22mm hose, and will therefore experiment with a 30 mm hose.
+
+While reviewing other PAPR products available on the market, it is not clear if those products are consistently achieving, for instance, 210 lpm flow for 4 hours using a 4 Ah battery; the rated flow may significantly lower battery life, and 4 hours may be achievable at much lower battery life.  In other words, the given unit may be fine in that its peak flow exceeds the requirements, and then the user can choose a lower flow.
+

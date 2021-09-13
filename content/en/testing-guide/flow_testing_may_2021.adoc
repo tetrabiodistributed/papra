@@ -1,6 +1,6 @@
 ---
 title: "PAPRa Flow Testing (May 2021)"
-linkTitle: "PAPRa Flow Testing"
+linkTitle: "PAPRa Flow Testing (May 2021)"
 weight: 1
 description: >
   How we tested the PAPRa to determine the amount of air flow it produces
