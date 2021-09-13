@@ -12,6 +12,8 @@ While we have worn the PAPR units ourselves for many hours, we need to determine
 
 In this test, we placed a flow meter on the end of the 22mm hose that will connect to the facemask, with the intent of testing the different fans used in the boxes.  This test compared the March 2021 version of the build to two different CUI fans (the 154 and the 168 models).  
 
+*WARNING:* This version of the PAPRa is being presented because it passes the flow requirements, but it does not pass at an N95 level.  As such, we suggest holding off building this particular version for the fixed one, which is currently in development as of September 2021.
+
 == Testing Configurations
 
 All three units were placed on a bench, with the 22mm hose moved from the fan box funnel exit between units.  To isolate the effects of battery voltage drops, the units were connected to a bench power supply, which had the added benefit of displaying the amperage needed to run the fan.  This amperage display allows us to estimate the battery life of the unit, given a 3 Ah battery.
