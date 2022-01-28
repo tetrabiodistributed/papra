@@ -57,7 +57,7 @@ anchor = "smart"
 [[menu.main]]
     name = "Slack"
     weight = 50
-    url = "https://app.slack.com/client/TUTSYURT3/C0103QJMA84"
+    url = "https://app.slack.com/client/T010W922ZUN/"
 
 [services]
 [services.googleAnalytics]
