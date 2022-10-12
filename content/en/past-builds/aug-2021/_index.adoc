@@ -1,0 +1,38 @@
+
+
+---
+title: "PAPRa Build Guide (August 2021 Edition)"
+linkTitle: "PAPRa Build Guide"
+weight: 1
+description: >
+  How to build the August 2021 version of the Tetra PAPR.
+---
+
+== Quick Synopsis
+
+This guide will walk you through how to build a Powered Air Purifying Respirator, also known as a PAPR.  We assume that you have some knowledge of 3D-printing, and cutting foam with a knife or using a stencil or a cricut, and perhaps some soldering.  In the end, you will have four things: a box with a filter and a fan in it, a second box with batteries and a fan controller, a mask, and straps and hoses to hold it all together. 
+
+Please note that this system will not protect you from anything landing in your eyes.  For that protection, either the mask will need to be modified to be a helmet or you will need a face shield.
+
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+*WARNING 2:* This version of the PAPRa is being presented because it passes the flow requirements, but it does not pass at an N95 level.  As such, we suggest holding off building this particular version for the fixed one, which is currently in development as of September 2021.
+
+Please refer to the link:testing-guide[Testing] section for the flow and fit testing done to verify PAPR functionality.
+
+== Parts needed
+
+The entire set of parts to build the PAPR is:
+
+[link=https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-3Nd7XS6/0/593e1e87/5K/_DSC4228-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-3Nd7XS6/0/593e1e87/L/_DSC4228-L.jpg[]
+
+There are four components to build:
+
+1.  The M12 Controller Box (link:m12[the March 2021 version] if you have link:m12-circuit[the controller circuit board], link:m12-v1[v1] if you do not)
+2.  link:fan-box[The Fan Box] with the appropriate link:fan-box-circuits[circuit board]
+3.  link:mask[The Mask]
+4.  link:straps[The Straps]/link:molle[The MOLLE Setup]
+
+And the instructions to build all of these components can be found in the Tetra PAPRA Components section.
+
