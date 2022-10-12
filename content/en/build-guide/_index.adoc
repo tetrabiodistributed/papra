@@ -1,11 +1,11 @@
 
 
 ---
-title: "PAPRa Build Guide (August 2021 Edition)"
+title: "PAPRa Build Guide (June 2022 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
 description: >
-  How to build the August 2021 version of the Tetra PAPR.
+  How to build the June 2022 version of the Tetra PAPR.
 ---
 
 == Quick Synopsis
@@ -22,8 +22,8 @@ Please refer to the link:testing-guide[Testing] section for the flow and fit tes
 
 The entire set of parts to build the PAPR is:
 
-[link=https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-3Nd7XS6/0/593e1e87/5K/_DSC4228-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-3Nd7XS6/0/593e1e87/L/_DSC4228-L.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-tmjmpLX/0/b27d3e40/5K/_MMR5614-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-tmjmpLX/0/b27d3e40/L/_MMR5614-L.jpg[]
 
 There are three components to build:
 

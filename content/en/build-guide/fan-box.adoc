@@ -32,7 +32,7 @@ These parts should be printed at 0.2 or 0.15 spacing.  They should be oriented s
 
 .Table Printed Parts
 |===
-| Part | Quantity | Material | Supports required? | STL File Location
+| Part | Part Number | Quantity | Material | Supports required? | STL File Location
 
 | The Fan Box (holds the fan) 
 | P-TET-000140
@@ -148,8 +148,8 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 |===
 | Count | Description | URL | Number in Package 
 | 1 
-| CUI CBM-9795338-168 (or the 154 model for less flow)P-TET-000140
-| https://www.digikey.com/en/products/detail/cui-devices/CBM-979533B-168/7622751
+| CUI CBM-9795338-154 (or the 168 model for more flow and less battery life)
+| https://www.digikey.com/en/products/detail/cui-devices/CBM-979533B-154/7623158
 | 1 
 
 | 1 
@@ -181,6 +181,11 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 | BNC Cable Jack Connector
 | https://www.digikey.com/en/products/detail/112732/ACX2268-ND/3995595?WT.z_slp_buy=amphenol_bnc-connectors
 | 1
+
+| 2
+| Klein Tools p100 filters
+| https://www.amazon.com/Replacement-Respirators-Klein-Tools-60245/dp/B08W1TPSZM/
+| 2
 
 |===
 
@@ -238,81 +243,7 @@ image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-mbt8Hv
 
 Connect the smaller brass component to the red wire:
 
-image::https://photos.smugmug.com/TePush the BNC into the fan outlet:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-hjSsGwP/0/a50c4a27/L/_DSC4289-L.jpg[]
-
-Place the lock nut around the connector (*warning*: on the current model, the lock nut won't fit, which will be fixed in a subsequent iteration):
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-hjSsGwP/0/a50c4a27/L/_DSC4289-L.jpg[]
-
-Screw on the exterior nut to hold the BNC in place:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-nCLxDPf/0/523e27b4/L/_DSC4298-L.jpg[]
-
-Place the fan outlet component next to the fan in preparation for sealing the connection with tape:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-9DJXDVL/0/d9f354f7/L/_DSC4305-L.jpg[]
-
-Seal the two components together with tape:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-gNPbd4H/0/cc156911/L/_DSC4311-L.jpg[]
-
-Make sure to get the back of the connection and seal all the way around:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-gNPbd4H/0/cc156911/L/_DSC4311-L.jpg[]
-
-Place the Fan Gasket into the Fan Box:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-2ZPdMjk/0/80ab4d06/L/_DSC4322-L.jpg[]
-
-Place the Outlet Gasket into the Fan Box (note that the gasket has an orientation, be sure to place it in properly):
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-25DSjjV/0/44787e57/L/_DSC4331-L.jpg[]
-
-Place the fan and the outlet into the Fan Box:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-gdMxSZ8/0/6aa44f34/L/_DSC4338-L.jpg[]
-
-The assembly should lock together with a "click" as the posts in the fan box connect with the holes in the fan:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-RhzDRbj/0/6b2421ff/L/_DSC4353-L.jpg[]
-
-Place the base gasket onto the base:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-7x65t7W/0/4e96b3d8/L/_DSC4363-L.jpg[]
-
-Place the base onto the fan box:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-C5tzGc7/0/2fefd1db/L/_DSC4365-L.jpg[]
-
-Screw the base plate onto the fan box (Note: this part of the assembly can be tricky, and a further revision will refine this attachment process):
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-SkLkbJ7/0/7131f653/L/_DSC4385-L.jpg[]
-
-Attach the Filter Housing to the Weather Guard (Note: the posts in this revision of the weather guard can be fragile, so be careful with this step; a future revision will reinforce the posts):
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-CQVpMRF/0/092fd85e/L/_DSC4402-L.jpg[]
-
-Cap the screws on the other side of the weather guard:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-tVvHx3P/0/1369cea2/L/_DSC4422-L.jpg[]
-
-Place the filter in the housing, noting the orientation:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-Xwj4282/0/e30e0522/L/_DSC4426-L.jpg[]
-
-Place the gasket into the filter housing:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-cmvskZm/0/4f7bb026/L/_DSC4433-L.jpg[]
-
-Place the fan box assembly into the filter housing assembly:
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-KSjRDv2/0/6f5b828f/L/_DSC4436-L.jpg[]
-
-Slide the clips onto the box (may require pushing the components together; again, the weather guard posts may be fragile):
-
-image:https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-g42vn5n/0/8c8e3c43/L/_DSC4440-L.jpg[]tra-Testing/29-Aug-2021-Build-Party/i-6hqN6Gw/0/4a281751/L/_DSC4242-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-6hqN6Gw/0/4a281751/L/_DSC4242-L.jpg[]
 
 Crimp the brass component to the wire:
 
