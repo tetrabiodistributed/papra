@@ -371,6 +371,39 @@ player.attachTo(playerElement);
 &lt;p>The unit will require more air to be pushed to meet the specification, but not too much more. Possible improvements to the fan outlet and fan placement relative to the outlet may provide the needed flow boosts, as the fan itself is rated to 33 CFM, so the construction and the filter must be providing severe flow resistance.&lt;/p>
 &lt;/div>
 &lt;/div>
+&lt;/div></description></item><item><title>Testing-Guide: PAPRa Flow Testing (October 2022)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/flow_testing_oct_2022/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/flow_testing_oct_2022/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>After many months of testing, we have determined we do not have the equipment to ensure that we have the minimum 4CFM flow. According to the fan specification for the CUI-154, the fan can output 33 CFM of air at peak, but that number does not account for the configuration we’re using in the PAPRA.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>What we’re going to do instead is to make sure that we’re always maintaining positive pressure inside the system. To do so, we’ll use a pressure tap:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-cqQ6gQK/0/XL/i-cqQ6gQK-XL.jpg" alt="i cqQ6gQK XL"/>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>With that tap inline and using a pressure sensor like the Risepro Manometer (&lt;a href="https://www.amazon.com/gp/product/B01680C4C2" class="bare">https://www.amazon.com/gp/product/B01680C4C2&lt;/a>, a package that also includes the metal portion of the tap in the previous image), so long as the pressure never changes sign, then the system is closed.&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-dZtn5FN/0/L/i-dZtn5FN-L.jpg" alt="i dZtn5FN L"/>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>When the June 2022 build is running at full power and with the pressure tap joined to the negative input port on the manometer, then the pressure never changes sign to positive pressure. However, when running at the least power available on the potentiometer, then the pressure switches to positive, indicating that air is being pulled into the system rather than always leaving it.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>If a good seal has been achieved with the mask, then such pressures would be air pulled from the filter. However, if there is not a good seal (for instance, if the wearer wears a beard), then the pressure would more likely be from air pulled in through the beard.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>This is not a very rigorous test, of course, and a more flexible part could be used to have more rigorous testing under load.&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;/div></description></item><item><title>Testing-Guide: PAPRa Testing Guide (March 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/testing_march_2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/testing_march_2021/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>

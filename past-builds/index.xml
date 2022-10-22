@@ -1377,6 +1377,555 @@ Your browser does not support the video tag.
 &lt;p>Changing the filter depends on how much you use the device. If you’re using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every few days or so. If you’re using the device where there are less particulates, every two to three weeks should be fine. If the filter material gets dirty or wet, you should change it. The blue layer is intended to be water proof, but we don’t know how much actual water it can take.&lt;/p>
 &lt;/div>
 &lt;/div>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa Fan Box</title><link>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/fan-box/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/fan-box/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The Tetra Powered Air Purified Respirator requires that the air be purified; this purification is accomplished by powering a fan to pull air through a filter and then pushing that purified air through a hose to a mask worn on the face. This section contains the instructions for building the box that holds the fan and filter.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The main goal of this iteration of the fan box is to reach N99 filtration levels by ensuring that the power connector is dustproof and using an IP68-rated BNC jack.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING 2:&lt;/strong> This version of the PAPRa is being presented because it passes the flow requirements, but it does not pass at an N95 level. As such, we suggest holding off building this particular version for the fixed one, which is currently in development as of September 2021.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_required">Parts Required&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>This photo shows all the parts laid out for building this component:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-4HTMBKV/0/cf22264b/5K/_DSC4231-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-4HTMBKV/0/cf22264b/L/_DSC4231-L.jpg" alt=" DSC4231 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The assembly diagram is &lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Drawings/D-TET-001103-4%20Fan%20Box%20Drawing.pdf">here&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_3d_printed_parts">3D Printed Parts&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These parts should be printed at 0.2 spacing. They should be oriented such that the large plates are closest to the build plate:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Printed Parts&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Part&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Quantity&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Material&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Supports required?&lt;/th>
+&lt;th class="tableblock halign-left valign-top">STL File Location&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Fan Box (holds the fan)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000112-6_Fan_Box.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000112-6_Fan_Box.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Bottom Plate&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000110-5_MOLLE_Plate.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000110-5_MOLLE_Plate.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Filter Housing&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000116-7_Filter_Housing.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000116-7_Filter_Housing.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Outlet (attaches hose to fan box)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000113-5_Fan_Outlet.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000113-5_Fan_Outlet.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Weather Guard&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000133-2_Weather_Guard.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000133-2_Weather_Guard.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Clip&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">8&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000139-0_Clip.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/fan_box/P-TET-000139-0_Clip.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_gaskets">Gaskets&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Gaskets should be cut from 2mm craft foam. Ideally, they should be cut by something such as Cricut (&lt;a href="https://www.cricut.com/" class="bare">https://www.cricut.com/&lt;/a>), but can also be cut using scissors or an Xacto knife so long as the templates are followed closely. The Cricut uses the supplied SVG files, and other cutters can use the supplied DXFs.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 2. Table Gaskets&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Part&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Quantity&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Material&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Pattern (SVG)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Pattern (DXF)&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Base Gasket&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Craft Foam&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000111-3_Base_Gasket.svg" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000111-3_Base_Gasket.svg&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000111-3_Base_Gasket.dxf" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000111-3_Base_Gasket.dxf&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Fan Gasket&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Craft Foam&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000114-2_Fan_Gasket.svg" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000114-2_Fan_Gasket.svg&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000114-2_Fan_Gasket.dxf" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000114-2_Fan_Gasket.dxf&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Filter Gasket&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Craft Foam&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000115-3_Filter_Gasket.svg" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000115-3_Filter_Gasket.svg&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000115-3_Filter_Gasket.dxf" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000115-3_Filter_Gasket.dxf&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Outlet Gasket&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Craft Foam&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000117-3_Outlet_Gasket.svg" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000117-3_Outlet_Gasket.svg&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000117-3_Outlet_Gasket.dxf" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Gaskets/P-TET-000117-3_Outlet_Gasket.dxf&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_vendor_bill_of_materials">Vendor Bill Of Materials&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These are components that need to be purchased. Prices fluctuate, and so are not included here. Alternative versions can be sourced, and we welcome edits for tested alternatives.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 3. Table Vendor Bill Of Materials (BOM)&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Count&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Description&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">URL&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Number in Package&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">CUI CBM-9795338-168 (or the 154 model for less flow)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.digikey.com/en/products/detail/cui-devices/CBM-979533B-168/7622751" class="bare">https://www.digikey.com/en/products/detail/cui-devices/CBM-979533B-168/7622751&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">20 American Wire Gauge (awg) BNC cable&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html" class="bare">https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">8&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">M4x20mm Button Head Torx Screws&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.mcmaster.com/92095A196/" class="bare">https://www.mcmaster.com/92095A196/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">50&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">8&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">M4 Cap Nuts&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.mcmaster.com/91828A231/" class="bare">https://www.mcmaster.com/91828A231/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">50&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Dryer Vent Installation Tape&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="http://www.nashuatape.com/" class="bare">http://www.nashuatape.com/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">BNC Cable Jack Connector&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.digikey.com/en/products/detail/112732/ACX2268-ND/3995595?WT.z_slp_buy=amphenol_bnc-connectors" class="bare">https://www.digikey.com/en/products/detail/112732/ACX2268-ND/3995595?WT.z_slp_buy=amphenol_bnc-connectors&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_recommended_tools">Recommended Tools&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 4. Table Tool List&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 50%;"/>
+&lt;col style="width: 50%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4-3/4 In. Bent Long Nose Pliers&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html" class="bare">https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A hex screwdriver for the m4 screws&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B007ICWAJC" class="bare">https://www.amazon.com/gp/product/B007ICWAJC&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Flush cutter&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.harborfreight.com/micro-flush-cutter-90708.html" class="bare">https://www.harborfreight.com/micro-flush-cutter-90708.html&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">X-acto knife&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ" class="bare">https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3D Printer (note the size of the print bed for the fan box)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.creality3d.shop/collections/ender-series-3d-printer/products/creality3d-ender-3-pro-high-precision-3d-printer" class="bare">https://www.creality3d.shop/collections/ender-series-3d-printer/products/creality3d-ender-3-pro-high-precision-3d-printer&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A deburring tool&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B01L2XR4P2" class="bare">https://www.amazon.com/gp/product/B01L2XR4P2&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">#0 Phillips head screwdriver&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976" class="bare">https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">CPAP hose cleaner (for maintenance)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/" class="bare">https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Cable Crimper&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/IWISS-Crimping-Swaging-Aluminum-Sleeves/dp/B00JW4X4TO/ref=sr_1_20?dchild=1&amp;amp;keywords=cable+crimping+tool&amp;amp;qid=1630860032&amp;amp;sr=8-20" class="bare">https://www.amazon.com/IWISS-Crimping-Swaging-Aluminum-Sleeves/dp/B00JW4X4TO/ref=sr_1_20?dchild=1&amp;amp;keywords=cable+crimping+tool&amp;amp;qid=1630860032&amp;amp;sr=8-20&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">9/16 Nut Driver for the BNC&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427" class="bare">https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_build_steps">Build Steps&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>A video on how to build the BNC connector:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;div class="container">
+&lt;div id="player-wrapper" class="BNC-construction">&lt;/div>
+&lt;/div>
+&lt;script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"
+>
+&lt;/script>
+&lt;script>
+var playerElement = document.getElementById("player-wrapper");
+var player = new Clappr.Player({
+source: "https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-8tQGqNz/0/9ee8f740/1280/00002-1280.mp4",
+mute: true,
+height: 360,
+width: 640
+});
+player.attachTo(playerElement);
+&lt;/script>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Strip the red wire on the fan:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-mbt8Hvf/0/b5bb6678/L/_DSC4240-L.jpg" alt=" DSC4240 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Connect the smaller brass component to the red wire:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-6hqN6Gw/0/4a281751/L/_DSC4242-L.jpg" alt=" DSC4242 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Crimp the brass component to the wire:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-h9NHgCp/0/d5a9558c/L/_DSC4261-L.jpg" alt=" DSC4261 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Test that the crimp went well by tugging on the brass component:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-VQjzFRx/0/22aa36a1/L/_DSC4263-L.jpg" alt=" DSC4263 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Make sure to put the wires through the ground cylinder &lt;strong>before&lt;/strong> connecting the brass component to the connector:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-Qthqqct/0/851e31bf/L/_DSC4248-L.jpg" alt=" DSC4248 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Push the brass component into the center of the connector.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-bWmGp7t/0/780ad05e/L/_DSC4264-L.jpg" alt=" DSC4264 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Since the wire is braided, this step can be tricky, and a small item like a paperclip can help push the component into the middle of the connector:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-nWbcL9F/0/b58ae059/L/_DSC4268-L.jpg" alt=" DSC4268 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Check that the brass component is visible and flush with the interior plastic column in the connector:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-63w4w3R/0/b88c78a8/L/_DSC4270-L.jpg" alt=" DSC4270 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Tugging on the wire should not have the component pull out:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-vWpwP4h/0/4e030480/L/_DSC4266-L.jpg" alt=" DSC4266 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Strip the black wire:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-838DvkG/0/fb37970a/L/_DSC4275-L.jpg" alt=" DSC4275 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Crimp the ground cylinder to the back of the connector with the black wire:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-PJHQcwg/0/dd7cf0cf/L/_DSC4277-L.jpg" alt=" DSC4277 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Another angle of the crimp:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-bXxV7vN/0/3ed40660/L/_DSC4278-L.jpg" alt=" DSC4278 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the waterproof seal around the edge of the BNC:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-krmZFgc/0/651101bf/L/_DSC4282-L.jpg" alt=" DSC4282 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Push the BNC into the fan outlet:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-hjSsGwP/0/a50c4a27/L/_DSC4289-L.jpg" alt=" DSC4289 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the lock nut around the connector (&lt;strong>warning&lt;/strong>: on the current model, the lock nut won’t fit, which will be fixed in a subsequent iteration):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-hjSsGwP/0/a50c4a27/L/_DSC4289-L.jpg" alt=" DSC4289 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Screw on the exterior nut to hold the BNC in place:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-nCLxDPf/0/523e27b4/L/_DSC4298-L.jpg" alt=" DSC4298 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the fan outlet component next to the fan in preparation for sealing the connection with tape:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-9DJXDVL/0/d9f354f7/L/_DSC4305-L.jpg" alt=" DSC4305 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Seal the two components together with tape:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-gNPbd4H/0/cc156911/L/_DSC4311-L.jpg" alt=" DSC4311 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Make sure to get the back of the connection and seal all the way around:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-gNPbd4H/0/cc156911/L/_DSC4311-L.jpg" alt=" DSC4311 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the Fan Gasket into the Fan Box:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-2ZPdMjk/0/80ab4d06/L/_DSC4322-L.jpg" alt=" DSC4322 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the Outlet Gasket into the Fan Box (note that the gasket has an orientation, be sure to place it in properly):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-25DSjjV/0/44787e57/L/_DSC4331-L.jpg" alt=" DSC4331 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the fan and the outlet into the Fan Box:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-gdMxSZ8/0/6aa44f34/L/_DSC4338-L.jpg" alt=" DSC4338 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The assembly should lock together with a &amp;#34;click&amp;#34; as the posts in the fan box connect with the holes in the fan:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-RhzDRbj/0/6b2421ff/L/_DSC4353-L.jpg" alt=" DSC4353 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the base gasket onto the base:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-7x65t7W/0/4e96b3d8/L/_DSC4363-L.jpg" alt=" DSC4363 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the base onto the fan box:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-C5tzGc7/0/2fefd1db/L/_DSC4365-L.jpg" alt=" DSC4365 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Screw the base plate onto the fan box (Note: this part of the assembly can be tricky, and a further revision will refine this attachment process):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-SkLkbJ7/0/7131f653/L/_DSC4385-L.jpg" alt=" DSC4385 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Attach the Filter Housing to the Weather Guard (Note: the posts in this revision of the weather guard can be fragile, so be careful with this step; a future revision will reinforce the posts):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-CQVpMRF/0/092fd85e/L/_DSC4402-L.jpg" alt=" DSC4402 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Cap the screws on the other side of the weather guard:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-tVvHx3P/0/1369cea2/L/_DSC4422-L.jpg" alt=" DSC4422 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the filter in the housing, noting the orientation:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-Xwj4282/0/e30e0522/L/_DSC4426-L.jpg" alt=" DSC4426 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the gasket into the filter housing:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-cmvskZm/0/4f7bb026/L/_DSC4433-L.jpg" alt=" DSC4433 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the fan box assembly into the filter housing assembly:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-KSjRDv2/0/6f5b828f/L/_DSC4436-L.jpg" alt=" DSC4436 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Slide the clips onto the box (may require pushing the components together; again, the weather guard posts may be fragile):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-g42vn5n/0/8c8e3c43/L/_DSC4440-L.jpg" alt=" DSC4440 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Congratulations! You’ve now built a Tetra PAPRa Fan Box!&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_questions">Questions&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="sect2">
+&lt;h3 id="_how_frequently_should_i_change_the_filter">How frequently should I change the filter?&lt;/h3>
+&lt;div class="paragraph">
+&lt;p>Changing the filter depends on how much you use the device. If you’re using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every month or so. If you’re using the device where there are less particulates, every two to three months should be fine. HEPA filters just get dirtier and eventually the fan will have a hard time pulling air through the filter, and the filter should be swapped before that happens.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_what_happens_if_i_drop_a_filter">What happens if I drop a filter&lt;/h3>
+&lt;div class="paragraph">
+&lt;p>You will likely have to get another filter. Even a small chip like this one:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-SQcNtZK/0/5b6acaf3/5K/_MMR0181-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-SQcNtZK/0/5b6acaf3/L/_MMR0181-L.jpg" alt=" MMR0181 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>reduces the efficacy of the filter because there isn’t a complete seal with the fan box and the filter.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_can_i_use_any_random_hepa_filter">Can I use any random HEPA filter?&lt;/h3>
+&lt;div class="paragraph">
+&lt;p>Unfortunately, no. We have found in our testing that only some filters work. The one we’ve tested to work is the &lt;a href="https://germguardian.com">Germ Guardian&lt;/a> filter specified in the BOM.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_is_the_fan_box_waterproof">Is the fan box waterproof?&lt;/h3>
+&lt;div class="paragraph">
+&lt;p>No, the fan box is not water proof. With the weather guard in place, water should not get into the filter directly, but increased humidity could decrease the effectiveness of the device.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_any_other_maintenance_tasks">Any other maintenance tasks?&lt;/h3>
+&lt;div class="paragraph">
+&lt;p>It is important to periodically check that the nuts are tight on the fan box, to ensure that the box is properly sealed against the elements.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa Fan Box</title><link>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/fan-box/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/fan-box/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
@@ -2451,6 +3000,290 @@ renderPage(pageNum);
 &lt;/script>
 &lt;/div>
 &lt;/div>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa m12 Battery Controller (Aug 2021)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/m12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/m12/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The Tetra Powered Air Purified Respirator requires power to function, and the m12 battery controller provides that power for these models. The controller consists of internal circuitry, a potentiometer to adjust fan speeds, a cable to connect to the fan box, and a port for a Milwaulkee M12 Battery to be inserted.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>This build differs from the v1 version in that it uses a custom-built circuitboard to remove many of the difficult steps of the build, add a battery charge indicator, and a separate power port for use in a car. If you cannot get &lt;a href="../m12-circuit">the custom board&lt;/a>, then please refer to the v1 version of this guide.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_required">Parts Required&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>This build will require printed parts, purchased parts, and several tools. Here is a picture of all the components used in this build:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/XL/DSC00035-XL.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/L/DSC00035-L.jpg" alt="DSC00035 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>And the assembly diagram can be found &lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/f600f3d4b3baba366a35f62b8221f986c945c88d/Drawings/D-TET-001102-2%20M12%20PAPRA%20Controller%20Drawing.pdf">here&lt;/a>. Note that this assembly calls for version 0.5 of the board; version 0.6 has some issues with delivering power consistently.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_3d_printed_parts">3D Printed Parts&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These parts should be printed at 0.2 spacing:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Printed Parts&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Part&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Quantity&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Material&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Supports Required?&lt;/th>
+&lt;th class="tableblock halign-left valign-top">STL File Location&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Battery Housing&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000132-1_M12_Battery_Housing.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000132-1_M12_Battery_Housing.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Board Housing&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000131-1_M12_Board_Housing.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000131-1_M12_Board_Housing.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Knob&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000100-1_M12_Controller_Knob.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000100-1_M12_Controller_Knob.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_bill_of_materials">Bill Of Materials&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You will need these components. Prices fluctuate, and so are not included here. Alternative versions can be sourced, and we welcome edits for tested alternatives.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 2. Table Bill Of Materials (BOM)&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Count&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Number in Package&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Circuit board&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB" class="bare">https://github.com/tetrabiodistributed/PAPRA-PCB&lt;/a> (v0.5)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2Pack Upgraded 3.5Ah M 12 Battery for Milwaukee 12V Battery Lithium XC M 12B Batteries&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B082WW688D/" class="bare">https://www.amazon.com/gp/product/B082WW688D/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Washers&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Should come with the board&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Nuts&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Should come with the board&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_recommeded_tools">Recommeded Tools&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 3. Table Tool List&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 50%;"/>
+&lt;col style="width: 50%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4-3/4 In. Bent Long Nose Pliers&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html" class="bare">https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A hex screwdriver for the m4 screws&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B007ICWAJC" class="bare">https://www.amazon.com/gp/product/B007ICWAJC&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">X-acto knife&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ" class="bare">https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A deburring tool&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B01L2XR4P2" class="bare">https://www.amazon.com/gp/product/B01L2XR4P2&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A 10mm socket wrench&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B0009ORXRU/" class="bare">https://www.amazon.com/gp/product/B0009ORXRU/&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_build_instructions">Build Instructions&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Building this version of the controller is more a matter of ensuring that the Controller Box was printed cleanly and all support material is properly removed.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Attach the light pipe to the board:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-KWzR5L3/0/fd852e6c/5K/DSC00040-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-KWzR5L3/0/fd852e6c/L/DSC00040-L.jpg" alt="DSC00040 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>You may need to use the bent-nose pliers to get the pipe in place:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jrz52MZ/0/1e9c50a7/L/DSC00041-L.jpg" alt="DSC00041 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Seat the board into the board housing:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-GSwnDLS/0/e3707f64/5K/DSC00043-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-GSwnDLS/0/e3707f64/L/DSC00043-L.jpg" alt="DSC00043 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the washer over the power port, and then finger tighten a hex nut over the same power port to hold the Plate in place:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-NX9pppF/0/db72b626/5K/DSC00044-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-NX9pppF/0/db72b626/L/DSC00044-L.jpg" alt="DSC00044 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Repeat for the potentiometer knob:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-QL7qL76/0/93b633d5/5K/DSC00046-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-QL7qL76/0/93b633d5/L/DSC00046-L.jpg" alt="DSC00046 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Put the battery housing over the board housing, with the power plugs going through the spaces in the battery housing:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-VKLPdk3/0/b95e5132/5K/DSC00047-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-VKLPdk3/0/b95e5132/L/DSC00047-L.jpg" alt="DSC00047 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place square nuts into the square nut sockets on the battery housing:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-vjSnpf6/0/971cd061/5K/DSC00050-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-vjSnpf6/0/971cd061/L/DSC00050-L.jpg" alt="DSC00050 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Screw in the screws into the board housing to secure the board housing to the battery housing:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-SvVXT9h/0/f8ec575b/5K/DSC00055-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-SvVXT9h/0/f8ec575b/L/DSC00055-L.jpg" alt="DSC00055 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Use the bent-nose pliers to attach the nut to the DC jack in the battery housing:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TT6wQVn/0/54836dce/5K/DSC00060-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TT6wQVn/0/54836dce/L/DSC00060-L.jpg" alt="DSC00060 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Use the socket wrenches to secure nuts onto the various ports:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-sSvqRdm/0/430d66c1/5K/DSC00062-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-sSvqRdm/0/430d66c1/L/DSC00062-L.jpg" alt="DSC00062 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-pvVBhQW/0/a8f3290d/5K/DSC00064-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-pvVBhQW/0/a8f3290d/L/DSC00064-L.jpg" alt="DSC00064 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Attach the potentiometer printed knob onto the potentiometer knob:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-6B5hrTV/0/23decce2/5K/DSC00065-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-6B5hrTV/0/23decce2/L/DSC00065-L.jpg" alt="DSC00065 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>When the battery is in the housing and the potentiometer turned on, a battery life indicator should turn on:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/5K/DSC00066-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/L/DSC00066-L.jpg" alt="DSC00066 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Congratulations! You have built a Tetra PAPRa M12 Controller Box (Aug 2021)!&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa m12 Battery Controller (Mar 2021)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/m12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/m12/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
@@ -2859,6 +3692,481 @@ renderPage(pageNum);
 &lt;/div>
 &lt;div class="paragraph">
 &lt;p>Congratulations! You have built a Tetra PAPRa M12 Controller Box v3!&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa m12 Battery Controller (v1)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/m12-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/m12-v1/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The Tetra Powered Air Purified Respirator requires power to function, and the m12 battery controller provides that power for these models. The controller consists of internal circuitry, a potentiometer to adjust fan speeds, a cable to connect to the fan box, and a port for a Milwaulkee M12 Battery to be inserted.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>If you can build or buy custom circuitboards, then the other version is much more straightforward to assemble. The plans can be found here: &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB" class="bare">https://github.com/tetrabiodistributed/PAPRA-PCB&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_required">Parts required&lt;/h2>
+&lt;div class="sectionbody">
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_3d_printed_parts">3D Printed Parts&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These parts should be printed at 0.2 spacing:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Printed Parts&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Part&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Quantity&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Material&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Supports Required?&lt;/th>
+&lt;th class="tableblock halign-left valign-top">STL File Location&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Controller Body&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/15d2646571625c84bc1cf04a3f13bcbb808990b3/STLs/M12%20Controller%20Body.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/15d2646571625c84bc1cf04a3f13bcbb808990b3/STLs/M12%20Controller%20Body.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Controller Lid&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/15d2646571625c84bc1cf04a3f13bcbb808990b3/STLs/M12%20Lid.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/15d2646571625c84bc1cf04a3f13bcbb808990b3/STLs/M12%20Lid.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_bill_of_materials">Bill Of Materials&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You will need these components. Prices fluctuate, and so are not included here. Alternative versions can be sourced, and we welcome edits for tested alternatives.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 2. Table Bill Of Materials (BOM)&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Count&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Number in Package&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Onyehn DC Motor PWM Speed Controller3V 6V 12V 24V 35V Speed Control Switch Mini LED Dimmer 5A 90W&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B07GP72BWV/" class="bare">https://www.amazon.com/gp/product/B07GP72BWV/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2Pack Upgraded 3.5Ah M 12 Battery for Milwaukee 12V Battery Lithium XC M 12B Batteries&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B082WW688D/" class="bare">https://www.amazon.com/gp/product/B082WW688D/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Baomain Male Spade Quick Splice Crimp Terminals 6.3mm Crimp Connector Non Insulated&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B01MQ332R6/" class="bare">https://www.amazon.com/gp/product/B01MQ332R6/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">100&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">2&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">TOTOT 30 Pack 5.5mm x 2.1mm 3 Pin Female DC Power Jack Panel Mount Screw Nut Kit DC Socket Electrical Plug&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B077YC457J/" class="bare">https://www.amazon.com/gp/product/B077YC457J/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">30&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#34;&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">BNTECHGO 20 Gauge Silicone wire 10 ft red and 10 ft black Flexible 20 AWG Stranded Copper Wire&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B01AAX64EC/" class="bare">https://www.amazon.com/gp/product/B01AAX64EC/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">120&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">6&amp;#34;&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">20 awg Solid wire kit Electrical wire Cable 7 colors 23ft each spools 20 gauge UL1007 Tinned Copper Hook up wire kit breadboard wire for DIY&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Electrical-colors-spools-UL1007-breadboard/dp/B083DNGSPV/" class="bare">https://www.amazon.com/Electrical-colors-spools-UL1007-breadboard/dp/B083DNGSPV/&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">276&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Heat shrink connector covering (optional)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_recommeded_tools">Recommeded Tools&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 3. Table Tool List&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 50%;"/>
+&lt;col style="width: 50%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Iwiss SN-48B Pin Crimping Tool&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B00OMMZ502" class="bare">https://www.amazon.com/gp/product/B00OMMZ502&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4-3/4 In. Bent Long Nose Pliers&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html" class="bare">https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Soldering iron&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B01MD12DYT" class="bare">https://www.amazon.com/gp/product/B01MD12DYT&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A hex screwdriver for the m4 screws&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B007ICWAJC" class="bare">https://www.amazon.com/gp/product/B007ICWAJC&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Flush cutter&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.harborfreight.com/micro-flush-cutter-90708.html" class="bare">https://www.harborfreight.com/micro-flush-cutter-90708.html&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">X-acto knife&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ" class="bare">https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">A deburring tool&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B01L2XR4P2" class="bare">https://www.amazon.com/gp/product/B01L2XR4P2&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">#0 Phillips head screwdriver&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976" class="bare">https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_build_steps">Build Steps&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You will need these components on hand:&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>Battery Case (&amp;#34;Controller Body&amp;#34;)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Battery lid (&amp;#34;Controller Lid&amp;#34;)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Crimper&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Needle-nose pliers&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Soldering iron/solder/soldering tools&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2 red jacketed stranded wire ~2-3 inches (7-10 cm) long&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2 black jacketed stranded wire ~2-3 inches (7-10 cm) long&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Heat Shrink (to protect wire connections)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2 Male Spade Quick Splice Crimp Terminals&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Flush Cutters&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wire stripper&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Deburring tool&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Philips head screwdriver&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_prepare_the_wires">Prepare the wires&lt;/h3>
+&lt;div class="sect3">
+&lt;h4 id="_cut_the_wires_to_size">Cut the wires to size.&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>To do so, you will need to cut them down to their lengths (our build used ~3 inch/10 cm lengths). We prepared all six wires (4 stranded and 2 solid) to be basically the same dimensions: ~3 inches/~10 in length, 0.5 cm insulation stripped from both ends.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_tin_the_stranded_wires">Tin the stranded wires.&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>Follow this guide here:
+&lt;a href="https://www.thespruce.com/tinning-stranded-electrical-wires-1152893" class="bare">https://www.thespruce.com/tinning-stranded-electrical-wires-1152893&lt;/a>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Video describing the amount of wire to be tinned:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-sTSdVhN/0/1920/i-sTSdVhN-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Photo showing tinning of the wires:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg" alt="i vGx3mbh O"/>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_crimp_a_red_and_black_tinned_wire_each_into_the_spade_connectors">Crimp a red and black tinned wire each into the spade connectors&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>How to crimp:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-QjXdLPr/0/1920/i-QjXdLPr-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Here’s a photo for bad crimping:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-4B25qFs/0/X2/i-4B25qFs-X2.jpg" alt="i 4B25qFs X2"/>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>and the video explanation:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-2BHSLBL/0/1920/i-2BHSLBL-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_attach_remaining_red_and_black_tinned_wires_to_the_power_socket">Attach remaining red and black tinned wires to the power socket&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>How to build the power socket with tinned wires:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-fDvHdXv/0/1920/i-fDvHdXv-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_attach_remaining_red_and_black_solid_wires_to_the_power_socket">Attach remaining red and black solid wires to the power socket&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>How to build the power socket for the fan box with solid wires:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-mfGN68v/0/1920/i-mfGN68v-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Final prepared wiring looks like:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-jmpfcwg/0/X2/i-jmpfcwg-X2.jpg" alt="i jmpfcwg X2"/>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_m12_controller_circuitry">M12 controller circuitry&lt;/h3>
+&lt;div class="sect3">
+&lt;h4 id="_snip_a_portion_of_the_spade_connector">Snip a portion of the spade connector&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>A video describing this step:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-bJ9DFfB/0/1920/i-bJ9DFfB-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_clean_the_m12_battery_holder_spade_ports">Clean the M12 battery holder spade ports&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>On the inside of the printed M12 box, there are two slots where the spade connector should fit in. These slots may have some extra plastic around them due to print quality issues, so use an x-acto knife to clean those slots:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-V6kxqFR/0/1920/i-V6kxqFR-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_insert_the_spade_connectors_into_the_m12_box">Insert the spade connectors into the M12 box&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>These spade connectors should be inserted with red on the left, black on the right. The snipped connector should slide in place and prevent the spade connector from coming back out again.&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-XgNPVmq/0/1920/i-XgNPVmq-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Tab to hold the spade connector in place:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-gtfQpgx/0/1920/i-gtfQpgx-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Wire orientation:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-7LFMxCm/0/1920/i-7LFMxCm-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Test the spade connectors are in place:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-dGMrbD7/0/1920/i-dGMrbD7-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-mm5wPfK/0/1920/i-mm5wPfK-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect3">
+&lt;h4 id="_install_the_board_into_the_m12_box">Install the board into the M12 box&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>This video captures the entire process:&lt;/p>
+&lt;/div>
+&lt;div class="videoblock">
+&lt;div class="content">
+&lt;video src="https://photos.smugmug.com/photos/i-fHTTM3s/0/1920/i-fHTTM3s-1920.mp4" controls="">
+Your browser does not support the video tag.
+&lt;/video>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Essentially, these steps are followed:&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>Remove the knob and nut from the control board&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Install the power plug into the box&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Connect the knob and spade power wires to the board (red to plus, black to minus, spades to DC in and power plug to motor control)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Place the board in the box&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Screw the nut and motor control knob onto the board from the outside of the box&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check the connection by turning on the power knob and looking for the red LED on the board to light up&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Close access to the circuitboard using the M12 Lid&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>You may need to deburr the edges of the hole:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-KNWz64M/0/X2/i-KNWz64M-O.jpg" alt="i KNWz64M O"/>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The final board:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;img src="https://photos.smugmug.com/photos/i-kMLkq5k/0/X2/i-kMLkq5k-X2.jpg" alt="i kMLkq5k X2"/>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Congratulations, you have completed the assembly of the power box for your PAPR!&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa m12 Battery Controller (v1)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jan-31-2021/m12-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jan-31-2021/m12-v1/</guid><description>
@@ -3748,6 +5056,314 @@ renderPage(pageNum);
 });
 }
 &lt;/script>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa Mask (Aug 2021 Version)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/mask-v4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/mask-v4/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The Tetra Powered Air Purified Respirator requires a Mask component to deliver purified air to the face of the wearer. This mask will be connected to the Fan Box via a CPAP hose. In our testing of the mask, it has been comfortable to wear for several hours, and provides protection while the device is powered on. When the device is powered off, the mask is not effective, and so we are still iterating on the mask design to provide protection when the device is powered off. A single battery charge can provide up to 4 hours of protection, which is sufficient for many use cases for us to feel comfortable publishing this mask.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_required">Parts Required&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>This photo shows all the parts laid out for building this component:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph smugmug com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-b2NgkVk/0/f2328f4b/5K/DSC00037-5K jpg">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-b2NgkVk/0/f2328f4b/L/DSC00037-L.jpg" alt="DSC00037 L"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Note that this build includes three different sizes of mask body, but only one body is needed for the final build. Each one is based on the NIOSH head forms for small, medium, and large, respectively.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The assembly diagram can be found &lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/3fa383c87d0ce7e2d6da542c22d15863fab383d1/Drawings/D-TET-001104-1%20Mask%20Assembly%20Drawing.pdf">here&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_3d_printed_parts">3D printed Parts&lt;/h2>
+&lt;div class="sectionbody">
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Printed Parts&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Part&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Quantity&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Material&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Supports required?&lt;/th>
+&lt;th class="tableblock halign-left valign-top">STL File Location&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Respirator Body (Large)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Ninjaflex&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000120-1%20Large%20Mask.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000120-1%20Large%20Mask.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Respirator Body (Medium)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Ninjaflex&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000134-0%20Medium%20Mask.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000134-0%20Medium%20Mask.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Respirator Body (Small)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Ninjaflex&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000135-0%20Small%20Mask.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000135-0%20Small%20Mask.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Mask Stem&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000130-1%20Mask%20Stem.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000130-1%20Mask%20Stem.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Clip&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000124-0%20Mask%20Clip.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000124-0%20Mask%20Clip.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Cap&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000122-0%20Mask%20Cap.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000122-0%20Mask%20Cap.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">The Mount&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA/PETG&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">No&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000123-0%20Mask%20Cap%20Mount.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/respirator/P-TET-000123-0%20Mask%20Cap%20Mount.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_gasket">Gasket&lt;/h2>
+&lt;div class="sectionbody">
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 2. Table Gasket&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Part&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Quantity&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Material&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Pattern&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Box Gasket&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Craft Foam&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/a4520bd01cda8ab235c05b2cbecdda57ebceb76e/Gaskets/P-TET-000125-0%20Mask%20Filter%20Gasket.svg" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/a4520bd01cda8ab235c05b2cbecdda57ebceb76e/Gaskets/P-TET-000125-0%20Mask%20Filter%20Gasket.svg&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_bill_of_materials">Bill of Materials&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You will need these components. Prices fluctuate, and so are not included here. Alternative versions can be sourced, and we welcome edits for tested alternatives.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 3. Table Bill Of Materials (BOM)&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Count&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Number in Package&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">3-ply Medical Face Mask&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.cvs.com/shop/cvs-medical-face-mask-soft-ear-loops-50-ct-prodid-2840090" class="bare">https://www.cvs.com/shop/cvs-medical-face-mask-soft-ear-loops-50-ct-prodid-2840090&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">50&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">CPAP Hose (possible candidate-- this product is 3 feet, you may want something longer or shorter. Refer to &lt;a href="https://github.com/tetrabiodistributed/papra/issues/48" class="bare">https://github.com/tetrabiodistributed/papra/issues/48&lt;/a> for alternatives)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Gray-Standard-CPAP-Tubing-foot/dp/B073GBQN73" class="bare">https://www.amazon.com/Gray-Standard-CPAP-Tubing-foot/dp/B073GBQN73&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">200 yards&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">(Length depends on head size and wearing preferences)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Bathing Suit Elastic&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/Elastic-Shed-Protector-Handmade-Stretch/dp/B088DB6JQ8" class="bare">https://www.amazon.com/Elastic-Shed-Protector-Handmade-Stretch/dp/B088DB6JQ8&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_recommeded_tools">Recommeded Tools&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 4. Table Tool List&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 50%;"/>
+&lt;col style="width: 50%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Nail Scissors&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.cvs.com/shop/beauty-360-nail-scissors-prodid-328424" class="bare">https://www.cvs.com/shop/beauty-360-nail-scissors-prodid-328424&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_build_steps">Build Steps&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>While the respirator body has changed somewhat since these instructions were first written, the instructions below remain correct for these newer parts.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Once the mask has been printed, the build consists mainly of getting the 3-ply Medical Face Mask material onto the mask so that the wearer’s exhalations can exit the mask without affecting those around them.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Cut the side supports of the surgical mask off so the accordion folds can be unfolded:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-LnsKZxQ/0/504e9c38/X2/_MMR0577-X2.jpg" alt=" MMR0577 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Draw a circle on the mask where you want to cut out the filter material (You might be able to get two filters from one mask):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-XVVfDJc/0/a42e3091/X2/_MMR0581-X2.jpg" alt=" MMR0581 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Cut out the filter material:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-cSP5WNp/0/1073af1e/X2/_MMR0584-X2.jpg" alt=" MMR0584 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the circular gasket into the cap:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-88555fG/0/61ceca29/X2/_MMR0596-X2.jpg" alt=" MMR0596 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place the filter material over the gasket and cap:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-7WszwLc/0/b6cdd577/X2/_MMR0598-X2.jpg" alt=" MMR0598 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Fold the mask so you can place the Mount over the nose portion of the mask:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-VdMFNk7/0/1fce67c4/X2/_MMR0595-X2.jpg" alt=" MMR0595 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Seat the mask over the filter material in the cap:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-GRkFtS3/0/e1a36329/X2/_MMR0599-X2.jpg" alt=" MMR0599 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Clip all of the clips to hold the filter in place:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-fRXLwch/0/d352faed/X2/_MMR0604-X2.jpg" alt=" MMR0604 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Cut a hole in the bottom of the mask for the grommet (note-- if you just want a passive respirator, no need to do this step!):&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-DHnCtqc/0/d6a90ff2/X2/IMG_5117_HEIC-X2.jpg" alt="IMG 5117 HEIC X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Force the grommet through the hole, taking care to rotate the grommet so airflow goes away from the face:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-R9PsFB9/0/3675dd71/X2/IMG_5118_HEIC-X2.jpg" alt="IMG 5118 HEIC X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/Tetra-PAPRa-Build-Party-31-Jan-2021/i-bRMR7Fn/0/608f9cde/X2/IMG_5119_HEIC-X2.jpg" alt="IMG 5119 HEIC X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Push the bathing suit elastic through the attachment points on the mask as one long strand. Some prefer to tie at the top of the head, while others may prefer behind the neck. Note how the elastic emerges from behind the attachment points to wrap around the head and neck:&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-KgNKtVC/0/8387024c/X2/DSC09910-X2.jpg" alt="DSC09910 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-7Qh5Pm6/0/c3b67dbe/X2/DSC09918-X2.jpg" alt="DSC09918 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;span class="image">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-JzSC3n4/0/c8f1efb4/X2/DSC09920-X2.jpg" alt="DSC09920 X2"/>&lt;/span>&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Congratulations! You now have a TETRA PAPRa face mask v3!&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_how_frequently_should_i_change_the_filter">How frequently should I change the filter?&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Changing the filter depends on how much you use the device. If you’re using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every few days or so. If you’re using the device where there are less particulates, every two to three weeks should be fine. If the filter material gets dirty or wet, you should change it. The blue layer is intended to be water proof, but we don’t know how much actual water it can take.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_my_hose_is_smelling_what_can_i_do_about_that">My hose is smelling. What can I do about that?&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You can clean the hose with a 22mm cleaning brush (like &lt;a href="https://www.amazon.com/JAKIA-CPAP-Brush-Cleaning-7inch/dp/B089Q6QH1X" class="bare">https://www.amazon.com/JAKIA-CPAP-Brush-Cleaning-7inch/dp/B089Q6QH1X&lt;/a>). Soap and water should be sufficient. We’ve found that the hose material can begin to smell if exposed to quite a bit of sunlight, such as wearing the PAPR in the desert, and this smell wears off after some time.&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa Mask</title><link>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/mask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/mask/</guid><description>
@@ -4738,6 +6354,390 @@ renderPage(pageNum);
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
 &lt;p>Changing the filter depends on how much you use the device. If you’re using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every few days or so. If you’re using the device where there are less particulates, every two to three weeks should be fine. If the filter material gets dirty or wet, you should change it. The blue layer is intended to be water proof, but we don’t know how much actual water it can take.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Past-Builds: How to configure the PAPRa MOLLE strap setup</title><link>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/molle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/molle/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The Tetra Powered Air Purified Respirator can be strapped to a &lt;a href="https://en.wikipedia.org/wiki/MOLLE">MOLLE&lt;/a> backpack/belt/etc.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_required">Parts Required&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You should have assembled the Mask, Fan Box, and M12 Controller Box at this point.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_printed_adaptors">Printed Adaptors&lt;/h2>
+&lt;div class="sectionbody">
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Printed Parts&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;col style="width: 20%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Part&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Quantity&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Material&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Supports required?&lt;/th>
+&lt;th class="tableblock halign-left valign-top">STL File Location&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">MOLLE Short Adapter&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000128-0%20MOLLE%20Adapter%20Short.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000128-0%20MOLLE%20Adapter%20Short.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">MOLLE Long Adapter&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">PLA&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Yes&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000129-0%20MOLLE%20Adapter%20Long.stl" class="bare">https://github.com/tetrabiodistributed/papr-print-files/blob/v3.0/STLs/fan_box/P-TET-000129-0%20MOLLE%20Adapter%20Long.stl&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="paragraph">
+&lt;p>A 3-row MOLLE attachment point would use the short adaptor, while longer attachments can use the longer adaptor.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_bill_of_materials">Bill of Materials&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You will need these components. Prices fluctuate, and so are not included here. Alternative versions can be sourced, and we welcome edits for tested alternatives.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 2. Table Bill Of Materials (BOM)&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Count&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Number in Package&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">MTP 1&amp;#34; Seat-belt Black Polyester Webbing Strap&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B0711VNY5M" class="bare">https://www.amazon.com/gp/product/B0711VNY5M&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">30&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 Inch Plastic Triglides Slides&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B07KRTRGDK" class="bare">https://www.amazon.com/gp/product/B07KRTRGDK&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">100&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_recommeded_tools">Recommeded Tools&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 3. Table Tool List&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 50%;"/>
+&lt;col style="width: 50%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Nail Scissors&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.cvs.com/shop/beauty-360-nail-scissors-prodid-328424" class="bare">https://www.cvs.com/shop/beauty-360-nail-scissors-prodid-328424&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Lighter&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.cvs.com/shop/bic-mini-lighter-assorted-colors-20ct-prodid-1030389" class="bare">https://www.cvs.com/shop/bic-mini-lighter-assorted-colors-20ct-prodid-1030389&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_build_steps">Build Steps&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Once the PAPRa has been built, it should be worn. This guide provides a simple way to put components together in an over-the-shoulder configuration. The Fan Box has multiple attachment points, so other configurations are possible-- and please let us know if you come up with something you really like!&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Cut the webbing into roughly 2 foot strips.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Weave the strap into the box base plate and the MOLLE adaptors:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-qddVRLG/0/5fc040eb/5K/_MMR0336-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-qddVRLG/0/5fc040eb/L/_MMR0336-L.jpg" alt=" MMR0336 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-KQrdKCr/0/645282c9/5K/_MMR0340-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-KQrdKCr/0/645282c9/L/_MMR0340-L.jpg" alt=" MMR0340 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-tNwdns2/0/4e88a0ee/5K/_MMR0347-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-tNwdns2/0/4e88a0ee/L/_MMR0347-L.jpg" alt=" MMR0347 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jkHxRdS/0/d066b042/5K/_MMR0350-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-jkHxRdS/0/d066b042/L/_MMR0350-L.jpg" alt=" MMR0350 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-bmbwPKL/0/6d73a725/5K/_MMR0356-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-bmbwPKL/0/6d73a725/L/_MMR0356-L.jpg" alt=" MMR0356 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-58Bj78C/0/ad2bc14a/5K/_MMR0357-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-58Bj78C/0/ad2bc14a/L/_MMR0357-L.jpg" alt=" MMR0357 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-WgGKFhN/0/bf9c7352/5K/_MMR0359-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-WgGKFhN/0/bf9c7352/L/_MMR0359-L.jpg" alt=" MMR0359 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Use triglides to hold the straps in place:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vdh8ZKG/0/0ae92d0a/5K/_MMR0364-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-vdh8ZKG/0/0ae92d0a/L/_MMR0364-L.jpg" alt=" MMR0364 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-z4xMZvW/0/dcb89462/5K/_MMR0367-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-z4xMZvW/0/dcb89462/L/_MMR0367-L.jpg" alt=" MMR0367 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>The m12 controller can also be strapped to the belt:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-LhLQ2RT/0/de844ab1/5K/_MMR0371-L.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-LhLQ2RT/0/de844ab1/L/_MMR0371-L.jpg" alt=" MMR0371 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>And now you have a Tetra PAPRa on a MOLLE belt for many hours of comfortable wearing!&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Past-Builds: How to configure the PAPRa over-the-shoulder strap setup</title><link>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/straps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/aug-2021/straps/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>The Tetra Powered Air Purified Respirator can be strapped to the body for easy portability. This guide provides one suggested approach.&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_parts_required">Parts Required&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You should have assembled the Mask, Fan Box, and M12 Controller Box at this point.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_bill_of_materials">Bill of Materials&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>You will need these components. Prices fluctuate, and so are not included here. Alternative versions can be sourced, and we welcome edits for tested alternatives.&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 1. Table Bill Of Materials (BOM)&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;col style="width: 25%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Count&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;th class="tableblock halign-left valign-top">Number in Package&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">MTP 1&amp;#34; Seat-belt Black Polyester Webbing Strap&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B0711VNY5M" class="bare">https://www.amazon.com/gp/product/B0711VNY5M&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">30&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">4&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">1 Inch Plastic Triglides Slides&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.amazon.com/gp/product/B07KRTRGDK" class="bare">https://www.amazon.com/gp/product/B07KRTRGDK&lt;/a>&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">100&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_recommeded_tools">Recommeded Tools&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:&lt;/p>
+&lt;/div>
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;caption class="title">Table 2. Table Tool List&lt;/caption>
+&lt;colgroup>
+&lt;col style="width: 50%;"/>
+&lt;col style="width: 50%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">Description&lt;/th>
+&lt;th class="tableblock halign-left valign-top">URL&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Nail Scissors&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.cvs.com/shop/beauty-360-nail-scissors-prodid-328424" class="bare">https://www.cvs.com/shop/beauty-360-nail-scissors-prodid-328424&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Lighter&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">&lt;a href="https://www.cvs.com/shop/bic-mini-lighter-assorted-colors-20ct-prodid-1030389" class="bare">https://www.cvs.com/shop/bic-mini-lighter-assorted-colors-20ct-prodid-1030389&lt;/a>&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_build_steps">Build Steps&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Once the PAPRa has been built, it should be worn. This guide provides a simple way to put components together in an over-the-shoulder configuration. The Fan Box has multiple attachment points, so other configurations are possible-- and please let us know if you come up with something you really like!&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Get at least two arm lengths of webbing:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-kWnJdXn/0/90f9e949/5K/DSC09922-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-kWnJdXn/0/90f9e949/L/DSC09922-L.jpg" alt="DSC09922 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>After cutting the webbing, burning the ends will prevent the webbing from unraveling:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-gsMdRzp/0/e081070a/5K/DSC09925-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-gsMdRzp/0/e081070a/L/DSC09925-L.jpg" alt="DSC09925 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Place one triglide in the M12 controller as shown below. This triglide prevents the controller from sliding around on the strap:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-KMWVjkt/0/7c3b7b4b/5K/DSC09930-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-KMWVjkt/0/7c3b7b4b/L/DSC09930-L.jpg" alt="DSC09930 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-x47gdjL/0/95249c26/5K/DSC09931-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-x47gdjL/0/95249c26/L/DSC09931-L.jpg" alt="DSC09931 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Anchor the PAPR on one point near the funnel using triglides:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-XCd6dwJ/0/1f035bc8/5K/DSC09939-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-XCd6dwJ/0/1f035bc8/L/DSC09939-L.jpg" alt="DSC09939 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-jcT7CQ4/0/f5fb5a9c/5K/DSC09940-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-jcT7CQ4/0/f5fb5a9c/L/DSC09940-L.jpg" alt="DSC09940 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Choose another anchor point on the opposite side of the Fan Box:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-ssPZbPx/0/8dd3ad32/5K/IMG_5067-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-ssPZbPx/0/8dd3ad32/L/IMG_5067-L.jpg" alt="IMG 5067 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>This configuration will allow the Fan Box to be worn in the small of the back:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-6hRwhm4/0/97a52902/5K/DSC09947-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-6hRwhm4/0/97a52902/L/DSC09947-L.jpg" alt="DSC09947 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Hold a loop of the webbing out to be cut where you want clips to be attached:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-FKZrLNN/0/2ed9fc06/5K/DSC09948-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-FKZrLNN/0/2ed9fc06/L/DSC09948-L.jpg" alt="DSC09948 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-cZRBh2m/0/9463e03f/5K/DSC09950-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-cZRBh2m/0/9463e03f/L/DSC09950-L.jpg" alt="DSC09950 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Attach the clips as shown in this photo, with the extra triglide to make sure that the clip position can be adjusted:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-GLWHvzK/0/05de208c/5K/IMG_5068-5K.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/09-Jan-2021-PAPRa-build-party/i-GLWHvzK/0/05de208c/L/IMG_5068-L.jpg" alt="IMG 5068 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>And now you have a Tetra PAPRa in an over-the-shoulder configuration that can be worn comfortably for several hours!&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Past-Builds: How to configure the PAPRa over-the-shoulder strap setup</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jan-31-2021/straps-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jan-31-2021/straps-v1/</guid><description>
