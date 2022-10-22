@@ -18,11 +18,14 @@ The core of the idea is fairly simple: put a fan behind a filter in an airtight 
 
 A completed build looks like:
 
-image:https://photos.smugmug.com/Tetra-Testing/PAPRa-Build-13-March-2021/i-2jp6k87/0/c76b8e10/X2/_MMR0321-X2.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-Qbqs4tw/0/ef99fb48/5K/_MMR5847-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-Qbqs4tw/0/ef99fb48/L/_MMR5847-L.jpg[]
+
 
 We have worn these PAPRas for multiple hours at a time and found them to be quite comfortable.  Please send us any images you have of wearing your Tetra PAPRa that you've built, and if you want, we'll post them on our website!
 
-*WARNING:* We provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+*WARNING:* We provide no warranty, implicit or explicit, that this device will work up to an N95 specification when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
 
 
 
