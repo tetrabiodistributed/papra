@@ -4,6 +4,7 @@
 title: "PAPRa Build Guide (August 2021 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
+toc_hide: true
 description: >
   How to build the August 2021 version of the Tetra PAPR.
 ---
