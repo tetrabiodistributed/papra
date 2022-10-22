@@ -24,7 +24,8 @@ This photo shows all the parts laid out for building this component:
 [link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jfWR2jR/0/905b54b5/5K/_MMR5618-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jfWR2jR/0/905b54b5/L/_MMR5618-L.jpg[]
 
-The assembly diagram is link:https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/Drawings/D-TET-001103-4%20Fan%20Box%20Drawing.pdf[here].
+The assembly diagram is link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/A-TET-001111-0_Klein_Filter_96mm_PAPRa_Assembly.pdf[here].
+
 
 == 3D Printed Parts ==
 
