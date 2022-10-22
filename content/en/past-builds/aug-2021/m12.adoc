@@ -21,7 +21,7 @@ This build will require printed parts, purchased parts, and several tools.  Here
 [link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/XL/DSC00035-XL.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/L/DSC00035-L.jpg[]
 
-And the assembly diagram can be found link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/D-TET-001102-2%20M12%20PAPRA%20Controller%20Drawing.pdf[here].  Note that this assembly calls for version 0.7 of the board.
+And the assembly diagram can be found link:https://github.com/tetrabiodistributed/papr-print-files/blob/f600f3d4b3baba366a35f62b8221f986c945c88d/Drawings/D-TET-001102-2%20M12%20PAPRA%20Controller%20Drawing.pdf[here].  Note that this assembly calls for version 0.5 of the board; version 0.6 has some issues with delivering power consistently.
 
 
 ## 3D Printed Parts
@@ -143,7 +143,7 @@ image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-V
 
 Place square nuts into the square nut sockets on the battery housing:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-here: Build-Party/i-vjSnpf6/0/971cd061/5K/DSC00050-5K.jpg]
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-vjSnpf6/0/971cd061/5K/DSC00050-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-vjSnpf6/0/971cd061/L/DSC00050-L.jpg[]
 
 Screw in the screws into the board housing to secure the board housing to the battery housing:
@@ -174,7 +174,6 @@ When the battery is in the housing and the potentiometer turned on, a battery li
 [link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/5K/DSC00066-5K.jpg]
 image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/L/DSC00066-L.jpg[]
 
-Congratulations!  You have built a Tetra PAPRa M12 Controller Box v4 (August 2021)!
-
+Congratulations!  You have built a Tetra PAPRa M12 Controller Box (Aug 2021)!
 
 
