@@ -14,10 +14,14 @@ jobs:
           submodules: recursive  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Mark github workspace as safe
+        run: |
+          git config --global --add safe.directory /github/workspace
+          
       - name: Update submodules
         uses: srt32/git-actions@v0.0.3
         with:
-          args: git submodule update --init --recursive
+          args: git submodule update --init --recursive 
 
       - name: Build
         run: bash build.sh
