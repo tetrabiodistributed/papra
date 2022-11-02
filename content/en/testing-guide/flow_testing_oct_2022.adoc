@@ -12,14 +12,22 @@ After many months of testing, we have determined we do not have the equipment to
 
 What we're going to do instead is to make sure that we're always maintaining positive pressure inside the system.  To do so, we'll use a pressure tap:
 
-image::https://photos.smugmug.com/photos/i-cqQ6gQK/0/XL/i-cqQ6gQK-XL.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-wz9JKcB/0/d959350f/5K/PXL_20221102_150947923-5K.jpg]
+image:https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-wz9JKcB/0/d959350f/L/PXL_20221102_150947923-L.jpg[]
 
-With that tap inline and using a pressure sensor like the Risepro Manometer (https://www.amazon.com/gp/product/B01680C4C2, a package that also includes the metal portion of the tap in the previous image), so long as the pressure never changes sign, then the system is closed.
+The model for this pressure tap can be found With that tap inline and using a pressure sensor like the Risepro Manometer (https://www.amazon.com/gp/product/B01680C4C2, a package that also includes the metal portion of the tap in the previous image), so long as the pressure never changes sign, then the system is closed.
 
-image::https://photos.smugmug.com/photos/i-dZtn5FN/0/L/i-dZtn5FN-L.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-vFgrNbC/0/dad2bc36/5K/PXL_20221102_151627512-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-vFgrNbC/0/dad2bc36/L/PXL_20221102_151627512-L.jpg[]
 
-When the June 2022 build is running at full power and with the pressure tap joined to the negative input port on the manometer, then the pressure never changes sign to positive pressure.  However, when running at the least power available on the potentiometer, then the pressure switches to positive, indicating that air is being pulled into the system rather than always leaving it.
+When the June 2022 build is running at full power and with the pressure tap joined to the negative input port on the manometer, then the pressure never changes sign to positive pressure.  In the above image, the system is on, and recording -2.3 cm H2O.  According to the Performance Curve for the fan model, shown below, that 2.3 cm H2O puts the flow around 30 CFM, far in excess of the necessary 4CFM.
 
-If a good seal has been achieved with the mask, then such pressures would be air pulled from the filter.  However, if there is not a good seal (for instance, if the wearer wears a beard), then the pressure would more likely be from air pulled in through the beard.
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-SVcKHdZ/0/a756149e/S/screenshot_from_2022-11-02_08-54-43-S.png[]
 
-This is not a very rigorous test, of course, and a more flexible part could be used to have more rigorous testing under load.
+However, when running at the least power available on the potentiometer, then the pressure switches to positive when the wearer breathes heavily, indicating that air is being pulled into the system rather than always leaving it.  As such, one possible path of development is to ensure that the pressure sign does not flip inside the system, rather than worrying about particular flow specifications to meet.  
+
+If a good seal has been achieved with the mask, then such pressure changes would be air pulled from the filter.  However, if there is not a good seal (for instance, if the wearer wears a beard), then the pressure would more likely be from air pulled in through the beard, and that would be a cause for concern around providing protection for the wearer.
+
+This test does not ensure that there is no leak in the system, and that the box is meeting P95/P100 standards.  That test would require a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] for verification, and this model did pass such a verification.
+
+*WARNING*:  While the model we have built passes at a P100 level, we cannot validate that a model that we did not build and test would also pass.  Please do NOT assume that an unvalidated PAPR offers the appropriate level of protection, and we do NOT assume any liability for using this product under any condition.
