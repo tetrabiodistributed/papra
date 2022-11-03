@@ -1,0 +1,83 @@
+---
+title: "PAPRa Pressure Testing (October 2022)"
+linkTitle: "PAPRa Pressure Testing (October 2022)"
+weight: 1
+description: >
+  How we tested the PAPRa to determine the amount of air flow it produces
+---
+
+== Quick Synopsis
+
+After many months of testing, we have determined we do not have the equipment to ensure that we have the minimum 4CFM flow.  According to the fan specification for the CUI-154, the fan can output 33 CFM of air at peak, but that number does not account for the configuration we're using in the PAPRA.
+
+What we're going to do instead is to make sure that we're always maintaining positive pressure inside the system.  
+
+== Testing Configuration
+
+To ensure the unit operates at positive pressure, we'll use a pressure tap.  The tap consists of two parts, the collar to be printed in a flexible material like Ninjaflex and the tap itself printed in a stiff medium, like PLA or PETG.
+
+== Parts Required ==
+
+.Table Printed Parts
+|===
+| Part | Part Number | Quantity | Material | Supports required? | STL File Location
+
+| Pressure Tap 
+| P-TET-000156
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/80f9c96bf428a5c192f72a76c2c27213bab7424e/STLs/pressure_tap/P-TET-000156-Tap.stl
+| Collar
+| P-TET-000157
+| 1
+| Ninjaflex/TPU
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/80f9c96bf428a5c192f72a76c2c27213bab7424e/STLs/pressure_tap/P-TET-000157-Collar.stl
+
+|===
+
+.Table Vendor Bill Of Materials (BOM)
+|===
+| Count | Description | URL | Number in Package 
+| 1 
+| Risepro Manometer
+| https://www.amazon.com/gp/product/B01680C4C2
+| 1 
+
+| 1 
+| Pressure Tap (alternate)
+| https://www.mcmaster.com/5346K752/
+| 1 
+
+|===
+
+When assembled, the tap looks like:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-wz9JKcB/0/d959350f/5K/PXL_20221102_150947923-5K.jpg]
+image:https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-wz9JKcB/0/d959350f/L/PXL_20221102_150947923-L.jpg[]
+
+The Risepro manometer listed in the BOM provides a pressure tap; the second listing for the pressure tap is an alternative tap source if a different manometer is to be used.
+
+With that tap inline and using a pressure sensor, so long as the pressure never changes sign, then the system is closed.
+
+[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-vFgrNbC/0/dad2bc36/5K/PXL_20221102_151627512-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-vFgrNbC/0/dad2bc36/L/PXL_20221102_151627512-L.jpg[]
+
+When the June 2022 build is running at full power and with the pressure tap joined to the negative input port on the manometer, then the pressure never changes sign to positive pressure.  In the above image, the system is on, and recording -2.3 cm H2O.  According to the Performance Curve for the fan model, shown below, that 2.3 cm H2O puts the flow around 30 CFM, far in excess of the necessary 4CFM.
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-SVcKHdZ/0/a756149e/S/screenshot_from_2022-11-02_08-54-43-S.png[]
+
+However, when running at the least power available on the potentiometer, then the pressure drops to between 0.1 and 0.4 cm H2O.  In our testing, a strong inhalation can be about 1.0-1.5 cm H2O, so the device needs to be kept at at least 50% speed to ensure constant positive pressure inside the system.
+
+== Conclusion
+
+If pressure switches to positive when the wearer breathes heavily, air would be pulled into the system rather than always leaving it.  As such, one possible path of development is to ensure that the pressure sign does not flip inside the system, rather than worrying about particular flow specifications to meet.  This requirement could be achieved by connecting a pressure monitor to the potentiometer controlling fan speed.
+
+If a good seal has been achieved with the mask, then such pressure changes would be air pulled from the filter.  However, if there is not a good seal (for instance, if the wearer wears a beard), then the pressure would more likely be from air pulled in through the beard, and that would be a cause for concern around providing protection for the wearer.
+
+This test does not ensure that there is no leak in the system, and that the box is meeting P95/P100 standards.  That test would require a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] for verification, and this model did pass such a verification.
+
+This test demonstrates that putting a pressure measurement system in the mask to ensure constant positive pressure, with warnings or some other feedback if that pressure is not met, would be an ideal improvement for the device.
+
+*WARNING*:  While the model we have built passes at a P100 level, we cannot validate that a model that we did not build and test would also pass.  Please do NOT assume that an unvalidated PAPR offers the appropriate level of protection, and we do NOT assume any liability for using this product under any condition.
