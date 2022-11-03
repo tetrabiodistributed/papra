@@ -68,11 +68,11 @@ When the June 2022 build is running at full power and with the pressure tap join
 
 image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-SVcKHdZ/0/a756149e/S/screenshot_from_2022-11-02_08-54-43-S.png[]
 
-However, when running at the least power available on the potentiometer, then the pressure drops to between 0.1 and 0.4 cm H2O.  In our testing, a strong inhalation can be about 1.0-1.5 cm H2O, so the device needs to be kept at at least 50% speed to ensure contant positive pressure inside the system.
+However, when running at the least power available on the potentiometer, then the pressure drops to between 0.1 and 0.4 cm H2O.  In our testing, a strong inhalation can be about 1.0-1.5 cm H2O, so the device needs to be kept at at least 50% speed to ensure constant positive pressure inside the system.
 
 == Conclusion
 
-If pressure switches to positive when the wearer breathes heavily, indicating that air is being pulled into the system rather than always leaving it.  As such, one possible path of development is to ensure that the pressure sign does not flip inside the system, rather than worrying about particular flow specifications to meet.  
+If pressure switches to positive when the wearer breathes heavily, air would be pulled into the system rather than always leaving it.  As such, one possible path of development is to ensure that the pressure sign does not flip inside the system, rather than worrying about particular flow specifications to meet.  This requirement could be achieved by connecting a pressure monitor to the potentiometer controlling fan speed.
 
 If a good seal has been achieved with the mask, then such pressure changes would be air pulled from the filter.  However, if there is not a good seal (for instance, if the wearer wears a beard), then the pressure would more likely be from air pulled in through the beard, and that would be a cause for concern around providing protection for the wearer.
 
