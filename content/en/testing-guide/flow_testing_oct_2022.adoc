@@ -26,14 +26,14 @@ To ensure the unit operates at positive pressure, we'll use a pressure tap.  The
 | P-TET-000156
 | 1
 | PLA/PETG
-| No (Can have some in the nut pocket)
+| No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000140_MOLLE_Base.stl
 
 | Collar
 | P-TET-000157
 | 1
 | Ninjaflex/TPU
-| No (Can have some in the nut pocket)
+| No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000141_Filter_Interface.stl
 
 |===
