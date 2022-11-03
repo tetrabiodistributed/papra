@@ -1,6 +1,6 @@
 ---
-title: "PAPRa Flow Testing (October 2022)"
-linkTitle: "PAPRa Flow Testing (October 2022)"
+title: "PAPRa Pressure Testing (October 2022)"
+linkTitle: "PAPRa Pressure Testing (October 2022)"
 weight: 1
 description: >
   How we tested the PAPRa to determine the amount of air flow it produces

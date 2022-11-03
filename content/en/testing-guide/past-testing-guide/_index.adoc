@@ -1,0 +1,26 @@
+
+---
+title: "Past PAPRa Testing Guides"
+linkTitle: "Past PAPRa Testing Guides"
+weight: 1
+description: >
+  These are tests that were run in the past but have since been superceded by more current tests.  
+---
+
+== Quick Synopsis
+
+The tests shown here are previous, deprecated tests for flow.
+
+We came up with a series of tests to ensure that the PAPRa would be performant.  Performant means:
+
+1.  When worn, the wearer received N99 levels of protection. link:N95_testing_march_2021[This page] describes how we did that testing in March of 2021 on both individual fan units and on a tester wearing the entire PAPRa.
+2.  The unit must provide a minimum amount of flow.  Hooded PAPRs require a flow of 6 CFM; since the PAPRa is designed to provide airflow for a half facepiece, the flow requirement is 4 CFM, or 113.27 L/minfootnote:[link:https://multimedia.3m.com/mws/media/378601O/interpretation-of-inhalation-airflow-measurements.pdf[Interpretation of Inhalation Airflow Measurements for Respirator Design and Testing. L.L. Janssen, N.J. Anderson, P.E. Cassidy, R.A. Weber, and T.J. Nelson. Journal of the International Society for Respiratory Protection, Vol. 22, pp. 122-141] referencing Burgess WA, Reist PC (1969) Supply rates for powered air purifying respirators.   Am Ind Hyg Assoc J 30:1-6.].  link:flow_testing_may_2021[This page] shows that as of May 2021, PAPRas provide 67-92 L/min of airflow, depending on hose configuration, so more work is necessary to bring the units up to this flow specification. 
+
+== WARNING
+
+Before you wear a PAPRa in any kind of potentially hazardous situation, it is critical that you test it to ensure that the unit is performing at an adequate level.  We have personally worn these units for many hours and tested these units to ensure an N99 level of performance, but we cannot guarantee that the units you make will perform at the same levels.  We provide no warranty, implicit or explicit, that any such units will provide protection.  Please make sure to test your units accordingly and to your own level of comfort and in compliance with whatever local regulations require.
+
+
+
+
+

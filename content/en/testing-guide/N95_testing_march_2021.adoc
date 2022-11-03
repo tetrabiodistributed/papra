@@ -1,7 +1,7 @@
 
 ---
-title: "PAPRa Testing Guide (March 2021 Edition)"
-linkTitle: "PAPRa Testing Guide"
+title: "PAPRa N95 Testing Guide (March 2021 Edition)"
+linkTitle: "PAPRa N95 Testing Guide (March 2021 Edition)"
 weight: 1
 description: >
   How we tested the PAPRa to arrive at claims of N95/N99 levels of protection
