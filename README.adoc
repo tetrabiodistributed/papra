@@ -29,3 +29,8 @@ Note: If you accidentally cloned without using `--recurse-submodules`, you can r
 ----
 . Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
 
+== Licensing 
+
+Code licensed link:LICENSE[MIT]
+
+Docs licensed link:https://creativecommons.org/licenses/by/4.0/[CC BY 4.0]
