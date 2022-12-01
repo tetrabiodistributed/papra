@@ -1,0 +1,354 @@
+%% Hardware Metapaper Template for the Journal of Open Hardware, v.1
+
+\documentclass[a4paper]{article}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}
+
+\usepackage{longtable,booktabs}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+%% \date{}
+
+
+\title{Template for Hardware Metapaper}
+\usepackage{authblk} 
+\author[1]{Author 1}
+\author[2]{Author 2} 
+\affil[1]{Author 1, Open Hardware project affiliation} 
+\affil[2]{Author 2, institutional affiliation}
+\renewcommand\Affilfont{\itshape\small}
+
+\begin{document}
+\maketitle
+
+
+% Include your abstract here
+\begin{abstract}
+A short, 300 words summary of the hardware being described: what problem(s) the hardware addresses, what it does, how it technically/methodologically advances the state-of-the-art, how it was designed and implemented, and its applicability to other issues/research/areas of reuse.
+\end{abstract}
+
+\begin{longtable}[]{@{}l@{}}
+\begin{minipage}[t]{0.97\columnwidth}\raggedright\strut
+
+
+\subsection{Metadata Overview}\label{h.akaipbqoqfs8}
+
+Main design files: link to repository with design files and assembly instructions
+
+Target group: scientists in biology, engineers for example
+
+Skills required: 3D printing - easy; CNC milling of aluminum - advanced;
+
+Replication\textsuperscript{\protect\hyperlink{cmnt1}{{[}a{]}}}{:
+}{www.irnas.eu for instance.}
+
+See section ``Build Details'' for more detail.
+
+
+\subsection{Keywords}\label{h.kdz351yp7g7c}
+
+{(required)}{~bioprinting; open source; extruder;}
+
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+
+\subsection{Introduction}\label{h.pnj38xyr5dyy}
+
+{Bioprinting is a fast growing field, APPLICATION, TECHNOLOGY, why OS...}
+
+
+\subsection{Overall Implementation and design}\label{h.1u7vph94gfbt}
+
+The hardware of Vitaprint is divided into two parts, namely the CNC part and the extruder. The CNC construction the miniCNC design by AL was used. MiniCNC is a small and robust version of a standard 3-axis CNC router. The support is made of steel and holds in place the aluminium head and table. Stainless steel rods are used with ball bearings to ensure smooth movement. Linear motion is controlled by three Nema32 stepper motors coupled with ball screws.
+
+The second part of the Vitaprint hardware is the syringe extruder, designed by LB. The extruder is entirely built out of aluminium. Most of the parts are milled out of 5mm aluminium plate to keep the manufacturing easy. Two parts are manufactured out of thicker aluminium and require more advanced CNC milling skills.
+
+The extruder is designed to fit the outer dimensions of standard 5ml syringes. The syringe is placed firmly inside the extruder base and fixed with a front cap without any screws. A narrow strip of EPDM is used as a spring to keep the syringe in place. The extruder head has milled holes for standard heaters that are used in hot ends of other 3D printers. Nema14 non-captive linear stepper motor is used to move the syringe piston.
+
+A common feature of most high-end 3D bioprinters is multiple-extruder technology and fast extruder switching. A 24BYJ-48 stepper motor was therefore added to each extruder to add the possibility to move each extruder in the Z-direction separately.
+
+
+\subsubsection{Universality of the design}\label{h.q32f2nclh4e5}
+
+One of the biggest advantages that Vitaprint brings is that each extruder is a self-contained unit. First and foremost, the user is able to add as many extruders as needed to the head without significant modifications of any of the hardware pieces. Moreover, the extruder unit can be attached to any other CNC system with very little modification. This means that the user can build a Vitaprint extruder unit for their own CNC router.
+
+
+\section{(2) Quality control}\label{h.f8237gmzmwc6}
+
+\subsection{Safety}\label{h.v60aduckfisj}
+
+Describe all relevant safety issues or reference to a risk assessment
+if included in the hardware documentation. Detail what safety
+considerations have been included in the hardware design and how these
+features have been tested, including any official safety standards or
+criteria that were used in this assessment. If appropriate, discuss the
+wider context of use of the hardware and safety issues or risks that may
+arise in the use environment.
+
+
+\subsection{Calibration}\label{h.kr90wh14sxr5}
+
+If the hardware is used for measurements, please detail here how the
+reliability of measurements, or other hardware properties that are
+relevant for measurements, has been quantified and explain the
+results. Be clear about the processes or procedures used to compare the
+hardware to a standard, as well as the description of the standard
+calibrated against.
+
+Detail the general procedures in place for users to calibrate their
+hardware before or during use. What methods can be used to relate user
+generated data to data from other sources? 
+
+Note: Detailed instructions belong in documentation; here, provide
+insight into how and why the calibration is valid.
+
+
+\subsubsection{Subsections}\label{h.6mrkl1u5j8xc}
+
+We encourage the use of subsections within all sections to increase
+clarity.
+
+
+\subsection{General testing}\label{h.wbekh9ay82yu}
+
+In this section, details can be provided on the testing of hardware
+functionalities, that are not directly essential for precision
+operation of the hardware in the given context (which are in turn,
+where applicable, handled under Calibration), such as automated
+movements to position the hardware, repeatability of tool exchanges,
+recyclability, water-tightness, weight or other possibly relevant
+characteristics. We encourage the authors to characterise all
+appropriate functionalities of the hardware, if not already described
+elsewhere (add reference instead). The testing should define the
+safe/reliable limits in which the components can be operated (e.g. step
+size and repeatability of linear motion, force ranges, ratio of devices
+with leaks when built in a workshop, etc).This will enhance the
+usability of the hardware or method in other contexts.
+
+Again: Detailed instructions belong in documentation; here, provide a
+summary ~instead.
+
+
+\section{(3) Application}\label{h.f78bi3oom0mu}
+
+\subsection{Use case(s)}\label{h.4q5g9edishy3}
+
+Describe at least one example of an application of your hardware. This
+should include some evidence of output, e.g. data produced by the use of
+the device or a picture of other types of results. Outline how the
+quality control in the previous section enables the use of the hardware
+in this context. We encourage the inclusion of experiment results or the
+reference to a publication (published or to-be-published) where these
+results are detailed. We also encourage pointers to ongoing work.
+
+Note: In the spirit of openness, we require authors to provide (or link
+to) datasets along with the submitted graphic representations. We do not
+impose arbitrary limits on inclusion of data so please include
+sufficient empirical detail and results to ensure your data can be
+easily verified, analysed and clearly interpreted by the wider
+scientific community.
+
+
+\subsubsection{Subsections}\label{h.qz4dez1pbkv1}
+
+We encourage the demonstration of different use cases, divided by
+sub-sections to guide the reader.
+
+
+\subsection{Reuse potential and adaptability}\label{h.6wkumyl0ejrh}
+
+Please describe in as much detail as possible the ways in which the
+hardware could be reused by other researchers both within and outside of
+your field. This should include the use cases for the hardware, and also
+details of how the hardware might be modified or extended (including how
+contributors should contact you) if appropriate.Refer to section
+``Ease of build'' where necessary.
+
+Please provide your thoughts on the adaptability of the hardware
+design. What tools and procedures would it require for other users to
+modify your design without your help in order to adapt them for
+foreseeable or even unforeseeable use.
+
+Also you must include details of what support mechanisms there are in
+place for this hardware and software (even if there is no support or
+support community).
+
+
+\section{(4) Build Details}\label{h.l8i9vokvs0bj}
+
+\subsection{Availability of materials and methods}\label{h.60suejv0jlzi}
+
+Summarise what materials have been used to construct the hardware and
+what methods to process the materials as well as the assembly. Provide
+more details or references where important materials or methods are
+non-standard, not globally available or produced only by one
+manufacturer.
+
+
+\subsection{Ease of build}\label{h.wg823sgyb1e4}
+
+Have any measures been taken in the design to make the hardware easy to
+build for other users e.g. reduction of parts, features in the design
+to make the hardware assembly more reliable?
+
+
+\subsection{Operating software and peripherals}\label{h.uz77dixfh5i4}
+
+If hardware requires software, details on the operating software and
+programming language - Please include minimum version compatibility.
+Additional system requirements, e.g. memory, disk space, processor,
+input or output devices.
+
+If the hardware does not require software, detail any required
+supporting processes or protocols required for use.
+
+
+\subsection{Dependencies}\label{h.vr0vnjs8z9ar}
+
+E.g. other hardware or software projects, modular components,
+libraries, frameworks, incl. minimum version compatibility.
+
+
+\subsection{Hardware documentation and files location:}\label{h.nbisrsde6sc3}
+
+Archive for hardware documentation and build files (required.
+We recommend the use the DocuBricks repository, please see author guide for criteria and alternative
+repositories.) Note: We require the inclusion of modifiable design
+files as well as a detailed documentation of the functionality of the
+hardware with assembly instructions. This will be assessed as part of
+the journal peer review process.
+
+Name: The name of the archive
+
+Persistent identifier: e.g. DOI, etc.
+
+Licence: Open hardware license under which the documentation and
+files are licensed - see author guide for more information
+
+Publisher: Name of the person who deposited the documentation
+
+Date published: dd/mm/yy
+
+Modifiable design files (if different from above)
+
+Name:The name of the emulation environment
+
+Persistent identifier: e.g. DOI, handle, PURL, etc.
+
+Licence: Open license under which the software is licensed here
+
+Publisher: Name of the person who deposited the documentation
+
+Date published: dd/mm/yy
+
+Software code repository (e.g. SourceForge, GitHub etc.)
+(required)
+
+Name: The name of the code repository
+
+Identifier: {The identifier (or URI) used by the repository
+
+Licence: Open license under which the software is licensed
+
+Date published: dd/mm/yy
+
+
+\section{(5) Discussion}\label{h.90jl7wm65t65}
+
+\subsection{Conclusions}\label{h.h3fr33ylzsnh}
+
+Conclusions, learned lessons from design iterations, learned lessons
+from use cases, summary of results.
+
+
+\subsection{Future Work}\label{h.neocsr410zj}
+
+Further work pursued by the authors or collaborators; known issues;
+suggestions for others to improve on the hardware design or testing,,
+given what you have learned from your design iterations.
+
+
+\subsection{Paper author contributions}\label{h.fy8hbipy6kwe}
+
+Task (e.g. design, assembly, use cases contribution, documentation,
+paper writing), contribution, author name.
+
+
+\subsection{Acknowledgements}\label{h.gu3yyarx72d6}
+
+Please add any relevant acknowledgements to anyone else who supported
+the project in which the hardware was created, but did not work directly
+on the hardware itself.
+
+Please list anyone who helped to create the hardware and software (who
+may also not be an author of this paper), including their roles and
+affiliations.
+
+
+\subsection{Funding statement}\label{h.4u1a7tugh2om}
+
+If the hardware resulted from funded research please give the funder
+and grant number.
+
+
+\subsection{Competing interests}\label{h.q1j1rznb43fl}
+
+If any of the authors have any competing
+interests then these must be declared. The authors' initials should be used to denote
+differing competing interests. For example: ``BH has minority shares in
+{[}company name{]}, which part funded the research grant for this
+project. All other authors have no competing interests.''
+
+If there are no competing interests, please add the statement:
+
+``The authors declare that they have no competing interests.''
+
+
+\subsection{References}\label{h.6fml9tf50r5c}
+
+Please enter references in the Harvard style and include a DOI where
+available, citing them in the text with author and year.
+
+
+\section{Copyright notice}\label{h.jm5gcqv4g8x0}
+
+Authors who publish with this journal agree to the following terms:
+
+Authors retain copyright and grant the journal right of first
+publication with the work simultaneously licensed under
+a Creative Commons Attribution License that allows others to share the work with
+an acknowledgement of the work's authorship and initial publication in
+this journal.
+
+Authors are able to enter into separate, additional contractual
+arrangements for the non-exclusive distribution of the journal's
+published version of the work (e.g., post it to an institutional
+repository or publish it in a book), with an acknowledgement of its
+initial publication in this journal.
+
+By submitting this paper you agree to the terms of this Copyright
+Notice, which will apply to this submission if and when it is published
+by this journal.
+
+
+\end{document}
