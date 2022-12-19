@@ -33,17 +33,42 @@
 &lt;h2 id="_assembly_diagram">Assembly Diagram&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
-&lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
+&lt;script type="text/javascript" src= '/papra//js/pdf-js/build/pdf.js'>&lt;/script>
 &lt;style>
 #the-canvas {
 border: 1px solid black;
 direction: ltr;
 width: 100%;
 height: auto;
+display: none;
 }
-#paginator{
+#paginator {
+display: none;
 text-align: center;
 margin-bottom: 10px;
+}
+#loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+#loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
 }
 &lt;/style>
 &lt;div id="paginator">
@@ -53,21 +78,30 @@ margin-bottom: 10px;
 &lt;span>Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
 &lt;/div>
 &lt;div id="embed-pdf-container">
+&lt;div id="loadingWrapper">
+&lt;div id="loading">&lt;/div>
+&lt;/div>
 &lt;canvas id="the-canvas">&lt;/canvas>
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
 var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001103-1 Fan Box Drawing.pdf';
-var hidePaginator = "true";
+var hidePaginator = "true" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
 var pdfDoc = null,
-pageNum = 1,
+pageNum = selectedPageNum,
 pageRendering = false,
 pageNumPending = null,
 scale = 3,
 canvas = document.getElementById('the-canvas'),
-ctx = canvas.getContext('2d');
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("paginator"),
+loadingWrapper = document.getElementById('loadingWrapper');
+showPaginator();
+showLoader();
 function renderPage(num) {
 pageRendering = true;
 pdfDoc.getPage(num).then(function(page) {
@@ -81,6 +115,7 @@ viewport: viewport
 var renderTask = page.render(renderContext);
 renderTask.promise.then(function() {
 pageRendering = false;
+showContent();
 if (pageNumPending !== null) {
 renderPage(pageNumPending);
 pageNumPending = null;
@@ -89,15 +124,25 @@ pageNumPending = null;
 });
 document.getElementById('page_num').textContent = num;
 }
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
 function queueRenderPage(num) {
 if (pageRendering) {
 pageNumPending = num;
 } else {
 renderPage(num);
 }
-}
-if (hidePaginator) {
-document.getElementById("paginator").style.display = 'none';
 }
 function onPrevPage() {
 if (pageNum &lt;= 1) {
@@ -117,7 +162,11 @@ queueRenderPage(pageNum);
 document.getElementById('next').addEventListener('click', onNextPage);
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 pdfDoc = pdfDoc_;
-document.getElementById('page_count').textContent = pdfDoc.numPages;
+var numPages = pdfDoc.numPages;
+document.getElementById('page_count').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
 renderPage(pageNum);
 });
 }
@@ -556,17 +605,42 @@ renderPage(pageNum);
 &lt;h2 id="_board_diagram">Board Diagram&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
-&lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
+&lt;script type="text/javascript" src= '/papra//js/pdf-js/build/pdf.js'>&lt;/script>
 &lt;style>
 #the-canvas {
 border: 1px solid black;
 direction: ltr;
 width: 100%;
 height: auto;
+display: none;
 }
-#paginator{
+#paginator {
+display: none;
 text-align: center;
 margin-bottom: 10px;
+}
+#loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+#loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
 }
 &lt;/style>
 &lt;div id="paginator">
@@ -576,21 +650,30 @@ margin-bottom: 10px;
 &lt;span>Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
 &lt;/div>
 &lt;div id="embed-pdf-container">
+&lt;div id="loadingWrapper">
+&lt;div id="loading">&lt;/div>
+&lt;/div>
 &lt;canvas id="the-canvas">&lt;/canvas>
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
 var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001101-0 Papra Fan Box PCBA Drawing.pdf';
-var hidePaginator = "true";
+var hidePaginator = "true" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
 var pdfDoc = null,
-pageNum = 1,
+pageNum = selectedPageNum,
 pageRendering = false,
 pageNumPending = null,
 scale = 3,
 canvas = document.getElementById('the-canvas'),
-ctx = canvas.getContext('2d');
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("paginator"),
+loadingWrapper = document.getElementById('loadingWrapper');
+showPaginator();
+showLoader();
 function renderPage(num) {
 pageRendering = true;
 pdfDoc.getPage(num).then(function(page) {
@@ -604,6 +687,7 @@ viewport: viewport
 var renderTask = page.render(renderContext);
 renderTask.promise.then(function() {
 pageRendering = false;
+showContent();
 if (pageNumPending !== null) {
 renderPage(pageNumPending);
 pageNumPending = null;
@@ -612,15 +696,25 @@ pageNumPending = null;
 });
 document.getElementById('page_num').textContent = num;
 }
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
 function queueRenderPage(num) {
 if (pageRendering) {
 pageNumPending = num;
 } else {
 renderPage(num);
 }
-}
-if (hidePaginator) {
-document.getElementById("paginator").style.display = 'none';
 }
 function onPrevPage() {
 if (pageNum &lt;= 1) {
@@ -640,7 +734,11 @@ queueRenderPage(pageNum);
 document.getElementById('next').addEventListener('click', onNextPage);
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 pdfDoc = pdfDoc_;
-document.getElementById('page_count').textContent = pdfDoc.numPages;
+var numPages = pdfDoc.numPages;
+document.getElementById('page_count').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
 renderPage(pageNum);
 });
 }
@@ -679,17 +777,42 @@ renderPage(pageNum);
 &lt;h2 id="_assembly_diagram">Assembly Diagram&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
-&lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
+&lt;script type="text/javascript" src= '/papra//js/pdf-js/build/pdf.js'>&lt;/script>
 &lt;style>
 #the-canvas {
 border: 1px solid black;
 direction: ltr;
 width: 100%;
 height: auto;
+display: none;
 }
-#paginator{
+#paginator {
+display: none;
 text-align: center;
 margin-bottom: 10px;
+}
+#loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+#loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
 }
 &lt;/style>
 &lt;div id="paginator">
@@ -699,21 +822,30 @@ margin-bottom: 10px;
 &lt;span>Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
 &lt;/div>
 &lt;div id="embed-pdf-container">
+&lt;div id="loadingWrapper">
+&lt;div id="loading">&lt;/div>
+&lt;/div>
 &lt;canvas id="the-canvas">&lt;/canvas>
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
 var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '\/D-TET-001102-1 M12 PAPRA Controller Drawing.pdf';
-var hidePaginator = "true";
+var hidePaginator = "true" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
 var pdfDoc = null,
-pageNum = 1,
+pageNum = selectedPageNum,
 pageRendering = false,
 pageNumPending = null,
 scale = 3,
 canvas = document.getElementById('the-canvas'),
-ctx = canvas.getContext('2d');
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("paginator"),
+loadingWrapper = document.getElementById('loadingWrapper');
+showPaginator();
+showLoader();
 function renderPage(num) {
 pageRendering = true;
 pdfDoc.getPage(num).then(function(page) {
@@ -727,6 +859,7 @@ viewport: viewport
 var renderTask = page.render(renderContext);
 renderTask.promise.then(function() {
 pageRendering = false;
+showContent();
 if (pageNumPending !== null) {
 renderPage(pageNumPending);
 pageNumPending = null;
@@ -735,15 +868,25 @@ pageNumPending = null;
 });
 document.getElementById('page_num').textContent = num;
 }
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
 function queueRenderPage(num) {
 if (pageRendering) {
 pageNumPending = num;
 } else {
 renderPage(num);
 }
-}
-if (hidePaginator) {
-document.getElementById("paginator").style.display = 'none';
 }
 function onPrevPage() {
 if (pageNum &lt;= 1) {
@@ -763,7 +906,11 @@ queueRenderPage(pageNum);
 document.getElementById('next').addEventListener('click', onNextPage);
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 pdfDoc = pdfDoc_;
-document.getElementById('page_count').textContent = pdfDoc.numPages;
+var numPages = pdfDoc.numPages;
+document.getElementById('page_count').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
 renderPage(pageNum);
 });
 }
@@ -1057,113 +1204,6 @@ renderPage(pageNum);
 &lt;p>Congratulations! You have built a Tetra PAPRa M12 Controller Box v3!&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Past-Builds: PAPRa M12 Board Diagram (Mar 2021)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/m12-circuit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/m12-circuit/</guid><description>
-&lt;div class="sect1">
-&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
-&lt;div class="sectionbody">
-&lt;div class="paragraph">
-&lt;p>The following is the board diagram for the M12 controller PCB. Further information can be found in &lt;a href="https://github.com/tetrabiodistributed/PAPRA-PCB">the PAPRA-PCB project.&lt;/a>&lt;/p>
-&lt;/div>
-&lt;div class="paragraph">
-&lt;p>&lt;strong>WARNING:&lt;/strong> we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so. The only way to truly test one of these devices using something like a &lt;a href="https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/">Portacount&lt;/a> under controlled conditions.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="sect1">
-&lt;h2 id="_board_diagram">Board Diagram&lt;/h2>
-&lt;div class="sectionbody">
-&lt;div class="paragraph">
-&lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
-&lt;style>
-#the-canvas {
-border: 1px solid black;
-direction: ltr;
-width: 100%;
-height: auto;
-}
-#paginator{
-text-align: center;
-margin-bottom: 10px;
-}
-&lt;/style>
-&lt;div id="paginator">
-&lt;button id="prev">Previous&lt;/button>
-&lt;button id="next">Next&lt;/button>
-&amp;nbsp; &amp;nbsp;
-&lt;span>Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
-&lt;/div>
-&lt;div id="embed-pdf-container">
-&lt;canvas id="the-canvas">&lt;/canvas>
-&lt;/div>
-&lt;script type="text/javascript">
-window.onload = function() {
-var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001100-0 Papra PCBA Drawing.pdf';
-var hidePaginator = "true";
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
-var pdfDoc = null,
-pageNum = 1,
-pageRendering = false,
-pageNumPending = null,
-scale = 3,
-canvas = document.getElementById('the-canvas'),
-ctx = canvas.getContext('2d');
-function renderPage(num) {
-pageRendering = true;
-pdfDoc.getPage(num).then(function(page) {
-var viewport = page.getViewport({scale: scale});
-canvas.height = viewport.height;
-canvas.width = viewport.width;
-var renderContext = {
-canvasContext: ctx,
-viewport: viewport
-};
-var renderTask = page.render(renderContext);
-renderTask.promise.then(function() {
-pageRendering = false;
-if (pageNumPending !== null) {
-renderPage(pageNumPending);
-pageNumPending = null;
-}
-});
-});
-document.getElementById('page_num').textContent = num;
-}
-function queueRenderPage(num) {
-if (pageRendering) {
-pageNumPending = num;
-} else {
-renderPage(num);
-}
-}
-if (hidePaginator) {
-document.getElementById("paginator").style.display = 'none';
-}
-function onPrevPage() {
-if (pageNum &lt;= 1) {
-return;
-}
-pageNum--;
-queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-function onNextPage() {
-if (pageNum >= pdfDoc.numPages) {
-return;
-}
-pageNum++;
-queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-pdfDoc = pdfDoc_;
-document.getElementById('page_count').textContent = pdfDoc.numPages;
-renderPage(pageNum);
-});
-}
-&lt;/script>
-&lt;/div>
-&lt;/div>
 &lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa Mask</title><link>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/mask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/mar-2021/mask/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
@@ -1193,17 +1233,42 @@ renderPage(pageNum);
 &lt;h2 id="_assembly_diagram">Assembly Diagram&lt;/h2>
 &lt;div class="sectionbody">
 &lt;div class="paragraph">
-&lt;script type="text/javascript" src= "/papra//js/pdf-js/build/pdf.js">&lt;/script>
+&lt;script type="text/javascript" src= '/papra//js/pdf-js/build/pdf.js'>&lt;/script>
 &lt;style>
 #the-canvas {
 border: 1px solid black;
 direction: ltr;
 width: 100%;
 height: auto;
+display: none;
 }
-#paginator{
+#paginator {
+display: none;
 text-align: center;
 margin-bottom: 10px;
+}
+#loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+#loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
 }
 &lt;/style>
 &lt;div id="paginator">
@@ -1213,21 +1278,30 @@ margin-bottom: 10px;
 &lt;span>Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
 &lt;/div>
 &lt;div id="embed-pdf-container">
+&lt;div id="loadingWrapper">
+&lt;div id="loading">&lt;/div>
+&lt;/div>
 &lt;canvas id="the-canvas">&lt;/canvas>
 &lt;/div>
 &lt;script type="text/javascript">
 window.onload = function() {
 var url = "https:\/\/tetrabiodistributed.github.io\/papra" + '.\/D-TET-001104-0 Mask Assembly Drawing.pdf';
-var hidePaginator = "true";
+var hidePaginator = "true" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tetrabiodistributed.github.io\/papra" + '/js/pdf-js/build/pdf.worker.js';
 var pdfDoc = null,
-pageNum = 1,
+pageNum = selectedPageNum,
 pageRendering = false,
 pageNumPending = null,
 scale = 3,
 canvas = document.getElementById('the-canvas'),
-ctx = canvas.getContext('2d');
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("paginator"),
+loadingWrapper = document.getElementById('loadingWrapper');
+showPaginator();
+showLoader();
 function renderPage(num) {
 pageRendering = true;
 pdfDoc.getPage(num).then(function(page) {
@@ -1241,6 +1315,7 @@ viewport: viewport
 var renderTask = page.render(renderContext);
 renderTask.promise.then(function() {
 pageRendering = false;
+showContent();
 if (pageNumPending !== null) {
 renderPage(pageNumPending);
 pageNumPending = null;
@@ -1249,15 +1324,25 @@ pageNumPending = null;
 });
 document.getElementById('page_num').textContent = num;
 }
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
 function queueRenderPage(num) {
 if (pageRendering) {
 pageNumPending = num;
 } else {
 renderPage(num);
 }
-}
-if (hidePaginator) {
-document.getElementById("paginator").style.display = 'none';
 }
 function onPrevPage() {
 if (pageNum &lt;= 1) {
@@ -1277,7 +1362,11 @@ queueRenderPage(pageNum);
 document.getElementById('next').addEventListener('click', onNextPage);
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 pdfDoc = pdfDoc_;
-document.getElementById('page_count').textContent = pdfDoc.numPages;
+var numPages = pdfDoc.numPages;
+document.getElementById('page_count').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
 renderPage(pageNum);
 });
 }
