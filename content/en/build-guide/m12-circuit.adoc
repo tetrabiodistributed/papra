@@ -1,10 +1,9 @@
 ---
-title: "PAPRa M12 Board Diagram (Mar 2021)"
-linkTitle: "PAPRa M12 Board Diagram (Mar 2021)"
+title: "PAPRa M12 PCB"
+linkTitle: "PAPRa M12 PCB"
 weight: 1
-toc_hide: true
 description: >
-  The board diagram for the Tetra PAPRa M12 controller
+  The printed circuit board for the Tetra PAPRa M12 controller
 ---
 
 == Quick Synopsis ==
