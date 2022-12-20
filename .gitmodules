@@ -5,4 +5,4 @@
 
 [submodule "extras/pdf_shortcodes"]
 	path = extras/pdf_shortcodes
-	url = https://github.com/anvithks/hugo-embed-pdf-shortcode
+	url = https://github.com/mmroden/hugo-embed-pdf-shortcode

@@ -50,19 +50,13 @@ You will need these components.  Prices fluctuate, and so are not included here.
 | 1
 | CPAP Hose (possible candidate-- this product is 3 feet, you may want something longer or shorter.  Refer to https://github.com/tetrabiodistributed/papra/issues/48 for alternatives)
 | https://www.amazon.com/Gray-Standard-CPAP-Tubing-foot/dp/B073GBQN73
-| 1, 3ft
+| 200 yards
 
 
 | 2 
 | Stiff Ventilator hosing (999) 22mm 
 | https://hitechmedical.net/products/999-2/
-| 1 length, 200 yards
-
-
-| 1
-| 3M 6200 Model Mask
-| https://www.amazon.com/3M-Respirator-6200-Respiratory-Protection/dp/B007JZ1N00
-| 1
+| 200 yards
 
 |===
 
