@@ -62,7 +62,7 @@ You will need these components.  Prices fluctuate, and so are not included here.
 
 | 1
 | Circuit board
-| https://github.com/tetrabiodistributed/PAPRA-PCB (v0.5)
+| https://github.com/tetrabiodistributed/PAPRA-PCB/tree/0.5 (v0.5)
 | 1
 
 | 1 
