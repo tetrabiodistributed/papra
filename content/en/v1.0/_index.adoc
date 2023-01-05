@@ -5,6 +5,8 @@ linkTitle: "PAPRa Build Guide"
 weight: 1
 description: >
   How to build the June 2022 version of the Tetra PAPR.
+aliases:
+  - /v1.0
 ---
 
 == Quick Synopsis
