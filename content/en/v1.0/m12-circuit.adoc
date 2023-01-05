@@ -1,0 +1,18 @@
+---
+title: "PAPRa M12 PCB"
+linkTitle: "PAPRa M12 PCB"
+weight: 1
+description: >
+  The printed circuit board for the Tetra PAPRa M12 controller
+---
+
+== Quick Synopsis ==
+
+The following is the board diagram for the M12 controller PCB.  Further information can be found in https://github.com/tetrabiodistributed/PAPRA-PCB[the PAPRA-PCB project.]
+
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+== Board Diagram == 
+
+{{< embed-pdf hidePaginator=true url="./D-TET-001100-0 Papra PCBA Drawing.pdf" >}}
+
