@@ -1,0 +1,183 @@
+---
+title: "How to build a PAPRa m12 Battery Controller (Aug 2021)"
+linkTitle: "PAPRa m12 Battery Controller"
+weight: 1
+description: >
+  How-To guide for building the Tetra PAPRa m12 battery controller (August 2021 version).
+aliases:
+  - /v1.0/m12
+  - /1.0/m12
+---
+
+== Quick Synopsis
+
+The Tetra Powered Air Purified Respirator requires power to function, and the m12 battery controller provides that power for these models.  The controller consists of internal circuitry, a potentiometer to adjust fan speeds, a cable to connect to the fan box, and a port for a Milwaulkee M12 Battery to be inserted.
+
+This build differs from the v1 version in that it uses a custom-built circuitboard to remove many of the difficult steps of the build, add a battery charge indicator, and a separate power port for use in a car.  If you cannot get link:../m12-circuit[the custom board], then please refer to the v1 version of this guide.
+
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+== Parts Required
+
+This build will require printed parts, purchased parts, and several tools.  Here is a picture of all the components used in this build:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/XL/DSC00035-XL.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/L/DSC00035-L.jpg[]
+
+And the assembly diagram can be found link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/D-TET-001102-2%20M12%20PAPRA%20Controller%20Drawing.pdf[here].  Note that this assembly calls for version 0.7 of the board.
+
+
+## 3D Printed Parts
+
+These parts should be printed at 0.2 spacing:
+
+.Table Printed Parts
+|===
+| Part | Quantity | Material | Supports Required? | STL File Location
+
+| The Battery Housing
+| 1 
+| PLA/PETG
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000132-1_M12_Battery_Housing.stl
+
+| The Board Housing
+| 1 
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000131-1_M12_Board_Housing.stl
+
+| The Knob
+| 1 
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000100-1_M12_Controller_Knob.stl
+
+|===
+
+## Bill Of Materials
+
+You will need these components.  Prices fluctuate, and so are not included here.  Alternative versions can be sourced, and we welcome edits for tested alternatives.
+
+.Table Bill Of Materials (BOM)
+|===
+| Count | Description | URL | Number in Package 
+
+| 1
+| Circuit board
+| https://github.com/tetrabiodistributed/PAPRA-PCB/tree/0.7 (v0.7)
+| 1
+
+| 1 
+| 2Pack Upgraded 3.5Ah M 12 Battery for Milwaukee 12V Battery Lithium XC M 12B Batteries 
+| https://www.amazon.com/gp/product/B082WW688D/ 
+| 2 
+
+| 3
+| Washers
+| Should come with the board
+| 3
+
+| 3
+| Nuts
+| Should come with the board
+| 3
+
+|===
+
+## Recommeded Tools
+
+These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:
+
+.Table Tool List
+|===
+| Description | URL
+
+| 4-3/4 In. Bent Long Nose Pliers
+| https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html
+
+| A hex screwdriver for the m4 screws
+| https://www.amazon.com/gp/product/B007ICWAJC
+
+| X-acto knife
+| https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ
+
+| A deburring tool
+| https://www.amazon.com/gp/product/B01L2XR4P2
+
+| A 10mm socket wrench 
+| https://www.amazon.com/gp/product/B0009ORXRU/
+
+|===
+
+== Build Instructions
+
+Building this version of the controller is more a matter of ensuring that the Controller Box was printed cleanly and all support material is properly removed.  
+
+Attach the light pipe to the board:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-KWzR5L3/0/fd852e6c/5K/DSC00040-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-KWzR5L3/0/fd852e6c/L/DSC00040-L.jpg[]
+
+You may need to use the bent-nose pliers to get the pipe in place:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jrz52MZ/0/1e9c50a7/5K/DSC00041-5K.jpg]
+image:https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jrz52MZ/0/1e9c50a7/L/DSC00041-L.jpg[]
+
+Seat the board into the board housing:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-GSwnDLS/0/e3707f64/5K/DSC00043-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-GSwnDLS/0/e3707f64/L/DSC00043-L.jpg[]
+
+Place the washer over the power port, and then finger tighten a hex nut over the same power port to hold the Plate in place:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-NX9pppF/0/db72b626/5K/DSC00044-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-NX9pppF/0/db72b626/L/DSC00044-L.jpg[]
+
+Repeat for the potentiometer knob:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-QL7qL76/0/93b633d5/5K/DSC00046-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-QL7qL76/0/93b633d5/L/DSC00046-L.jpg[]
+
+Put the battery housing over the board housing, with the power plugs going through the spaces in the battery housing:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-VKLPdk3/0/b95e5132/5K/DSC00047-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-VKLPdk3/0/b95e5132/L/DSC00047-L.jpg[]
+
+Place square nuts into the square nut sockets on the battery housing:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-here: Build-Party/i-vjSnpf6/0/971cd061/5K/DSC00050-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-vjSnpf6/0/971cd061/L/DSC00050-L.jpg[]
+
+Screw in the screws into the board housing to secure the board housing to the battery housing:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-SvVXT9h/0/f8ec575b/5K/DSC00055-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-SvVXT9h/0/f8ec575b/L/DSC00055-L.jpg[]
+
+Use the bent-nose pliers to attach the nut to the DC jack in the battery housing:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TT6wQVn/0/54836dce/5K/DSC00060-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TT6wQVn/0/54836dce/L/DSC00060-L.jpg[]
+
+Use the socket wrenches to secure nuts onto the various ports:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-sSvqRdm/0/430d66c1/5K/DSC00062-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-sSvqRdm/0/430d66c1/L/DSC00062-L.jpg[]
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-pvVBhQW/0/a8f3290d/5K/DSC00064-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-pvVBhQW/0/a8f3290d/L/DSC00064-L.jpg[]
+
+Attach the potentiometer printed knob onto the potentiometer knob:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-6B5hrTV/0/23decce2/5K/DSC00065-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-6B5hrTV/0/23decce2/L/DSC00065-L.jpg[]
+
+When the battery is in the housing and the potentiometer turned on, a battery life indicator should turn on:
+
+[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/5K/DSC00066-5K.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/L/DSC00066-L.jpg[]
+
+Congratulations!  You have built a Tetra PAPRa M12 Controller Box v4 (August 2021)!
+
+
+
