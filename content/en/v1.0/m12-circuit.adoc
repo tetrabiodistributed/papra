@@ -4,6 +4,9 @@ linkTitle: "PAPRa M12 PCB"
 weight: 1
 description: >
   The printed circuit board for the Tetra PAPRa M12 controller
+aliases:
+  - /v1.0/m12-circuit
+  - /1.0/m12-circuit
 ---
 
 == Quick Synopsis ==

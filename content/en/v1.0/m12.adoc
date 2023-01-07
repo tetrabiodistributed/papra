@@ -4,6 +4,9 @@ linkTitle: "PAPRa m12 Battery Controller"
 weight: 1
 description: >
   How-To guide for building the Tetra PAPRa m12 battery controller (August 2021 version).
+aliases:
+  - /v1.0/m12
+  - /1.0/m12
 ---
 
 == Quick Synopsis
