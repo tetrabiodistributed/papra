@@ -9,8 +9,8 @@ mkdir -p static/js
 cp -R extras/pdf_shortcodes/static/js/pdf-js static/js/
 
 if [ ! -r ./node_modules ]; then
-    docker run --rm --volume $PWD:/src -w "/src" capsulecorplab/hugo-asciidoctor-plantuml:0.76.5-alpine 'npm ci'
+    podman run --rm --volume $PWD:/srv -w /srv docker.io/node npm ci
 fi
 if [ ! -r ./public ]; then
-    docker run --rm --volume $PWD:/src -w "/src" capsulecorplab/hugo-asciidoctor-plantuml:0.76.5-alpine 'hugo --minify -v --destination public'
+    podman run --rm --volume $PWD:/src -w /src docker.io/capsulecorplab/hugo-asciidoctor-plantuml:0.76.5-alpine 'hugo --minify -v --destination public'
 fi
