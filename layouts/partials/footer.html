@@ -1,9 +1,9 @@
+{{ $oshwCertSVG := resources.Get "oshw_cert_us002161.svg" }}
 <footer class="gdoc-footer">
   <div class="container flex flex-wrap">
-      <span class="gdoc-footer__item">
-          Built with <a href="https://gohugo.io/" class="gdoc-footer__link">Hugo</a> and
-          <svg class="icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
+      <div class="mx-auto w-100 text-center">{{ $oshwCertSVG.Content | safeHTML }}</div>
+      <p class="gdoc-footer__item text-center">
           Code licensed <a href="{{ .Site.Params.github_repo }}/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">CC BY 4.0</a>.
-      </span>
+      </p>
   </div>
 </footer>
