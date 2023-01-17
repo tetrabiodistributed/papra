@@ -45,7 +45,9 @@ Run the `serve.sh` script in the site root directory. By default, your site will
 
 . Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
 
-== Licensing 
+== Licensing
+
+image:./assets/oshw_cert_us002161.svg[OSHW Certification US002162, link="./assets/oshw_cert_us002161.svg"]
 
 Code licensed link:LICENSE[MIT]
 
