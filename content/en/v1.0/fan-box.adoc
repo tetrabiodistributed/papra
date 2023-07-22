@@ -1,5 +1,5 @@
 ---
-title: "How to build a PAPRa Fan Box"
+title: "Section 1: How to build a PAPRa Fan Box"
 linkTitle: "PAPRa Fan Box"
 weight: 1
 description: >
