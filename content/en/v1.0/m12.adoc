@@ -1,5 +1,5 @@
 ---
-title: "How to build a PAPRa m12 Battery Controller (Aug 2021)"
+title: "Section 2: How to Build a PAPRa m12 Battery Controller (Aug 2021)"
 linkTitle: "PAPRa m12 Battery Controller"
 weight: 1
 description: >
