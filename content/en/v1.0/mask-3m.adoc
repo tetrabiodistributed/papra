@@ -1,5 +1,5 @@
 ---
-title: "How to build a PAPRa Mask (June 2022 Version)"
+title: "Section 5:How to build a PAPRa Mask (June 2022 Version)"
 linkTitle: "PAPRa Mask"
 weight: 1
 description: >
