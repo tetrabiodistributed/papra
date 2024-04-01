@@ -8,7 +8,7 @@ description: >
 ---
 
 
-== Introduction
+== Introduction to PAPRa
 
 Many people are at risk for exposure to the COVID-19 virus and cannot afford to get infected.  These people can isolate themselves, but often, their professions or requirements for daily life will take them in contact with other people, and they need some form of protection.  Masks definitely help, but can become uncomfortable to wear, especially over long periods of time.  This guide will walk you through creating a Powered Air-Purifying Respirator, which will protect the wearer and those around them from airborne viruses and bacteria, while at the same time providing positive airflow to the wearer's face.  That airflow makes sure that the wearer has a supply of fresh, clean air that has gone through a filtration process, and, in our tests, is the equivalent of wearing an N95 mask.
 
