@@ -19,3 +19,7 @@ fi
 if [ ! -r ./content/assets ]; then
     ln -srv assets content/assets
 fi
+
+if [ ! -r ./public/assets ]; then
+    cp -r assets public/assets
+fi
