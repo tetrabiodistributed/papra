@@ -151,11 +151,11 @@ https://www.thespruce.com/tinning-stranded-electrical-wires-1152893
 
 Video describing the amount of wire to be tinned:
 
-video::https://photos.smugmug.com/photos/i-sTSdVhN/0/1920/i-sTSdVhN-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-sTSdVhN/0/1920/i-sTSdVhN-1920.mp4[width=720]
 
 Photo showing tinning of the wires:
 
-image::https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg[]
+image::https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg[height=240]
 
 #### Crimp a red and black tinned wire each into the spade connectors
 How to crimp:
