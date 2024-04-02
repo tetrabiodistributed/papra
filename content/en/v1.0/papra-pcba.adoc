@@ -19,4 +19,4 @@ The following is the board diagram for the M12 controller PCB.  Further informat
 
 {{< embed-pdf hidePaginator=true url="./D-TET-001100-0 Papra PCBA Drawing.pdf" >}}
 
-image::./pcba-overview.png[]
+image::../../assets/pcba-overview.png[]
