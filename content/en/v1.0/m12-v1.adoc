@@ -155,73 +155,73 @@ video::https://photos.smugmug.com/photos/i-sTSdVhN/0/1920/i-sTSdVhN-1920.mp4[wid
 
 Photo showing tinning of the wires:
 
-image::https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg[height=240]
+image::https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg[width=420]
 
 #### Crimp a red and black tinned wire each into the spade connectors
 How to crimp:
 
-video::https://photos.smugmug.com/photos/i-QjXdLPr/0/1920/i-QjXdLPr-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-QjXdLPr/0/1920/i-QjXdLPr-1920.mp4[width=720]
 
 Here's a photo for bad crimping:
 
-image::https://photos.smugmug.com/photos/i-4B25qFs/0/X2/i-4B25qFs-X2.jpg[]
+image::https://photos.smugmug.com/photos/i-4B25qFs/0/X2/i-4B25qFs-X2.jpg[width=420]
 
 and the video explanation: 
 
-video::https://photos.smugmug.com/photos/i-2BHSLBL/0/1920/i-2BHSLBL-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-2BHSLBL/0/1920/i-2BHSLBL-1920.mp4[width=720]
 
 #### Attach remaining red and black tinned wires to the power socket
 
 How to build the power socket with tinned wires:
 
-video::https://photos.smugmug.com/photos/i-fDvHdXv/0/1920/i-fDvHdXv-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-fDvHdXv/0/1920/i-fDvHdXv-1920.mp4[width=720]
 
 #### Attach remaining red and black solid wires to the power socket
 
 How to build the power socket for the fan box with solid wires:
 
-video::https://photos.smugmug.com/photos/i-mfGN68v/0/1920/i-mfGN68v-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-mfGN68v/0/1920/i-mfGN68v-1920.mp4[width=720]
 
 Final prepared wiring looks like:
 
-image::https://photos.smugmug.com/photos/i-jmpfcwg/0/X2/i-jmpfcwg-X2.jpg[]
+image::https://photos.smugmug.com/photos/i-jmpfcwg/0/X2/i-jmpfcwg-X2.jpg[width=420]
 
 ### M12 controller circuitry 
 
 #### Snip a portion of the spade connector
 A video describing this step:
 
-video::https://photos.smugmug.com/photos/i-bJ9DFfB/0/1920/i-bJ9DFfB-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-bJ9DFfB/0/1920/i-bJ9DFfB-1920.mp4[width=720]
 
 #### Clean the M12 battery holder spade ports
 On the inside of the printed M12 box, there are two slots where the spade connector should fit in.  These slots may have some extra plastic around them due to print quality issues, so use an x-acto knife to clean those slots:
 
-video::https://photos.smugmug.com/photos/i-V6kxqFR/0/1920/i-V6kxqFR-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-V6kxqFR/0/1920/i-V6kxqFR-1920.mp4[width=720]
 
 #### Insert the spade connectors into the M12 box
 These spade connectors should be inserted with red on the left, black on the right.  The snipped connector should slide in place and prevent the spade connector from coming back out again.
 
-video::https://photos.smugmug.com/photos/i-XgNPVmq/0/1920/i-XgNPVmq-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-XgNPVmq/0/1920/i-XgNPVmq-1920.mp4[width=720]
 
 Tab to hold the spade connector in place:
 
-video::https://photos.smugmug.com/photos/i-gtfQpgx/0/1920/i-gtfQpgx-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-gtfQpgx/0/1920/i-gtfQpgx-1920.mp4[width=720]
 
 Wire orientation: 
 
-video::https://photos.smugmug.com/photos/i-7LFMxCm/0/1920/i-7LFMxCm-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-7LFMxCm/0/1920/i-7LFMxCm-1920.mp4[width=720]
 
 Test the spade connectors are in place:
 
-video::https://photos.smugmug.com/photos/i-dGMrbD7/0/1920/i-dGMrbD7-1920.mp4[]
-video::https://photos.smugmug.com/photos/i-mm5wPfK/0/1920/i-mm5wPfK-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-dGMrbD7/0/1920/i-dGMrbD7-1920.mp4[width=720]
+video::https://photos.smugmug.com/photos/i-mm5wPfK/0/1920/i-mm5wPfK-1920.mp4[width=720]
 
 
 #### Install the board into the M12 box
 
 This video captures the entire process:
 
-video::https://photos.smugmug.com/photos/i-fHTTM3s/0/1920/i-fHTTM3s-1920.mp4[]
+video::https://photos.smugmug.com/photos/i-fHTTM3s/0/1920/i-fHTTM3s-1920.mp4[width=720]
 
 Essentially, these steps are followed:
 
@@ -235,11 +235,11 @@ Essentially, these steps are followed:
 
 You may need to deburr the edges of the hole: 
 
-image::https://photos.smugmug.com/photos/i-KNWz64M/0/X2/i-KNWz64M-O.jpg[]
+image::https://photos.smugmug.com/photos/i-KNWz64M/0/X2/i-KNWz64M-O.jpg[width=420]
 
 The final board:
 
-image::https://photos.smugmug.com/photos/i-kMLkq5k/0/X2/i-kMLkq5k-X2.jpg[]
+image::https://photos.smugmug.com/photos/i-kMLkq5k/0/X2/i-kMLkq5k-X2.jpg[width=420]
 
 Congratulations, you have completed the assembly of the power box for your PAPR!
 
