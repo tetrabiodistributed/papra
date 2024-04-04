@@ -1,0 +1,115 @@
+---
+title: "How to build a PAPRa Mask (June 2022 Version)"
+linkTitle: "PAPRa Mask"
+weight: 1
+description: >
+  How-To guide for building the Tetra PAPRa mask (June 2022 version).
+aliases:
+  - /v1.0/mask-3m
+  - /1.0/mask-3m
+---
+
+== Quick Synopsis
+
+The Tetra Powered Air Purified Respirator requires a Mask component to deliver purified air to the face of the wearer.  This mask will be connected to the Fan Box via a CPAP hose.  After many rounds of development, we have decided to adopt a 3M 6500 series mask as the final interface to the face of the user.  These masks are effecive, cheap, and readily available.  Ideally, future work can have a fully open source mask to be used here, but our attempts just aren't equivalent to this off-the-shelf part.
+
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+== Parts Required
+
+
+## 3D printed Parts
+
+.Table Printed Parts
+|===
+| Part | Part Number | Quantity | Material | Supports required? | STL File Location
+
+| Right-angle Connector
+| P-TET-000150
+| 2
+| PET/PLA
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000150_Right_Angle_Hose_Connector.stl
+
+| Y Connector
+| P-TET-000150
+| 1
+| PET/PLA
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000151_Y_Splitter.stl
+
+|===
+
+
+## Bill of Materials
+
+You will need these components.  Prices fluctuate, and so are not included here.  Alternative versions can be sourced, and we welcome edits for tested alternatives.
+
+.Table Bill Of Materials (BOM)
+|===
+| Count | Description | URL | Number in Package 
+
+
+| 1
+| CPAP Hose (possible candidate-- this product is 3 feet, you may want something longer or shorter.  Refer to https://github.com/tetrabiodistributed/papra/issues/48 for alternatives)
+| https://www.amazon.com/Gray-Standard-CPAP-Tubing-foot/dp/B073GBQN73
+| 1, 3ft
+
+
+| 2 
+| Stiff Ventilator hosing (999) 22mm 
+| https://hitechmedical.net/products/999-2/
+| 1 length, 200 yards
+
+
+| 1
+| 3M 6200 Model Mask
+| https://www.amazon.com/3M-Respirator-6200-Respiratory-Protection/dp/B007JZ1N00
+| 1
+
+|===
+
+
+== Build Steps
+
+Cut the ventilator hosing into 2 foot lengths.
+
+Place the right-angle parts (P-TET-000150) onto the mask:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-d5zHvmM/0/0da86a47/L/_MMR5821-L.jpg[]
+
+Note that the part has three different-size teeth to meet:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-6frw2Z4/0/0a054250/L/_MMR5823-L.jpg[]
+
+Once in place, the part twists in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-36LWSFL/0/e7b8e51a/L/_MMR5824-L.jpg[]
+
+The other right angle part goes into the opposite side:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-TTtqm74/0/d5f3c326/L/_MMR5825-L.jpg[]
+
+Place the two stiff pieces into the y-connector (P-TET-000151):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jk4gP88/0/16aea615/L/_MMR5830-L.jpg[]
+
+Connect the CPAP hose in place on the bottom of the Y-connector (P-TET-000151):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-svv2B2J/0/035c7ff6/L/_MMR5838-L.jpg[]
+
+Connect the other end of the CPAP hose to the other side:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-mCk2PJj/0/9debedf0/L/_MMR5841-L.jpg[]
+
+The mask is all together:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-pBwTP2j/0/fb8e9418/L/_MMR5845-L.jpg[]
+
+## How frequently should I change the filter?
+
+Changing the filter depends on how much you use the device.  If you're using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every few days or so.  If you're using the device where there are less particulates, every two to three weeks should be fine.  If the filter material gets dirty or wet, you should change it.  The blue layer is intended to be water proof, but we don't know how much actual water it can take.
+
+## My hose is smelling.  What can I do about that?
+
+You can clean the hose with a 22mm cleaning brush (like https://www.amazon.com/JAKIA-CPAP-Brush-Cleaning-7inch/dp/B089Q6QH1X).  Soap and water should be sufficient.  We've found that the hose material can begin to smell if exposed to quite a bit of sunlight, such as wearing the PAPR in the desert, and this smell wears off after some time.

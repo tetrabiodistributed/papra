@@ -1,0 +1,450 @@
+---
+title: "How to build a PAPRa Fan Box"
+linkTitle: "PAPRa Fan Box"
+weight: 1
+description: >
+  How-To guide for building the Tetra PAPRa fan box (June 2022 version).
+aliases:
+  - /v1.0/fan-box
+  - /1.0/fan-box
+---
+
+== Quick Synopsis ==
+
+The Tetra Powered Air Purified Respirator requires that the air be purified; this purification is accomplished by powering a fan to pull air through a filter and then pushing that purified air through a hose to a mask worn on the face.  This section contains the instructions for building the box that holds the fan and filter.
+
+The main goal of this iteration of the fan box is to reach N99 filtration levels by ensuring that the power connector is dustproof and using an IP68-rated BNC jack. 
+
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+This particular version of the PAPRA has been tested to pass at an N99 level, and likely passes at an N100/P100 level, since the build uses P100 filters.  We do not have the equipment necessary to validate that this device passes at a P100 level.
+
+
+== Parts Required ==
+
+This photo shows all the parts laid out for building this component:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/D5nq2R9SWqZsbwGb2tQt7VxnpXKZPc8MzqQRK92sH/M/DSCF0197-M.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/D5nq2R9SWqZsbwGb2tQt7VxnpXKZPc8MzqQRK92sH/M/DSCF0197-M.jpg[width=420]
+
+The assembly diagram is link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/A-TET-001111-0_Klein_Filter_96mm_PAPRa_Assembly.pdf[here].
+
+
+== 3D Printed Parts ==
+
+These parts should be printed at 0.2 or 0.15 spacing.  They should be oriented such that the large plates are closest to the build plate:
+
+.Table Printed Parts
+|===
+| Part | Part Number | Quantity | Material | Supports required? | STL File Location
+
+| The Fan Box (holds the fan) 
+| P-TET-000140
+| 1
+| PLA/PETG
+| No (Can have some in the nut pocket)
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000140_MOLLE_Base.stl
+
+| Filter Interface
+| P-TET-000141
+| 1
+| PLA/PETG
+| No (Can have some in the nut pocket)
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000141_Filter_Interface.stl
+
+| Filter Frame
+| P-TET-000142
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000142_Filter_Frame.stl
+
+| Weather Guard
+| P-TET-000143
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000143_Weather_Guard.stl
+
+| Fan Outlet Spout
+| P-TET-000144
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000144_Fan_Outlet_Spout.stl
+
+| Fan Outlet Spacer
+| P-TET-000145
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000145_Fan_Outlet_Spacer.stl
+
+| Fan Outlet Interface
+| P-TET-000152
+| 1
+| PLA/PETG
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000152_Fan_Outlet_Interface.stl
+
+| MOLLE Strap
+| P-TET-000153
+| 1
+| PLA/PETG
+| Yes
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000153_MOLLE_Strap.stl
+
+| MOLLE Catch
+| P-TET-000154
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/fan_box/Klein%20Tools%20Filter%2096mm%20fan%20box/P-TET-000154_MOLLE_Catch.stl
+
+|===
+
+== Gaskets ==
+
+Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by something such as Cricut (https://www.cricut.com/), but can also be cut using scissors or an Xacto knife so long as the templates are followed closely.  The Cricut uses the supplied SVG files, and other cutters can use the supplied DXFs.
+
+.Table Gaskets
+|===
+
+| Part | Part Number | Quantity | Material | Pattern (SVG)
+
+| Base Gasket
+| P-TET-000146
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000146_Base_Gasket.svg
+
+| Fan Gasket
+| P-TET-000147
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000147_Fan_Gasket.svg
+
+| Filter Gasket
+| P-TET-000148
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000148_Filter_Gasket.svg
+
+| Outlet Gasket
+| P-TET-000149
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000149_Outlet_Gasket.svg
+
+| Outlet Gasket 2
+| P-TET-000149
+| 1
+| Craft Foam
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000149_Outlet_Gasket.svg
+
+|===
+
+== Vendor Bill Of Materials
+
+These are components that need to be purchased.  Prices fluctuate, and so are not included here.  Alternative versions can be sourced, and we welcome edits for tested alternatives.
+
+.Table Vendor Bill Of Materials (BOM)
+|===
+| Count | Description | URL | Number in Package 
+| 1 
+| CUI CBM-9795338-154 (or the 168 model for more flow and less battery life)
+| https://www.digikey.com/en/products/detail/cui-devices/CBM-979533B-154/7623158
+| 1 
+
+| 1 
+| 20 American Wire Gauge (awg) BNC cable
+| https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html
+| 1
+
+| 8 
+| M4x20mm Button Head Torx Screws
+| https://www.mcmaster.com/90910A577/
+| 50  
+
+| 4 
+| M4x30mm Button Head Torx Screws
+| https://www.mcmaster.com/90910A580/
+| 50 
+
+| 12 
+| M4 Cap Nuts
+| https://www.mcmaster.com/97258A102/
+| 50  
+
+| 1
+| Dryer Vent Installation Tape
+| http://www.nashuatape.com/
+| 1
+
+| 1
+| BNC Cable Jack Connector
+| https://www.digikey.com/en/products/detail/112732/ACX2268-ND/3995595?WT.z_slp_buy=amphenol_bnc-connectors
+| 1
+
+| 2
+| Klein Tools p100 filters
+| https://www.amazon.com/Replacement-Respirators-Klein-Tools-60245/dp/B08W1TPSZM/
+| 2
+
+|===
+
+== Recommended Tools ==
+
+These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:
+
+.Table Tool List
+|===
+| Description | URL
+
+| 4-3/4 In. Bent Long Nose Pliers
+| https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html
+
+| A hex screwdriver for the m4 screws
+| https://www.amazon.com/gp/product/B007ICWAJC
+
+| Flush cutter
+| https://www.harborfreight.com/micro-flush-cutter-90708.html
+
+| X-acto knife
+| https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ
+
+| 3D Printer (note the size of the print bed for the fan box)
+| https://www.prusa3d.com/category/original-prusa-i3-mk3s/
+
+| A deburring tool
+| https://www.amazon.com/gp/product/B01L2XR4P2
+
+| #0 Phillips head screwdriver
+| https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976
+
+| CPAP hose cleaner (for maintenance)
+| https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/
+
+| Cable Crimper
+| https://www.amazon.com/IWISS-Crimping-Swaging-Aluminum-Sleeves/dp/B00JW4X4TO/ref=sr_1_20?dchild=1&keywords=cable+crimping+tool&qid=1630860032&sr=8-20
+
+| 9/16 Nut Driver for the BNC
+| https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427
+
+|===
+
+== Build Steps ==
+
+=== BNC Connection ===
+
+A video on how to build the BNC connector:
+
+{{< embed-video "https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-8tQGqNz/0/9ee8f740/1280/00002-1280.mp4" "BNC-construction" >}}
+
+Strip the red wire on the fan:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-mbt8Hvf/0/b5bb6678/L/_DSC4240-L.jpg[]
+
+Connect the smaller brass component to the red wire:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-6hqN6Gw/0/4a281751/L/_DSC4242-L.jpg[]
+
+Crimp the brass component to the wire:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-h9NHgCp/0/d5a9558c/L/_DSC4261-L.jpg[]
+
+Test that the crimp went well by tugging on the brass component:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-VQjzFRx/0/22aa36a1/L/_DSC4263-L.jpg[]
+
+Make sure to put the wires through the ground cylinder *before* connecting the brass component to the connector:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-Qthqqct/0/851e31bf/L/_DSC4248-L.jpg[]
+
+Push the brass component into the center of the connector.  
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-bWmGp7t/0/780ad05e/L/_DSC4264-L.jpg[]
+
+Since the wire is braided, this step can be tricky, and a small item like a paperclip can help push the component into the middle of the connector:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-nWbcL9F/0/b58ae059/L/_DSC4268-L.jpg[]
+
+Check that the brass component is visible and flush with the interior plastic column in the connector:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-63w4w3R/0/b88c78a8/L/_DSC4270-L.jpg[]
+
+Tugging on the wire should not have the component pull out:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-vWpwP4h/0/4e030480/L/_DSC4266-L.jpg[]
+
+Strip the black wire:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-838DvkG/0/fb37970a/L/_DSC4275-L.jpg[]
+
+Crimp the ground cylinder to the back of the connector with the black wire:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-PJHQcwg/0/dd7cf0cf/L/_DSC4277-L.jpg[]
+
+Another angle of the crimp:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-bXxV7vN/0/3ed40660/L/_DSC4278-L.jpg[]
+
+Place the waterproof seal around the edge of the BNC:
+
+image::https://photos.smugmug.com/Tetra-Testing/29-Aug-2021-Build-Party/i-krmZFgc/0/651101bf/L/_DSC4282-L.jpg[]
+
+=== Put the Fan into the Box ===
+
+Place the bottom gasket (P-TET-000146) into the fan box (P-TET-000140):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jDZh39X/0/c51d439d/L/_MMR5620-L.jpg[]
+
+You may need to use a tool to get the edges of the gasket down:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jSnHsHm/0/e6b53e23/L/_MMR5622-L.jpg[]
+
+Place the Fan Outlet Spacer (P-TET-000145) into the fan:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-LXngnTD/0/3c6bacdc/L/_MMR5628-L.jpg[]
+
+Place the Fan Outlet Spacer (P-TET-000152) into the fan:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-kFg8VMS/0/e0a1c71d/L/_MMR5629-L.jpg[]
+
+Note the orientation:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-VNB3KJV/0/285f0bb7/L/_MMR5631-L.jpg[]
+
+Begin taping the Fan Outlets into the fan:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-vt57Zdn/0/1bd6b233/L/_MMR5632-L.jpg[]
+
+Be sure to cover all of the gaps with dryer tape:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-zDnFr5D/0/eae5309d/L/_MMR5635-L.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-8F9dP9T/0/33345e89/L/_MMR5637-L.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-5Z23jfW/0/80712b28/L/_MMR5649-L.jpg[]
+
+Place the Fan Outlet Gasket (P-TET-000) inside the Fan Outlet Spout raised edge (P-TET-000144):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-4tT6MHD/0/6e3efb77/L/_MMR5658-L.jpg[]
+
+Place the Fan Outlet Gasket (P-TET-000) on the outside of the fan outlet:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-6c8MPHc/0/c99e6d89/L/_MMR5668-L.jpg[]
+
+Place the gasket and outlet spout into the fan box:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-z99KPWN/0/cd3401df/L/_MMR5662-L.jpg[]
+
+Place the BNC connector into the slot in the fan box:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-GLnxGFn/0/b0a47c21/L/_MMR5669-L.jpg[]
+
+Make sure to seat the BNC into the hexagonal space properly:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-RkSGQNM/0/5937fd96/L/_MMR5673-L.jpg[]
+
+Place the fan into the box, holding the gasket in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-5vzBbnm/0/a78d2025/L/_MMR5674-L.jpg[]
+
+Pull the BNC connector in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-x8nCVXt/0/0890c514/L/_MMR5683-L.jpg[]
+
+Finger tighten the hex nut in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-xxrF3kW/0/10bc0bcb/L/_MMR5686-L.jpg[]
+
+Then tighten with a wrench:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-ZWvtPfL/0/4bc6bd0f/L/_MMR5690-L.jpg[]
+
+=== Put the Filter Interface on the Box ===
+
+Place four square nuts into the Filter Interface (P-TET-000141):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-sXBRD22/0/ef5292aa/L/_MMR5697-L.jpg[]
+
+Place four of the 20 mm m4 bolts into each of the holes in the Filter Interface:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-SfG2dNL/0/9e95ac9e/L/_MMR5763-L.jpg[]
+
+Place the Fan Gasket (P-TET-000147) on to the Filter Interface:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-krqQm9Q/0/ae97f144/L/_MMR5765-L.jpg[]
+
+Flip the Interface/Gasket combination and put it onto the Fan Box:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-bqVWvvp/0/2c713522/L/_MMR5766-L.jpg[]
+
+Screw all four corner bolts into place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-ngsFHXG/0/8481e577/L/_MMR5769-L.jpg[]
+
+=== Put the Filters Into the Filter Frame ===
+
+Place filters into the Filter Box (P-TET-000142):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-k5FwmQc/0/c678f3b2/L/_MMR5740-L.jpg[]
+
+Make sure you get the orientation correct, and don't touch the filter directly.
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-xVwRprr/0/1ac49373/L/_MMR5742-L.jpg[]
+
+Place the four 30mm bolts into the Weather Guard (P-TET-000143) and then slide the Filter Box (P-TET-000142) in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-4sXDf8Z/0/7e5840c1/L/_MMR5778-L.jpg[]
+
+Place the Filter Gasket in place (P-TET-000148):
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-ngVz2wD/0/b2a68bde/L/_MMR5779-L.jpg[]
+
+Once again, flip the entire complex onto the currently assembled fan box and then screw the four corner bolts in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-3882jbB/0/24a817b5/L/_MMR5757-L.jpg[]
+
+=== Place the MOLLE brackets in place ===
+
+Screw the MOLLE Strap (P-TET-000153) in place: 
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-gPmqfHj/0/25fc9d3a/L/_MMR5796-L.jpg[]
+
+Thread the prongs of the MOLLE Strap part through the straps:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-q6fHg9K/0/de9a3b14/L/_MMR5798-L.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-fhxH8wH/0/2ecd3796/L/_MMR5803-L.jpg[]
+
+Put the MOLLE Catch (P-TET-000154) in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-2Sk8Shx/0/46b1e3cf/L/_MMR5804-L.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-3bBT9mN/0/1257864a/L/_MMR5811-L.jpg[]
+
+=== Congratulations! ===
+
+Congratulations!  You've now built a Tetra PAPRa Fan Box!  
+
+image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-Pb3ccJM/0/55b4b783/L/_MMR5815-L.jpg[]
+
+== Questions ==
+
+=== How frequently should I change the filter? ===
+
+Changing the filter depends on how much you use the device.  If you're using the device where there are a lot of particulates in the air (such as a construction site or a woodshop), you may want to change every month or so.  If you're using the device where there are less particulates, every two to three months should be fine.  HEPA filters just get dirtier and eventually the fan will have a hard time pulling air through the filter, and the filter should be swapped before that happens.  
+
+=== Can I use any random HEPA filter? ===
+
+This particular box was built around the Klein Tools p100 filter.  Off-brand filters may not be as effective, so be sure that the filter is NIOSH certified.
+
+=== Is the fan box waterproof? ===
+
+No, the fan box is not water proof.  With the weather guard in place, water should not get into the filter directly, but increased humidity could decrease the effectiveness of the device.
+
+=== Any other maintenance tasks? ===
+
+It is important to periodically check that the nuts are tight on the fan box, to ensure that the box is properly sealed against the elements.  Hoses should also be cleaned periodically as well.
