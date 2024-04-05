@@ -355,6 +355,16 @@ You may need to use a tool to get the edges of the gasket down:
 
 image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jSnHsHm/0/e6b53e23/L/_MMR5622-L.jpg[]
 
+Place the Fan Outlet Gasket (P-TET-000) inside the Fan Outlet Spout raised edge (P-TET-000144):
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-pmZkdwQ/0/DrJnd4V8GGwNTzpjbrR3tHP77VdC9LD53CZ2ndDCC/M/DSCF0243-M.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-dWpMnbT/0/434gLKXMv93SqMwq77srhQMKXmCjXLmDtwqKJxBD/M/DSCF0245-M.jpg[]
+
+Place the gasket and outlet spout into the fan box:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-CnsrXWf/0/FbCTMB6DRDGbSCgRB3rB7gd6ChfJVzLwwMm7pWVD4/M/DSCF0247-M.jpg[]
+
 Place the Fan Outlet Spacer (P-TET-000145) into the fan:
 
 image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-XFWrxSZ/0/8qpCp5kqk8mwdXhmg9QGNJvLmzm28Fg4WhdtXJ7N/M/DSCF0214-M.jpg[]
@@ -377,20 +387,10 @@ image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-fqXLrcp/0
 
 image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Gc4x4sW/0/DbHJXf8g7PRvxLDr9WRQWdHXpXrkKjVDkbfx85nGr/M/DSCF0234-M.jpg[]
 
-Place the Fan Outlet Gasket (P-TET-000) inside the Fan Outlet Spout raised edge (P-TET-000144):
-
-image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-pmZkdwQ/0/DrJnd4V8GGwNTzpjbrR3tHP77VdC9LD53CZ2ndDCC/M/DSCF0243-M.jpg[]
-
-image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-dWpMnbT/0/434gLKXMv93SqMwq77srhQMKXmCjXLmDtwqKJxBD/M/DSCF0245-M.jpg[]
-
-
 Place the Fan Outlet Gasket (P-TET-000) on the outside of the fan outlet:
 
 image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-6c8MPHc/0/c99e6d89/L/_MMR5668-L.jpg[]
 
-Place the gasket and outlet spout into the fan box:
-
-image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-CnsrXWf/0/FbCTMB6DRDGbSCgRB3rB7gd6ChfJVzLwwMm7pWVD4/M/DSCF0247-M.jpg[]
 
 Place the BNC connector into the slot in the fan box:
 
