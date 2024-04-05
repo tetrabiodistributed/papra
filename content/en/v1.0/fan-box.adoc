@@ -130,31 +130,31 @@ Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by somet
 | P-TET-000146
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000146_Base_Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000146%2096mm%20Base%20Gasket.svg
 
 | Fan Gasket
 | P-TET-000147
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000147_Fan_Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000147%2096mm%20Fan%20Gasket.svg
 
 | Filter Gasket
 | P-TET-000148
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000148_Filter_Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000147%2096mm%20Fan%20Gasket.svg
 
 | Outlet Gasket
 | P-TET-000149
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000149_Outlet_Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000147%2096mm%20Fan%20Gasket.svg
 
-| Outlet Gasket 2
-| P-TET-000149
+| Fan Outlet Spout Interface
+| P-TET-000152
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/Gaskets/Klein%20Tools%20Filter%20PAPRa/P-TET-000149_Outlet_Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000152%2096mm%20Fan%20Outlet%20Spout%20Interface.svg
 
 |===
 
