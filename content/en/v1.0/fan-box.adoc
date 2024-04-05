@@ -239,7 +239,7 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ
 
 | 3D Printer (note the size of the print bed for the fan box)
-| https://www.prusa3d.com/category/original-prusa-i3-mk3s/
+| https://www.prusa3d.com/category/original-prusa-mk4/
 
 | A deburring tool
 | https://www.amazon.com/gp/product/B01L2XR4P2
