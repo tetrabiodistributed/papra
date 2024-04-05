@@ -23,11 +23,11 @@ Enter at your own risk.
 .Parts needed for the PCBa
 
 |===
-|SL No | Part descirption | Generic name | Schematic Reference | Qty
+|SL No | Part | Generic name | Schematic Reference | Qty
 
 | 01 
-| PCB House 
-| 
+| PCBa House 
+| PCBa Jig
 |
 |1
 
@@ -37,8 +37,167 @@ Enter at your own risk.
 |D1 D3 D4 D5 D7
 |5
 
+|03 
+|Yageo MFR-25FRF52-100R
+|100R resistor
+|R2 R7 R8 R9
+|4
 
+|04
+|Yageo MFR-25FRF52-680R
+|680R resistor
+|R10
+|1
 
+|05 
+|Yageo MFR-25FRF52-330K
+|330K Resistor
+|R4 R5 R11
+|3
+
+|06
+|onsemi 1N5237B
+|Zener Diode
+|D2
+|1
+
+|07 
+|Comchip 1N4004B-G
+|1N4004B Diode
+|D6
+|1
+
+|08  
+|TDK FG14X7R1H334KNT06
+|Ceramic Capacitor 0.33uF 
+|C1
+|1
+
+|09 
+|TDK FG14X7R2A104KNT06
+|Ceramic Capacitor 0.1 uF 
+|C3
+|1
+
+|10
+|Yageo MFR-25FRF52-100K
+|100K Resistor
+|R1 R3
+|2
+
+|11 
+|Seeed Studio 113991054
+|Pin Headers and ESP32
+|U2
+|2
+
+|12
+|Texas Instruments UA78L05ACLPME3
+|Voltage regulator 
+|REG
+|1
+
+|13 
+|Panasonic ECA-1CM221
+|Electrolytic Capacitor
+|C2
+|1
+
+|14
+|TE Connectivity / AMP 63952-1
+|Battery pins
+|BATT+ BATT-
+|2
+
+|15 
+|CUI Devices PJ-066A
+|DC connector 
+|H1
+|1
+
+|16
+|CUI Devices CMI-1210-92T
+|Buzzer 
+|SG1
+|1
+
+|17 
+|Wurth Elektronik 696108003002
+|fuse holder 
+|F1
+|1
+
+|18  
+|BI Technologies P091S-FC20BR10K
+|10K POT 
+|POT1
+|1
+
+|19 
+|TE Connectivity 5227161-9
+|BNC Connector 
+|H2
+|1
+
+|20
+|Diodes Inc. DMT6009LCT
+|MOSFET 
+|Q2 Q3
+|2
+
+|21 
+|Littelfuse 0617005.MXP
+|Fuse
+|F1-Holder
+|1
+
+|22
+|Infineon IRF9Z24NPBF
+|
+|Q1
+|1
+
+|23
+|Yageo MFR-25FRF52-100K
+|
+|R1 R3
+|2
+
+|24
+|Diodes Inc. DMT6009LCT
+|MOSFET 
+|Q2 Q3
+|2
+
+|25
+|Yageo MFR-25-T-52-0R
+|
+|R6 R12
+|2
+
+|26
+|Samtec TSW-107-06-T-S
+|
+|Q1U2-Headers
+|2
+
+|27
+|TE Connectivity 1-329632-2
+|
+|For the BNC Connector (H2)
+|1
+
+|28
+|TE Connectivity 1-329631-2
+|
+|For the BNC Connector (H2)
+|1
+
+|29
+|Amphenol RF 112517
+|
+|
+|1
 
 
 |===

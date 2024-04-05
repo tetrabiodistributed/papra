@@ -24,8 +24,8 @@ Please refer to the link:testing-guide[Testing] section for the flow and fit tes
 
 The entire set of parts to build the PAPR is:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-tmjmpLX/0/b27d3e40/5K/_MMR5614-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-tmjmpLX/0/b27d3e40/5K/_MMR5614-5K.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-6hLZL7T/0/3rWnXVMRLFkR5Rrt2V29XnhB2TVjXh523V5dHmpJ/M/tinkerer_SKU_updated-M.png[]
 
 There are three components to build:
 
