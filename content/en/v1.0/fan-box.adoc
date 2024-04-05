@@ -351,10 +351,6 @@ Push the Gasket carefully into the box.
 image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Qfmx7sF/0/DP7vHZkLRhH39M5wxNphdR835HdSzzQBV5NSP3wMx/M/DSCF0239-M.jpg[]
 image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-TQ42RQq/0/DcXjhtRDSpckHJk9qrF6fRrZRxvHfGCkx3q5kJPPH/L/DSCF0240-L.jpg[]
 
-You may need to use a tool to get the edges of the gasket down:
-
-image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jSnHsHm/0/e6b53e23/L/_MMR5622-L.jpg[]
-
 Place the Fan Outlet Gasket (P-TET-000) inside the Fan Outlet Spout raised edge (P-TET-000144):
 
 image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-pmZkdwQ/0/DrJnd4V8GGwNTzpjbrR3tHP77VdC9LD53CZ2ndDCC/M/DSCF0243-M.jpg[]
