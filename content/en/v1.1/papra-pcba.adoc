@@ -13,10 +13,179 @@ aliases:
 
 The following is the board diagram for the M12 controller PCB.  Further information can be found in https://github.com/tetrabiodistributed/PAPRA-PCB[the PAPRA-PCB project.]
 
-*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+WARNING: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+
+Enter at your own risk.
 
 == Board Diagram == 
 
-{{< embed-pdf hidePaginator=true url="./D-TET-001100-0 Papra PCBA Drawing.pdf" >}}
+.Parts needed for the PCBa
 
-image::../../assets/pcba-overview.png[]
+|===
+|SL No | Part descirption | Generic name | Schematic Reference | Qty
+
+| 01 
+| PCB House 
+| 
+|
+|1
+
+|02  
+|Kingbright WP710A10SURCK
+|RED 5v LED
+|D1 D3 D4 D5 D7
+|5
+
+
+
+
+
+|===
+
+
+
+
+== Build instructions ==
+
+Download the PCB Jig STL from Github and print it. 
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-Vxkbtqr/0/Dvq4ZSMp9rSHhpZV8s4VmFNvCrWSjgv2WjtqhZ9wj/M/pcb-jig-M.png[420]
+The larger gaps are to aid the positioning of the battery terminals.
+
+Place the board on the PCB Jig. The markings should be upside down.
+
+Insert the LEDs with the Anode facing away from the test points.
+
+Insert the LEDS in the D1, D3, D4, D5 and D7
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-xLnHxBj/0/DKFtHJwLHKF22dwXTxZKXMFW4QNJt77mhmCpBmDpM/M/pcb-on-jig-M.png[420]
+
+Flip the Board carefully and align the LEDs with the holes in the jig 
+Push them into place until they touch the work surface.
+
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-nHKMM8b/0/FZGChw3fmbTwMHGMHhbfCmZtsjGWVd72kwkpFKMwF/M/pcb-with-led-fliped-M.png[420]
+
+Solder them carefully in place.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-Pnk2r93/0/CrDN8CLgT3vrDCK7Mz29r7kbZs3qxLNxWRXXc7NZq/M/leds-soldered-M.png[420]
+
+Snip the excess to make the bridging links 
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-gnXrMhQ/0/XKjhkW7nZq8PNCJRnx9ZpLPzzNGgjQkz5jNzZWdj/M/cutting-leds-extras-M.png[420]
+
+Bend the wire using the Bending slots in the left side of the Jig.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-hmRHPwg/0/DpP6HDF4zjWHtNzZgp8Ptr5z7Z9brZjTmQFsw3s7z/M/bendingslots-overview-M.png[420]
+
+Solder the R6 and R12 with the wire.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-JLQGkmZ/0/FDxTM6Thj4cz9dRzPJ2zPT5SpKKtSkfMb97nj6GnH/M/Screenshot%20from%202024-03-22%2023-02-12-M.png[420]
+
+Place the 100R Resistor in the R2 and solder it. 
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-CrtMTxn/0/DPWDH9zqF382p8GGMGhQmhSJNgP7MpvtnSkVbktTH/M/Screenshot%20from%202024-03-22%2023-13-49-M.png[420]
+
+Place the 100R Resistors in the R7, R8, R9 and solder them.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-Ljts9jL/0/CmtFJtmvBnJvPvW3bTfdjtggS6NMjLB5f3q4mjWT6/M/100r-resistors-M.png[]
+
+Place the 680R resistor in the R10 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-wqW8kqJ/0/fNFfwJp93dwsS22M52sQf9cLWZS9wx7GN9fXDW3s/M/Screenshot%20from%202024-03-22%2023-19-44-M.png[]
+
+Place 100K Resistor in the R3 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-FfFZtcS/0/N7hFt7wvVMXVssNfWGtZHLCBtkbqjTVscdpV6wZh/M/Screenshot%20from%202024-03-22%2023-21-21-M.png[]
+
+
+Place the 330K Resistor and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-wCbbdRt/0/DLh6kGWJx6LRcDNg24xLrKFJJ848T9ZjP9rDqxF7W/M/Screenshot%20from%202024-03-22%2023-22-43-M.png[]
+
+Place the 330K Resistor in R5  and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-cNX4q8P/0/gRwJJtQwZt54k429XKpsNxKQD6vHpSGsJkC9gV2d/M/Screenshot%20from%202024-03-23%2008-01-18-M.png[]
+
+Place the 330K Resistor in R11  and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-SmQNFPC/0/6fHS864dQ6sbSBRdbfPV3vRqQchxt6NVm4XzQLs7/M/Screenshot%20from%202024-03-23%2008-03-08-M.png[]
+
+Place Zener Diode in place in D2 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-gNq6Htd/0/DmZ8g2QJxtJ3vWbx9j6PrdbgfDHNnqRP9zRXR9KGj/M/Screenshot%20from%202024-03-23%2008-08-30-M.png[]
+
+Place the 1N4004B Diode in D6 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-XWPr7gZ/0/DDs2dqGhLfZkjznTndZhbktcdKrTJ2qHGZFv3v49z/M/Screenshot%20from%202024-03-23%2008-09-41-M.png[]
+
+Place the Ceramic Capacitor 0.33uF in C1 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-w24hFT3/0/FL8sF9qqgbHQC8xNSgfR3BhjN6hnM25pZFh3PPmVb/M/Screenshot%20from%202024-03-23%2008-12-09-M.png[]
+
+Place the Ceramic Capacitor 0.1 uF in the C3 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-bZtsDvB/0/FKkBRPSSPX2fDkDzPKH8j8rcxSSsGXbH34f2PMzPH/M/Screenshot%20from%202024-03-23%2008-14-04-M.png[]
+
+Place 100K resistor in the R1 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-9rFDKC2/0/DkKHH9VCMxpZrpCSR8N3MH6xZ5RnWVcdTftMm2fbf/M/Screenshot%20from%202024-03-23%2008-15-47-M.png[]
+
+Place the Pin Headers and ESP32 in the U1 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-8jggw3t/0/FQDfQ8x3m9Cz7c9ZHKXz5krFNDPNPqCp5VGMQ8bwB/M/Screenshot%20from%202024-03-23%2008-17-04-M.png[]
+
+Make sure none of the pads are bridged.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-n6SM3PQ/0/FRp6FgCR3NwwjqkN4FpFNjhLhwfPBSHjKn8r9vMp/M/Screenshot%20from%202024-03-23%2008-18-41-M.png[]
+
+Place Voltage regulator in REG and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-P4PmMHG/0/DRcgPdVXkMmh8dVFnRgH5WmQwdvfC7ZZ2DpRQqpwh/M/Screenshot%20from%202024-03-23%2008-20-13-M.png[]
+
+Place the Electrolytic Capacitor AMP 63952-1 in the C2.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-HmpT9cz/0/CS6gWjvKW5pGrxWHrxKXcB8jD6Xbg54Sk2SfQmqwx/M/Screenshot%20from%202024-03-23%2008-22-05-M.png[]
+
+Place the battery terminals in the larger gaps.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-FKGrVNp/0/7x32f5QV9vXB48Qxqp77GD7gN2PcmwpNSScND9MK/M/Screenshot%20from%202024-03-23%2008-25-43-M.png[]
+
+Solder the terminals carefully.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-nqMkZL2/0/w2dbb2mzGkxkxHd3C8mN83n3d6n2zXgMKDMfW2rV/M/Screenshot%20from%202024-03-23%2008-27-11-M.png[]
+
+Place the DC connector in the H1 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-mwZggNZ/0/CFwfZQgXJP3jpXL89XHnRfdP538sd2tJkd5cGkcJC/M/Screenshot%20from%202024-03-23%2008-29-44-M.png[]
+
+Place the Buzzer in the SG1 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-dBXfn2C/0/hsqqGC2zxLHDB4wM9rHLpL4MJFcZ6437pCqX62ZT/M/Screenshot%20from%202024-03-23%2008-30-43-M.png[]
+
+Place the fuse holder and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-7wgXHsm/0/LCPvrvzZQbZM7Wn6vSbv3GXjSnmsmf7hGBDfmWWk/M/Screenshot%20from%202024-03-23%2008-32-34-M.png[]
+
+Place the 10K POT and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-Gv9D2kQ/0/CMMWfQMk4C2fzs4sFPSqTppTW6gBzDSrTPrSwRcKq/M/Screenshot%20from%202024-03-23%2008-34-25-M.png[]
+
+Place the BNC Connector in the H2 and solder it.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-d7PmZCJ/0/CH8XRqnpL6F6tVKdvFB33xLPcqbGmmVqntPRQQzxP/M/Screenshot%20from%202024-03-23%2008-36-16-M.png[]
+
+Place the MOSFET in Q1, Q2 and Q3 and solder them.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-dsrxqCK/0/sQgpHK7gFD5bZ9r6bz6HrndFbHp9f6QtvqLtfHMr/M/Screenshot%20from%202024-03-23%2008-41-16-M.png[]
+
+Place the Fuse in the fuse holder.
+
+image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-3GSXg5s/0/DC9Dt9W4SzWf8Kxg3Fw9cBmJZTsdnwK9Np2pMcbpq/M/Screenshot%20from%202024-03-23%2008-42-17-M.png[]
+
+
+
+
+
+
