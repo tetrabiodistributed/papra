@@ -18,8 +18,8 @@ The core of the idea is fairly simple: put a fan behind a filter in an airtight 
 
 A completed build looks like:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Attaching-via-MOLLE/i-L5tghJM/0/FrkV5C3z2XGpWSLNfn4w6hjnxtpjMCKBqjgzr7BM/X4/MMR00133-X4.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/Attaching-via-MOLLE/i-L5tghJM/0/FrkV5C3z2XGpWSLNfn4w6hjnxtpjMCKBqjgzr7BM/X4/MMR00133-X4.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Attaching-via-MOLLE/i-ZzrzXwn/0/FZbSCJsZLZZJrsRRWQfdnxxnM59x4b4RC2mB8sPq6/XL/MMR00133-edited-XL.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Attaching-via-MOLLE/i-ZzrzXwn/0/FZbSCJsZLZZJrsRRWQfdnxxnM59x4b4RC2mB8sPq6/XL/MMR00133-edited-XL.jpg[]
 
 
 We have worn these PAPRas for multiple hours at a time and found them to be quite comfortable.  Please send us any images you have of wearing your Tetra PAPRa that you've built, and if you want, we'll post them on our website!
