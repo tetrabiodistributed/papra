@@ -1,9 +1,9 @@
 ---
-title: "How to build a PAPRa Fan Box"
-linkTitle: "PAPRa Fan Box"
+title: "How to build a PAPRa Fan Box (96mm)"
+linkTitle: "PAPRa Fan Box (96mm)"
 weight: 1
 description: >
-  How-To guide for building the Tetra PAPRa fan box (June 2022 version).
+  How-To guide for building the Tetra PAPRa fan box (96mm) (April 2024 build).
 aliases:
   - /v1.0/fan-box
   - /1.0/fan-box
