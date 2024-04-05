@@ -241,9 +241,6 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | 3D Printer (note the size of the print bed for the fan box)
 | https://www.prusa3d.com/category/original-prusa-mk4/
 
-| A deburring tool
-| https://www.amazon.com/gp/product/B01L2XR4P2
-
 | #0 Phillips head screwdriver
 | https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976
 
