@@ -5,8 +5,8 @@ weight: 1
 description: >
   The printed circuit board assembly (thru hole version) for the Tetra PAPRa M12 controller
 aliases:
-  - /v1.0/papra-pcba
-  - /1.0/papra-pcba
+  - /v1.1/papra-pcba
+  - /1.1/papra-pcba
 ---
 
 == Quick Synopsis ==
