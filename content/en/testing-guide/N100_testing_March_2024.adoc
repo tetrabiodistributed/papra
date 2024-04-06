@@ -1,0 +1,39 @@
+---
+title: "PAPRa N100 Testing Guide (March 2024 Edition)"
+linkTitle: "PAPRa N100 Testing Guide (March 2024 Edition)"
+weight: 1
+description: >
+  How we tested the PAPRa to arrive at claims of N95/N99 levels of protection
+---
+
+:note-caption: :information_source:
+:warning-caption: :warning:
+
+== Quick Synopsis
+
+In April of 2024, we began testing PAPRa units with a Portacount.  This device enables the user to perform a fit test, and the unit designed for April 2024 passes above the 1000 grade needed for N100 (even though the user has a beard).
+
+
+[link=https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-DJsvpT8/0/CnC5R6wTn8M6fnBCnSPQJrRjBTvtN5ffPMxcN3r58/M/PXL_20240311_000223904-X5.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-DJsvpT8/0/CnC5R6wTn8M6fnBCnSPQJrRjBTvtN5ffPMxcN3r58/M/PXL_20240311_000223904-L.jpg[] 
+
+One of the right angle connectors to the mask was replaced with a version with a tap to connect to a hose to sample inside the mask, shown here on the right side of the image.
+
+[link=https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-BjhXKSr/0/C8JwXtJgH6BJMN3qQVCKk2s6SsmRDtXNhxQRdJRRh/X5/PXL_20240311_000228987-X5.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-BjhXKSr/0/CvGV8VfwwPcwW4BGmBSWZqMKCmxWgdVTmgK9nJ7Tj/L/PXL_20240311_000228987-L.jpg[] 
+
+We also tested a partially assembled version of the fan box using Honeywell N100 filters, that also passed as a device, but we did not perform a full fit test.
+
+[link=https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-X5.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-L.jpg[] 
+
+Trying to use the same Honeywell box with the larger VOC filters may have cracked the box, and so those filters did not pass:
+
+[link=https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-X5.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-L.jpg[] 
+
+We have stopped using pressure and flow tests, but instead simply rely on fit tests at this time.
+
+== WARNING
+
+Before you wear a PAPRa in any kind of potentially hazardous situation, it is critical that you test it to ensure that the unit is performing at an adequate level.  We have personally worn these units for many hours and tested these units to ensure an N99 level of performance, but we cannot guarantee that the units you make will perform at the same levels.  We provide no warranty, implicit or explicit, that any such units will provide protection.  Please make sure to test your units accordingly and to your own level of comfort and in compliance with whatever local regulations require.
