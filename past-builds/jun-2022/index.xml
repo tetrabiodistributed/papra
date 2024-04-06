@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Build Guide (June 2022 Edition)</title><link>https://tetrabiodistributed.github.io/papra/v1.0/</link><description>Recent content in PAPRa Build Guide (June 2022 Edition) on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/v1.0/index.xml" rel="self" type="application/rss+xml"/><item><title>V1.0: How to build a PAPRa Fan Box</title><link>https://tetrabiodistributed.github.io/papra/v1.0/fan-box/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/v1.0/fan-box/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Build Guide (June 2022 Edition)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/</link><description>Recent content in PAPRa Build Guide (June 2022 Edition) on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/index.xml" rel="self" type="application/rss+xml"/><item><title>Past-Builds: How to build a PAPRa Fan Box</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/fan-box/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/fan-box/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -771,7 +771,7 @@ player.attachTo(playerElement);
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V1.0: How to build a PAPRa m12 Battery Controller (Aug 2021)</title><link>https://tetrabiodistributed.github.io/papra/v1.0/m12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/v1.0/m12/</guid><description>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa m12 Battery Controller (Aug 2021)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/m12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/m12/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -1055,7 +1055,7 @@ player.attachTo(playerElement);
 &lt;p>Congratulations! You have built a Tetra PAPRa M12 Controller Box v4 (August 2021)!&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V1.0: How to build a PAPRa m12 Battery Controller (v1)</title><link>https://tetrabiodistributed.github.io/papra/v1.0/m12-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/v1.0/m12-v1/</guid><description>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa m12 Battery Controller (v1)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/m12-v1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/m12-v1/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -1310,7 +1310,7 @@ player.attachTo(playerElement);
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-sTSdVhN/0/1920/i-sTSdVhN-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-sTSdVhN/0/1920/i-sTSdVhN-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1320,7 +1320,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="imageblock">
 &lt;div class="content">
-&lt;img src="https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg" alt="i vGx3mbh O"/>
+&lt;img src="https://photos.smugmug.com/photos/i-vGx3mbh/0/X2/i-vGx3mbh-O.jpg" alt="i vGx3mbh O" width="420"/>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -1331,7 +1331,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-QjXdLPr/0/1920/i-QjXdLPr-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-QjXdLPr/0/1920/i-QjXdLPr-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1341,7 +1341,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="imageblock">
 &lt;div class="content">
-&lt;img src="https://photos.smugmug.com/photos/i-4B25qFs/0/X2/i-4B25qFs-X2.jpg" alt="i 4B25qFs X2"/>
+&lt;img src="https://photos.smugmug.com/photos/i-4B25qFs/0/X2/i-4B25qFs-X2.jpg" alt="i 4B25qFs X2" width="420"/>
 &lt;/div>
 &lt;/div>
 &lt;div class="paragraph">
@@ -1349,7 +1349,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-2BHSLBL/0/1920/i-2BHSLBL-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-2BHSLBL/0/1920/i-2BHSLBL-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1362,7 +1362,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-fDvHdXv/0/1920/i-fDvHdXv-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-fDvHdXv/0/1920/i-fDvHdXv-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1375,7 +1375,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-mfGN68v/0/1920/i-mfGN68v-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-mfGN68v/0/1920/i-mfGN68v-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1385,7 +1385,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="imageblock">
 &lt;div class="content">
-&lt;img src="https://photos.smugmug.com/photos/i-jmpfcwg/0/X2/i-jmpfcwg-X2.jpg" alt="i jmpfcwg X2"/>
+&lt;img src="https://photos.smugmug.com/photos/i-jmpfcwg/0/X2/i-jmpfcwg-X2.jpg" alt="i jmpfcwg X2" width="420"/>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -1399,7 +1399,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-bJ9DFfB/0/1920/i-bJ9DFfB-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-bJ9DFfB/0/1920/i-bJ9DFfB-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1412,7 +1412,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-V6kxqFR/0/1920/i-V6kxqFR-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-V6kxqFR/0/1920/i-V6kxqFR-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1425,7 +1425,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-XgNPVmq/0/1920/i-XgNPVmq-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-XgNPVmq/0/1920/i-XgNPVmq-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1435,7 +1435,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-gtfQpgx/0/1920/i-gtfQpgx-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-gtfQpgx/0/1920/i-gtfQpgx-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1445,7 +1445,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-7LFMxCm/0/1920/i-7LFMxCm-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-7LFMxCm/0/1920/i-7LFMxCm-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1455,14 +1455,14 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-dGMrbD7/0/1920/i-dGMrbD7-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-dGMrbD7/0/1920/i-dGMrbD7-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-mm5wPfK/0/1920/i-mm5wPfK-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-mm5wPfK/0/1920/i-mm5wPfK-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1475,7 +1475,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="videoblock">
 &lt;div class="content">
-&lt;video src="https://photos.smugmug.com/photos/i-fHTTM3s/0/1920/i-fHTTM3s-1920.mp4" controls="">
+&lt;video src="https://photos.smugmug.com/photos/i-fHTTM3s/0/1920/i-fHTTM3s-1920.mp4" width="720" controls="">
 Your browser does not support the video tag.
 &lt;/video>
 &lt;/div>
@@ -1513,7 +1513,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="imageblock">
 &lt;div class="content">
-&lt;img src="https://photos.smugmug.com/photos/i-KNWz64M/0/X2/i-KNWz64M-O.jpg" alt="i KNWz64M O"/>
+&lt;img src="https://photos.smugmug.com/photos/i-KNWz64M/0/X2/i-KNWz64M-O.jpg" alt="i KNWz64M O" width="420"/>
 &lt;/div>
 &lt;/div>
 &lt;div class="paragraph">
@@ -1521,7 +1521,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;div class="imageblock">
 &lt;div class="content">
-&lt;img src="https://photos.smugmug.com/photos/i-kMLkq5k/0/X2/i-kMLkq5k-X2.jpg" alt="i kMLkq5k X2"/>
+&lt;img src="https://photos.smugmug.com/photos/i-kMLkq5k/0/X2/i-kMLkq5k-X2.jpg" alt="i kMLkq5k X2" width="420"/>
 &lt;/div>
 &lt;/div>
 &lt;div class="paragraph">
@@ -1530,7 +1530,7 @@ Your browser does not support the video tag.
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V1.0: PAPRa M12 PCB</title><link>https://tetrabiodistributed.github.io/papra/v1.0/m12-circuit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/v1.0/m12-circuit/</guid><description>
+&lt;/div></description></item><item><title>Past-Builds: PAPRa M12 PCB</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/m12-circuit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/m12-circuit/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
@@ -1686,7 +1686,7 @@ renderPage(pageNum);
 &lt;/script>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>V1.0: How to build a PAPRa Mask (June 2022 Version)</title><link>https://tetrabiodistributed.github.io/papra/v1.0/mask-3m/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/v1.0/mask-3m/</guid><description>
+&lt;/div></description></item><item><title>Past-Builds: How to build a PAPRa Mask (June 2022 Version)</title><link>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/mask-3m/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/past-builds/jun-2022/mask-3m/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">

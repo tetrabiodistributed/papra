@@ -1,4 +1,52 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Testing</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/</link><description>Recent content in PAPRa Testing on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/testing-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing-Guide: PAPRa N95 Testing Guide (March 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/n95_testing_march_2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/n95_testing_march_2021/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAPRa – PAPRa Testing</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/</link><description>Recent content in PAPRa Testing on PAPRa</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://tetrabiodistributed.github.io/papra/testing-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing-Guide: PAPRa N100 Testing Guide (March 2024 Edition)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/n100_testing_march_2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/n100_testing_march_2024/</guid><description>
+&lt;div class="sect1">
+&lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>In April of 2024, we began testing PAPRa units with a Portacount. This device enables the user to perform a fit test, and the unit designed for April 2024 passes above the 1000 grade needed for N100 (even though the user has a beard).&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-DJsvpT8/0/CnC5R6wTn8M6fnBCnSPQJrRjBTvtN5ffPMxcN3r58/M/PXL_20240311_000223904-X5.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-DJsvpT8/0/CnC5R6wTn8M6fnBCnSPQJrRjBTvtN5ffPMxcN3r58/M/PXL_20240311_000223904-L.jpg" alt="PXL 20240311 000223904 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>One of the right angle connectors to the mask was replaced with a version with a tap to connect to a hose to sample inside the mask, shown here on the right side of the image.&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-BjhXKSr/0/C8JwXtJgH6BJMN3qQVCKk2s6SsmRDtXNhxQRdJRRh/X5/PXL_20240311_000228987-X5.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-BjhXKSr/0/CvGV8VfwwPcwW4BGmBSWZqMKCmxWgdVTmgK9nJ7Tj/L/PXL_20240311_000228987-L.jpg" alt="PXL 20240311 000228987 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>We also tested a partially assembled version of the fan box using Honeywell N100 filters, that also passed as a device, but we did not perform a full fit test.&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-X5.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-L.jpg" alt="PXL 20240311 000538502 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>Trying to use the same Honeywell box with the larger VOC filters may have cracked the box, and so those filters did not pass:&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-X5.jpg">&lt;img src="https://photos.smugmug.com/Tetra-Testing/N100-Testing/i-zt293Rp/0/D9TzgRV7f6LRnwDLdKc7hH7nvtBXRK6JjpZfGKhft/L/PXL_20240311_000538502-L.jpg" alt="PXL 20240311 000538502 L"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>We have stopped using pressure and flow tests, but instead simply rely on fit tests at this time.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_warning">WARNING&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Before you wear a PAPRa in any kind of potentially hazardous situation, it is critical that you test it to ensure that the unit is performing at an adequate level. We have personally worn these units for many hours and tested these units to ensure an N99 level of performance, but we cannot guarantee that the units you make will perform at the same levels. We provide no warranty, implicit or explicit, that any such units will provide protection. Please make sure to test your units accordingly and to your own level of comfort and in compliance with whatever local regulations require.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Testing-Guide: PAPRa N95 Testing Guide (March 2021 Edition)</title><link>https://tetrabiodistributed.github.io/papra/testing-guide/n95_testing_march_2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tetrabiodistributed.github.io/papra/testing-guide/n95_testing_march_2021/</guid><description>
 &lt;div class="sect1">
 &lt;h2 id="_quick_synopsis">Quick Synopsis&lt;/h2>
 &lt;div class="sectionbody">
