@@ -18,7 +18,7 @@ WARNING: we provide no warranty, implicit or explicit, that this device will wor
 
 Enter at your own risk.
 
-== Board Diagram == 
+== Bill of Materials ==
 
 .Parts needed for the PCBa
 
@@ -203,6 +203,17 @@ Enter at your own risk.
 |===
 
 
+.Table 3D Printed Tools
+|===
+| Part | Quantity | Material | Supports required? | STL File Location
+
+| Tetra-PCB-jig-v3
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/d0c51e8a21a43540b39c50ecf9295a17e224a93b/STLs/Tetra-PCB-jig-v3.stl
+
+|===
 
 
 == Build instructions ==
