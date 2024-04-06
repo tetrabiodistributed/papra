@@ -1,0 +1,230 @@
+---
+title: "How to build a PAPRa m12 Battery Controller (April 2024)"
+linkTitle: "PAPRa m12 Battery Controller"
+weight: 1
+description: >
+  How-To guide for building the Tetra PAPRa m12 battery controller (April 2024 version).
+aliases:
+  - /v1.1/m12-controller
+  - /1.1/m12-controller
+---
+
+== Quick Synopsis
+
+The Tetra Powered Air Purified Respirator requires power to function, and the m12 battery controller provides that power for these models.  The controller consists of internal circuitry, a potentiometer to adjust fan speeds, a cable to connect to the fan box, and a port for a Milwaulkee M12 Battery to be inserted.
+
+This build differs from the v1 version in that it uses a custom-built circuitboard to remove many of the difficult steps of the build, add a battery charge indicator, and a separate power port for use in a car.  If you cannot get link:../m12-circuit[the custom board], then please refer to the v1 version of this guide.
+
+*WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+
+== Parts Required
+
+This build will require printed parts, purchased parts, and several tools.  Here is a picture of all the components used in this build:
+
+[link=https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5QsJLvG/0/DQjrL2hWz99x6dfQFPxQqSCNWcnJcnT842D8Q4F2B/X3/DSCF0364-X3.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5QsJLvG/0/DQjrL2hWz99x6dfQFPxQqSCNWcnJcnT842D8Q4F2B/X3/DSCF0364-X3.jpg[]
+
+And the assembly diagram can be found link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/D-TET-001102-2%20M12%20PAPRA%20Controller%20Drawing.pdf[here].  Note that this assembly calls for version 0.7 of the board.
+
+
+## 3D Printed Parts
+
+These parts should be printed at 0.2 spacing:
+
+.Table Printed Parts
+|===
+| Part | Quantity | Material | Supports Required? | STL File Location
+
+| Knob
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fad8cd5e584b/STLs/battery_controller/P-TET-000100%20M12%20Knob.stl
+
+| Body One Piece (alternative part for Body + Light Panel)
+| 1
+| Transparent PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl
+
+| Plate
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000170%20M12%20Plate.stl
+
+| MOLLE Strap
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000171%20M12%20MOLLE%20Strap.stl
+
+| MOLLE Catch
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000172%20M12%20MOLLE%20Catch.stl
+
+| Body
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl
+
+| Lid
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000174%20M12%20Lid.stl
+
+| Lid
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000194%20M12%20MOLLE%20Spacer.stl
+
+| Light Panel
+| 1
+| Transparent PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000195%20M12%20Light%20Panel.stl
+
+|===
+
+## Bill Of Materials
+
+You will need these components.  Prices fluctuate, and so are not included here.  Alternative versions can be sourced, and we welcome edits for tested alternatives.
+
+.Table Bill Of Materials (BOM)
+|===
+| Count | Description | URL | Number in Package 
+
+| 1
+| Printed Circuit Board Assembly
+| https://github.com/tetrabiodistributed/PAPRA-PCBA
+| 1
+
+| 1 
+| 2Pack Upgraded 3.5Ah M 12 Battery for Milwaukee 12V Battery Lithium XC M 12B Batteries 
+| https://www.amazon.com/gp/product/B082WW688D/ 
+| 2 
+
+| 3
+| Washers
+| Should come with the board
+| 3
+
+| 3
+| Nuts
+| Should come with the board
+| 3
+
+|===
+
+## Recommeded Tools
+
+These tools are recommended. URLs are for tools purchased and used in the building of the prototypes:
+
+.Table Tool List
+|===
+| Description | URL
+
+| A hex screwdriver for the M4 screws
+| https://www.amazon.com/gp/product/B007ICWAJC
+
+| A 10mm socket wrench
+| https://www.amazon.com/gp/product/B0009ORXRU/
+
+|===
+
+== Build Instructions
+
+Building this version of the controller is more a matter of ensuring that the Controller Box was printed cleanly and all support material is properly removed.  
+
+Attach Light Panel to body (unless using fully transparent one piece body):
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-JFmnH7Q/0/CqRhjqgLpcGsTSDKthhvPsxZ3k8wsw9qmFbsmhWw4/X3/DSCF0367-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-rFNvTKg/0/D4XTck3BD7cT3xTxJD2cGPG9DK979Q4wSQSJXgzs7/X3/DSCF0369-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-grKcwhL/0/Chhnbgd3LJhMKx2VcnVswCK4Sq2GbtDVvpb6Gw3m7/X3/DSCF0370-X3.jpg[]
+
+Place the printed circuit board assembly battery leads into Plate:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-XktZZTj/0/CjhdVRK6K93mcPPFgDTmjfNjPvzsDd6SLcc8ZjMSz/X3/DSCF0372-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-qGtRfgj/0/2xhKrpxZZF5mPKf6MWng5RXRgNRcsQwKxsCRkSd5/X3/DSCF0374-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-HLsFhhm/0/DjQb54H4C2cXqfg2GhJGghQKKZRsSJZgZQpZ9hjcr/X3/DSCF0375-X3.jpg[]
+
+Place the printed circuit board assembly with Plate into the Body:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5tmkPSv/0/FMTNTrXT85ZQm5cTmPqzjhzxt4bC94P3Fn9nNWbPN/X3/DSCF0377-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-qvxwHDG/0/FGM6C6k9NQJft5vFPNJPthst8tNMkxFNQ9n35hwhP/X3/DSCF0378-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5NnHBsz/0/DNM4Z555SVWhwT8PbW4hz8M8CHgFHfvnFK4rFzfSB/X3/DSCF0381-X3.jpg[]
+
+Place washer over the power port, then finger tighten a hex nut over the same power port to hold the Plate in place:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-N9QGBRn/0/FBgfrtHF5jMTmhnb37JKhz7wjMmbHQ7DdGtkkvb9T/X3/DSCF0382-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-9VqQgLD/0/DSb4MJS7spJfMrZr596jrPcvnJzTWV4Lp6WKQ5gWt/X3/DSCF0385-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-GbZXt76/0/G63nV6Mrs739pZ6WkTZjZrkSCZhmJXcQvzBdZ9Wx/X3/DSCF0387-X3.jpg[]
+
+Put the lid onto the body:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-GZTWjFC/0/DK3mfDc4GqxGdVsR9zjJTL77MLxZHqKTQSvLT66jQ/X3/DSCF0389-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-sMGs8DG/0/h8R2pnkL9Pjkm2cZvTWcQndXW3TDH6b5kT3d5Fg9/X3/DSCF0392-X3.jpg[]
+
+Place washer over BNC jack, then finger tighten a hex nut over  the same BNC jack:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-PTrkv5z/0/Cj9GDvWvDN2tnQ6TLk2NHh7xhcKDxNpJFqpFHJpWM/X3/DSCF0393-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-89WCH5g/0/Dss2Q2kdjQmn6NRWbW2M2tsTWBQ9SjjQbNtvv95zX/X3/DSCF0394-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-gfPfJVm/0/DnXJtN3DmVnDDFcdXvkfK9S2tbFzX8vXVxnJX42xb/X3/DSCF0395-X3.jpg[]
+
+Place washer over potentiometer, then finger tighten a hex nut over  the same potentiometer:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-dTJ89Qs/0/CQ3C3ZPjPFPttwvCpkLCxVMqc8PNzBM22rMJDww2P/X3/DSCF0397-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-QVnVk8m/0/FSnHrvbmrx6sNKPWsJjH9pdwCv9jKXD3JnnHHSMhc/X3/DSCF0398-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-SzMjSNx/0/FZBcTGkrdhJdGwgKhs8JQqQq748nxQVSGVMgLGpg4/X3/DSCF0399-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-WknbXtM/0/GDGD2SxnKSdkjNwqkGxLZdQtPmqTzktxWMCG4FV8/X3/DSCF0400-X3.jpg[]
+
+Use socket wrench to tighten hex nuts into place:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-4XHPLTS/0/D97gP8PWj2HpBkbVNtMLNFRHXmFtkWcQkcZkHJtmk/X3/DSCF0402-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-x5kJjhz/0/FFXhqJ9J6pSkX6QwB3zF7GJrqhXkfVx8bBLrQ26HX/X3/DSCF0404-X3.jpg[]
+
+Attach 2X MOLLE spacers onto MOLLE strap:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-fs6QwCg/0/DHLqj7zC6BVgJPBNWPP5F8XhfDbRs94xcnvbKw73/X3/DSCF0408-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-xnBwMhk/0/wbqzgtgj2gbBrHxTgJpRBc4rKFHDjNnf3FkFbknZ/X3/DSCF0411-X3.jpg[]
+
+Attach and screw MOLLE strap (with spacers) onto lid with M4 screws using a hex screwdriver:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-QXktndV/0/CbzsMVRgRqvXKNrZWvk3VwsD7BHTn3hc4VcRZcvfb/X3/DSCF0416-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Q7C58c8/0/CHVdxWrpqT65NbXgPhwj9mNkS3k8F8gPXX4QdzSSK/X3/DSCF0417-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Zn7dSmV/0/djJXGHgNZGkRNNFZcqFfWTdJzcCB7vc75Tbg24Mm/X3/DSCF0418-X3.jpg[]
+
+Attach and secure MOLLE Catch onto MOLLE Strap and Lid with M4 screws using hex screwdriver:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-scbw8j5/0/g27drF8CSh75r3Hrb52wDzM7nnnfr78G3MKhsF7r/X3/DSCF0420-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-WMsBHHr/0/CgSrZSMC76BsJXTKHg7cmSptbTCqcqG772cNq32k6/X3/DSCF0421-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-8Zw3W8X/0/Cz34twnX8hBRML4v8TNKcs57tm6v2vf33qHGDnWSz/X3/DSCF0423-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-XwPb3Bh/0/CwSRmFvc8dKgFg7CVXt6XM4nf2DfvX6J3sHnd5k5/X3/DSCF0427-X3.jpg[]
+
+Attach knob onto potentiometer:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-hD6RFJD/0/SjVc3MQbJk8nMWDqDHRph6x2fcFk8fKpBqm6P83M/X3/DSCF0431-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-gjQCCgm/0/h25Gh7Kx5grTQjW8HZ3vPtv8NHn5CGHQgN7bnrms/X3/DSCF0432-X3.jpg[]
+
+
+Insert m12 battery:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-K6b2PV6/0/tGwKwt4gGCLkHqdJVfVQgMNZqwv7qbj83FzFGwMN/X3/DSCF0435-X3.jpg[]
+
+Turn knob to turn on power (it should beep and flash an LED battery level indicator):
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-ptrZP5b/0/CRmfzVGmhfh3sfGqC7RWqbKTWn9B76Khbk65wZCwq/X3/DSCF0437-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-MTjg57L/0/WbpCBKM3dpknndcb3fRmcX9NsSsZCQW4wDfKwX7B/X3/DSCF0438-X3.jpg[]
+
+Test m12 battery controller with fan box by attaching a BNC cable:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-MHSjhF3/0/D2rMhvJ8MHgTdqrBRVzK4j8HCczZ2fxBSLd77bccz/X3/DSCF0440-X3.jpg[]
+
+Congratulations!  You have built a Tetra PAPRa M12 Controller Box v4 (August 2021)!
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Gn2SZSn/0/C3LWRJ5KRtn4kXPPZkqHRx9QMmz8rVws7NVDdBtsQ/X3/DSCF0443-X3.jpg[]

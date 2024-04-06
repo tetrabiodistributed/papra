@@ -1,13 +1,13 @@
 
 ---
-title: "PAPRa Build Guide (June 2022 Edition)"
+title: "PAPRa Build Guide (April 2024 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
 description: >
-  How to build the June 2022 version of the Tetra PAPR.
+  How to build the April 2024 version of the Tetra PAPR.
 aliases:
-  - /v1.0
-  - /1.0
+  - /v1.1
+  - /1.1
 ---
 
 == Quick Synopsis
@@ -24,13 +24,13 @@ Please refer to the link:testing-guide[Testing] section for the flow and fit tes
 
 The entire set of parts to build the PAPR is:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-tmjmpLX/0/b27d3e40/5K/_MMR5614-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-tmjmpLX/0/b27d3e40/L/_MMR5614-L.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/CnwKx63gh5ph4jtLts36mSZ64z686WqJQXq5X4H4V/X3/DSCF0197-X3.jpg[]
 
 There are three components to build:
 
-1.  The M12 Controller Box (link:m12[the March 2021 version] if you have link:m12-circuit[the controller circuit board], link:m12-v1[v1] if you do not)
-2.  link:fan-box[The Fan Box] with the appropriate link:fan-box-circuits[circuit board]
+1.  link:m12-controller[The M12 Controller]
+2.  link:fan-box[The Fan Box]
 3.  link:mask[The Mask]
 
 And the instructions to build all of these components can be found in the Tetra PAPRA Components section.
