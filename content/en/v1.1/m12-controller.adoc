@@ -132,7 +132,7 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | A hex screwdriver for the M4 screws
 | https://www.amazon.com/gp/product/B007ICWAJC
 
-| A 10mm socket wrench 
+| A 10mm socket wrench
 | https://www.amazon.com/gp/product/B0009ORXRU/
 
 |===
@@ -141,70 +141,90 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 
 Building this version of the controller is more a matter of ensuring that the Controller Box was printed cleanly and all support material is properly removed.  
 
-Attach the light pipe to the board:
+Attach Light Panel to body (unless using fully transparent one piece body):
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-KWzR5L3/0/fd852e6c/5K/DSC00040-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-KWzR5L3/0/fd852e6c/L/DSC00040-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-JFmnH7Q/0/CqRhjqgLpcGsTSDKthhvPsxZ3k8wsw9qmFbsmhWw4/X3/DSCF0367-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-rFNvTKg/0/D4XTck3BD7cT3xTxJD2cGPG9DK979Q4wSQSJXgzs7/X3/DSCF0369-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-grKcwhL/0/Chhnbgd3LJhMKx2VcnVswCK4Sq2GbtDVvpb6Gw3m7/X3/DSCF0370-X3.jpg[]
 
-You may need to use the bent-nose pliers to get the pipe in place:
+Place the printed circuit board assembly battery leads into Plate:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jrz52MZ/0/1e9c50a7/5K/DSC00041-5K.jpg]
-image:https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-jrz52MZ/0/1e9c50a7/L/DSC00041-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-XktZZTj/0/CjhdVRK6K93mcPPFgDTmjfNjPvzsDd6SLcc8ZjMSz/X3/DSCF0372-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-qGtRfgj/0/2xhKrpxZZF5mPKf6MWng5RXRgNRcsQwKxsCRkSd5/X3/DSCF0374-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-HLsFhhm/0/DjQb54H4C2cXqfg2GhJGghQKKZRsSJZgZQpZ9hjcr/X3/DSCF0375-X3.jpg[]
 
-Seat the board into the board housing:
+Place the printed circuit board assembly with Plate into the Body:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-GSwnDLS/0/e3707f64/5K/DSC00043-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-GSwnDLS/0/e3707f64/L/DSC00043-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5tmkPSv/0/FMTNTrXT85ZQm5cTmPqzjhzxt4bC94P3Fn9nNWbPN/X3/DSCF0377-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-qvxwHDG/0/FGM6C6k9NQJft5vFPNJPthst8tNMkxFNQ9n35hwhP/X3/DSCF0378-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5NnHBsz/0/DNM4Z555SVWhwT8PbW4hz8M8CHgFHfvnFK4rFzfSB/X3/DSCF0381-X3.jpg[]
 
-Place the washer over the power port, and then finger tighten a hex nut over the same power port to hold the Plate in place:
+Place washer over the power port, then finger tighten a hex nut over the same power port to hold the Plate in place:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-NX9pppF/0/db72b626/5K/DSC00044-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-NX9pppF/0/db72b626/L/DSC00044-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-N9QGBRn/0/FBgfrtHF5jMTmhnb37JKhz7wjMmbHQ7DdGtkkvb9T/X3/DSCF0382-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-9VqQgLD/0/DSb4MJS7spJfMrZr596jrPcvnJzTWV4Lp6WKQ5gWt/X3/DSCF0385-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-GbZXt76/0/G63nV6Mrs739pZ6WkTZjZrkSCZhmJXcQvzBdZ9Wx/X3/DSCF0387-X3.jpg[]
 
-Repeat for the potentiometer knob:
+Put the lid onto the body:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-QL7qL76/0/93b633d5/5K/DSC00046-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-QL7qL76/0/93b633d5/L/DSC00046-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-GZTWjFC/0/DK3mfDc4GqxGdVsR9zjJTL77MLxZHqKTQSvLT66jQ/X3/DSCF0389-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-sMGs8DG/0/h8R2pnkL9Pjkm2cZvTWcQndXW3TDH6b5kT3d5Fg9/X3/DSCF0392-X3.jpg[]
 
-Put the battery housing over the board housing, with the power plugs going through the spaces in the battery housing:
+Place washer over BNC jack, then finger tighten a hex nut over  the same BNC jack:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-VKLPdk3/0/b95e5132/5K/DSC00047-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-VKLPdk3/0/b95e5132/L/DSC00047-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-PTrkv5z/0/Cj9GDvWvDN2tnQ6TLk2NHh7xhcKDxNpJFqpFHJpWM/X3/DSCF0393-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-89WCH5g/0/Dss2Q2kdjQmn6NRWbW2M2tsTWBQ9SjjQbNtvv95zX/X3/DSCF0394-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-gfPfJVm/0/DnXJtN3DmVnDDFcdXvkfK9S2tbFzX8vXVxnJX42xb/X3/DSCF0395-X3.jpg[]
 
-Place square nuts into the square nut sockets on the battery housing:
+Place washer over potentiometer, then finger tighten a hex nut over  the same potentiometer:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-here: Build-Party/i-vjSnpf6/0/971cd061/5K/DSC00050-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-vjSnpf6/0/971cd061/L/DSC00050-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-dTJ89Qs/0/CQ3C3ZPjPFPttwvCpkLCxVMqc8PNzBM22rMJDww2P/X3/DSCF0397-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-QVnVk8m/0/FSnHrvbmrx6sNKPWsJjH9pdwCv9jKXD3JnnHHSMhc/X3/DSCF0398-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-SzMjSNx/0/FZBcTGkrdhJdGwgKhs8JQqQq748nxQVSGVMgLGpg4/X3/DSCF0399-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-WknbXtM/0/GDGD2SxnKSdkjNwqkGxLZdQtPmqTzktxWMCG4FV8/X3/DSCF0400-X3.jpg[]
 
-Screw in the screws into the board housing to secure the board housing to the battery housing:
+Use socket wrench to tighten hex nuts into place:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-SvVXT9h/0/f8ec575b/5K/DSC00055-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-SvVXT9h/0/f8ec575b/L/DSC00055-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-4XHPLTS/0/D97gP8PWj2HpBkbVNtMLNFRHXmFtkWcQkcZkHJtmk/X3/DSCF0402-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-x5kJjhz/0/FFXhqJ9J6pSkX6QwB3zF7GJrqhXkfVx8bBLrQ26HX/X3/DSCF0404-X3.jpg[]
 
-Use the bent-nose pliers to attach the nut to the DC jack in the battery housing:
+Attach 2X MOLLE spacers onto MOLLE strap:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TT6wQVn/0/54836dce/5K/DSC00060-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TT6wQVn/0/54836dce/L/DSC00060-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-fs6QwCg/0/DHLqj7zC6BVgJPBNWPP5F8XhfDbRs94xcnvbKw73/X3/DSCF0408-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-xnBwMhk/0/wbqzgtgj2gbBrHxTgJpRBc4rKFHDjNnf3FkFbknZ/X3/DSCF0411-X3.jpg[]
 
-Use the socket wrenches to secure nuts onto the various ports:
+Attach and screw MOLLE strap (with spacers) onto lid with M4 screws using a hex screwdriver:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-sSvqRdm/0/430d66c1/5K/DSC00062-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-sSvqRdm/0/430d66c1/L/DSC00062-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-QXktndV/0/CbzsMVRgRqvXKNrZWvk3VwsD7BHTn3hc4VcRZcvfb/X3/DSCF0416-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Q7C58c8/0/CHVdxWrpqT65NbXgPhwj9mNkS3k8F8gPXX4QdzSSK/X3/DSCF0417-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Zn7dSmV/0/djJXGHgNZGkRNNFZcqFfWTdJzcCB7vc75Tbg24Mm/X3/DSCF0418-X3.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-pvVBhQW/0/a8f3290d/5K/DSC00064-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-pvVBhQW/0/a8f3290d/L/DSC00064-L.jpg[]
+Attach and secure MOLLE Catch onto MOLLE Strap and Lid with M4 screws using hex screwdriver:
 
-Attach the potentiometer printed knob onto the potentiometer knob:
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-scbw8j5/0/g27drF8CSh75r3Hrb52wDzM7nnnfr78G3MKhsF7r/X3/DSCF0420-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-WMsBHHr/0/CgSrZSMC76BsJXTKHg7cmSptbTCqcqG772cNq32k6/X3/DSCF0421-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-8Zw3W8X/0/Cz34twnX8hBRML4v8TNKcs57tm6v2vf33qHGDnWSz/X3/DSCF0423-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-XwPb3Bh/0/CwSRmFvc8dKgFg7CVXt6XM4nf2DfvX6J3sHnd5k5/X3/DSCF0427-X3.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-6B5hrTV/0/23decce2/5K/DSC00065-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-6B5hrTV/0/23decce2/L/DSC00065-L.jpg[]
+Attach knob onto potentiometer:
 
-When the battery is in the housing and the potentiometer turned on, a battery life indicator should turn on:
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-hD6RFJD/0/SjVc3MQbJk8nMWDqDHRph6x2fcFk8fKpBqm6P83M/X3/DSCF0431-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-gjQCCgm/0/h25Gh7Kx5grTQjW8HZ3vPtv8NHn5CGHQgN7bnrms/X3/DSCF0432-X3.jpg[]
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/5K/DSC00066-5K.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-fTVqQCL/0/65e4b53d/L/DSC00066-L.jpg[]
+
+Insert m12 battery:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-K6b2PV6/0/tGwKwt4gGCLkHqdJVfVQgMNZqwv7qbj83FzFGwMN/X3/DSCF0435-X3.jpg[]
+
+Turn knob to turn on power (it should beep and flash an LED battery level indicator):
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-ptrZP5b/0/CRmfzVGmhfh3sfGqC7RWqbKTWn9B76Khbk65wZCwq/X3/DSCF0437-X3.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-MTjg57L/0/WbpCBKM3dpknndcb3fRmcX9NsSsZCQW4wDfKwX7B/X3/DSCF0438-X3.jpg[]
+
+Test m12 battery controller with fan box by attaching a BNC cable:
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-MHSjhF3/0/D2rMhvJ8MHgTdqrBRVzK4j8HCczZ2fxBSLd77bccz/X3/DSCF0440-X3.jpg[]
 
 Congratulations!  You have built a Tetra PAPRa M12 Controller Box v4 (August 2021)!
 
-
-
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-Gn2SZSn/0/C3LWRJ5KRtn4kXPPZkqHRx9QMmz8rVws7NVDdBtsQ/X3/DSCF0443-X3.jpg[]
