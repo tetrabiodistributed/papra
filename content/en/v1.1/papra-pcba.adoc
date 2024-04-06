@@ -354,8 +354,6 @@ Place the Fuse in the fuse holder.
 
 image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-3GSXg5s/0/DC9Dt9W4SzWf8Kxg3Fw9cBmJZTsdnwK9Np2pMcbpq/M/Screenshot%20from%202024-03-23%2008-42-17-M.png[]
 
+== Flashing firmware
 
-
-
-
-
+Instructions for flashing firmware can be found here: https://github.com/tetrabiodistributed/papra-pcba-firmware
