@@ -29,8 +29,8 @@ image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/
 
 There are three components to build:
 
-1.  link:m12[The M12 Controller]
-2.  link:fan-box[The Fan Box] with the appropriate link:fan-box-circuits[circuit board]
+1.  link:m12-controller[The M12 Controller]
+2.  link:fan-box[The Fan Box]
 3.  link:mask[The Mask]
 
 And the instructions to build all of these components can be found in the Tetra PAPRA Components section.
