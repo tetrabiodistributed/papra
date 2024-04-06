@@ -35,23 +35,59 @@ These parts should be printed at 0.2 spacing:
 |===
 | Part | Quantity | Material | Supports Required? | STL File Location
 
-| The Battery Housing
-| 1 
-| PLA/PETG
-| Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000132-1_M12_Battery_Housing.stl
-
-| The Board Housing
-| 1 
+| Knob
+| 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000131-1_M12_Board_Housing.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fad8cd5e584b/STLs/battery_controller/P-TET-000100%20M12%20Knob.stl
 
-| The Knob
-| 1 
+| Body One Piece (alternative part for Body + Light Panel)
+| 1
+| Transparent PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl
+
+| Plate
+| 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/v5.0/STLs/battery_controller/P-TET-000100-1_M12_Controller_Knob.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000170%20M12%20Plate.stl
+
+| MOLLE Strap
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000171%20M12%20MOLLE%20Strap.stl
+
+| MOLLE Catch
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000172%20M12%20MOLLE%20Catch.stl
+
+| Body
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl
+
+| Lid
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000174%20M12%20Lid.stl
+
+| Lid
+| 1
+| PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000194%20M12%20MOLLE%20Spacer.stl
+
+| Light Panel
+| 1
+| Transparent PLA/PETG
+| No
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000195%20M12%20Light%20Panel.stl
 
 |===
 
