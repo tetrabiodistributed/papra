@@ -3,6 +3,7 @@
 title: "PAPRa Build Guide (June 2022 Edition)"
 linkTitle: "PAPRa Build Guide"
 weight: 1
+toc_hide: true
 description: >
   How to build the June 2022 version of the Tetra PAPR.
 aliases:
