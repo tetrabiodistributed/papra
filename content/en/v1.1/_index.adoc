@@ -29,7 +29,7 @@ image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/
 
 There are three components to build:
 
-1.  The M12 Controller Box (link:m12[the March 2021 version] if you have link:m12-circuit[the controller circuit board], link:m12-v1[v1] if you do not)
+1.  link:m12[The M12 Controller]
 2.  link:fan-box[The Fan Box] with the appropriate link:fan-box-circuits[circuit board]
 3.  link:mask[The Mask]
 
