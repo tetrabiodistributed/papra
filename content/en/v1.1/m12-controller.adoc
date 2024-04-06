@@ -132,6 +132,9 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | A hex screwdriver for the M4 screws
 | https://www.amazon.com/gp/product/B007ICWAJC
 
+| A 10mm socket wrench 
+| https://www.amazon.com/gp/product/B0009ORXRU/
+
 |===
 
 == Build Instructions
