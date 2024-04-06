@@ -1,12 +1,12 @@
 ---
-title: "How to build a PAPRa m12 Battery Controller (Aug 2021)"
+title: "How to build a PAPRa m12 Battery Controller (April 2024)"
 linkTitle: "PAPRa m12 Battery Controller"
 weight: 1
 description: >
-  How-To guide for building the Tetra PAPRa m12 battery controller (August 2021 version).
+  How-To guide for building the Tetra PAPRa m12 battery controller (April 2024 version).
 aliases:
-  - /v1.0/m12
-  - /1.0/m12
+  - /v1.1/m12-controller
+  - /1.1/m12-controller
 ---
 
 == Quick Synopsis
@@ -21,8 +21,8 @@ This build differs from the v1 version in that it uses a custom-built circuitboa
 
 This build will require printed parts, purchased parts, and several tools.  Here is a picture of all the components used in this build:
 
-[link=https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/XL/DSC00035-XL.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/2021-May-8-Papra-Build-Party/i-TvzsCcM/0/868c4f19/L/DSC00035-L.jpg[]
+[link=https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5QsJLvG/0/DQjrL2hWz99x6dfQFPxQqSCNWcnJcnT842D8Q4F2B/X3/DSCF0364-X3.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-5QsJLvG/0/DQjrL2hWz99x6dfQFPxQqSCNWcnJcnT842D8Q4F2B/X3/DSCF0364-X3.jpg[]
 
 And the assembly diagram can be found link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/D-TET-001102-2%20M12%20PAPRA%20Controller%20Drawing.pdf[here].  Note that this assembly calls for version 0.7 of the board.
 
