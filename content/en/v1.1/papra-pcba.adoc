@@ -203,7 +203,7 @@ Enter at your own risk.
 |===
 
 
-.Table 3D Printed Tools
+.3D Printed Tools
 |===
 | Part | Quantity | Material | Supports required? | STL File Location
 
