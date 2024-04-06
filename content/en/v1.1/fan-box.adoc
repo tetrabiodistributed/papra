@@ -24,8 +24,8 @@ This particular version of the PAPRA has been tested to pass at an N99 level, an
 
 This photo shows all the parts laid out for building this component:
 
-[link=https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/D5nq2R9SWqZsbwGb2tQt7VxnpXKZPc8MzqQRK92sH/M/DSCF0197-M.jpg]
-image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/D5nq2R9SWqZsbwGb2tQt7VxnpXKZPc8MzqQRK92sH/M/DSCF0197-M.jpg[width=420]
+[link=https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/CnwKx63gh5ph4jtLts36mSZ64z686WqJQXq5X4H4V/X3/DSCF0197-X3.jpg]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-7gHgdbp/0/CnwKx63gh5ph4jtLts36mSZ64z686WqJQXq5X4H4V/X3/DSCF0197-X3.jpg[width=420]
 
 The assembly diagram is link:https://github.com/tetrabiodistributed/papr-print-files/blob/f77a0d4679d0aeff081651c099855b2eb2a89743/Drawings/A-TET-001111-0_Klein_Filter_96mm_PAPRa_Assembly.pdf[here].
 
