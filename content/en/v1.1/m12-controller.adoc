@@ -39,55 +39,55 @@ These parts should be printed at 0.2 spacing:
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fad8cd5e584b/STLs/battery_controller/P-TET-000100%20M12%20Knob.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fad8cd5e584b/STLs/battery_controller/P-TET-000100%20M12%20Knob.stl[STL]
 
 | Body One Piece (alternative part for Body + Light Panel)
 | 1
 | Transparent PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl[STL]
 
 | Plate
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000170%20M12%20Plate.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000170%20M12%20Plate.stl[STL]
 
 | MOLLE Strap
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000171%20M12%20MOLLE%20Strap.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000171%20M12%20MOLLE%20Strap.stl[STL]
 
 | MOLLE Catch
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000172%20M12%20MOLLE%20Catch.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000172%20M12%20MOLLE%20Catch.stl[STL]
 
 | Body
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl[STL]
 
 | Lid
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000174%20M12%20Lid.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000174%20M12%20Lid.stl[STL]
 
 | Lid
 | 1
 | PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000194%20M12%20MOLLE%20Spacer.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000194%20M12%20MOLLE%20Spacer.stl[STL]
 
 | Light Panel
 | 1
 | Transparent PLA/PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000195%20M12%20Light%20Panel.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000195%20M12%20Light%20Panel.stl[STL]
 
 |===
 
@@ -101,12 +101,12 @@ You will need these components.  Prices fluctuate, and so are not included here.
 
 | 1
 | Printed Circuit Board Assembly
-| https://github.com/tetrabiodistributed/PAPRA-PCBA
+| https://github.com/tetrabiodistributed/PAPRA-PCBA[PAPRa-PCBa]
 | 1
 
 | 1 
 | 2Pack Upgraded 3.5Ah M 12 Battery for Milwaukee 12V Battery Lithium XC M 12B Batteries 
-| https://www.amazon.com/gp/product/B082WW688D/ 
+| https://www.amazon.com/gp/product/B082WW688D/[Click Me]
 | 2 
 
 | 3
@@ -130,10 +130,10 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | Description | URL
 
 | A hex screwdriver for the M4 screws
-| https://www.amazon.com/gp/product/B007ICWAJC
+| https://www.amazon.com/gp/product/B007ICWAJC[Click me]
 
 | A 10mm socket wrench
-| https://www.amazon.com/gp/product/B0009ORXRU/
+| https://www.amazon.com/gp/product/B0009ORXRU/[click me]
 
 |===
 
