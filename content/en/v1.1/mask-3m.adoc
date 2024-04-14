@@ -11,12 +11,14 @@ aliases:
 
 == Quick Synopsis
 
-The Tetra Powered Air Purified Respirator requires a Mask component to deliver purified air to the face of the wearer.  This mask will be connected to the Fan Box via a CPAP hose.  After many rounds of development, we have decided to adopt a 3M 6500 series mask as the final interface to the face of the user.  These masks are effecive, cheap, and readily available.  Ideally, future work can have a fully open source mask to be used here, but our attempts just aren't equivalent to this off-the-shelf part.
+The Tetra Powered Air Purified Respirator requires a Mask component to deliver purified air to the face of the wearer.  This mask will be connected to the Fan Box via a CPAP hose.  After many rounds of development, we have decided to adopt a 3M 6500 series mask as the final interface to the face of the user.  These masks are effective, cheap, and readily available.  Ideally, future work can have a fully open source mask to be used here, but our attempts just aren't equivalent to this off-the-shelf part.
 
 *WARNING:* we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 == Parts Required
+This photo shows all the parts laid out for building this component (excluding the mask).
 
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-4drfxwF/0/C9FvqBBWSSk2XvqK8JzKjLpFwBZGq6S9fTf333mrx/M/DSCF0446-M.jpg[]
 
 ## 3D printed Parts
 
@@ -74,10 +76,26 @@ You will need these components.  Prices fluctuate, and so are not included here.
 
 Cut the ventilator hosing into 2 foot lengths.
 
+Put the heat sheath over the hose and drag the heat sheath to one end.
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-JMQ9f9v/0/CMg85JZC9z5rVnV42cBxXwFKgLX5cvQs7hMMmPChc/M/DSCF0445-M.jpg[]
+
+Connect the Right Angle Hose Connector (P-TET-000150) to the hose and pull the stealth over the connector.
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-SXmXLct/0/wSSf7NwKkcDVkgKzrv9WGjFNQCMVzPRZGnSCL3Rq/M/DSCF0452-M.jpg[]
+
+Heat the sheath uniformly with the heat gun.
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-nVZXCkX/0/CkzKnPgCzCxb2pFtkvWRqhQgbjrmvkmdBF8DjNFBK/M/DSCF0453-M.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-JzF3n9x/0/FBCxmQDSGtpbW7xhnQDbDckWV8vgttWPmBvnm3GqL/M/DSCF0458-M.jpg[]
+
+Repeat the above steps for other hose and Right Angle Hose Connector.
+
+Connect the y-connector (P-TET-000151)
 Place the right-angle parts (P-TET-000150) onto the mask:
 
-image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-d5zHvmM/0/0da86a47/L/_MMR5821-L.jpg[]
-
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-PVX3Mjv/0/Jnrc5wP8mj5WDwVF4tTMx9qnxbjfkqRMB9pvv45t/M/DSCF0470-M.jpg[]
 Note that the part has three different-size teeth to meet:
 
 image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-6frw2Z4/0/0a054250/L/_MMR5823-L.jpg[]
@@ -88,11 +106,11 @@ image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-36LWSFL/0/e7
 
 The other right angle part goes into the opposite side:
 
-image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-TTtqm74/0/d5f3c326/L/_MMR5825-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-FmFZ8KN/0/DKJ7qSHFqbVTRWcTxTkbQDWv4CHpdNjmvQzpKLQL/M/DSCF0472-M.jpg[]
 
 Place the two stiff pieces into the y-connector (P-TET-000151):
 
-image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-jk4gP88/0/16aea615/L/_MMR5830-L.jpg[]
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-hQ2LNKM/0/MP5fR36HHtB7GhdMBp2mbsZW8cBMBg5qBTmnssvf/M/DSCF0468-M.jpg[]
 
 Connect the CPAP hose in place on the bottom of the Y-connector (P-TET-000151):
 
@@ -105,6 +123,8 @@ image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-mCk2PJj/0/9d
 The mask is all together:
 
 image::https://photos.smugmug.com/Tetra-Testing/2022-Oct-10-Build/i-pBwTP2j/0/fb8e9418/L/_MMR5845-L.jpg[]
+
+image::https://photos.smugmug.com/Tetra-Testing/Makerfaire-2024-prep/i-TQwfQtG/0/D6rwQ5h7pKZ92PD4MswSxkLH62kXh6WFKrHjkPt8J/M/DSCF0481-M.jpg[]
 
 ## How frequently should I change the filter?
 
