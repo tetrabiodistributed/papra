@@ -37,55 +37,55 @@ These parts should be printed at 0.2 spacing:
 
 | Knob
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fad8cd5e584b/STLs/battery_controller/P-TET-000100%20M12%20Knob.stl[Knob]
 
 | Body One Piece (alternative part for Body + Light Panel)
 | 1
-| Transparent PLA/PETG
+| Transparent PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl[Body One Piece]
 
 | Plate
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000170%20M12%20Plate.stl[Plate]
 
 | MOLLE Strap
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000171%20M12%20MOLLE%20Strap.stl[MOLLE Strap]
 
 | MOLLE Catch
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000172%20M12%20MOLLE%20Catch.stl[MOLLE Catch]
 
 | Body
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000101%20M12%20Body%20One%20Piece.stl[Body]
 
 | Lid
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000174%20M12%20Lid.stl[Lid]
 
 | Lid
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000194%20M12%20MOLLE%20Spacer.stl[Lid]
 
 | Light Panel
 | 1
-| Transparent PLA/PETG
+| Transparent PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/battery_controller/P-TET-000195%20M12%20Light%20Panel.stl[Light Panel]
 

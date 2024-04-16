@@ -41,77 +41,77 @@ These parts should be printed at 0.2 or 0.15 spacing.  They should be oriented s
 | The Fan Box (holds the fan) 
 | P-TET-000140
 | 1
-| PLA/PETG
+| PETG
 | No (Can have some in the nut pocket)
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000140%20Base%20Sanyo.st[Fan box]
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000140%20Base%20Sanyo.stl[Fan box]
 
 | Filter Interface
 | P-TET-000158
 | 1
-| PLA/PETG
+| PETG
 | No (Can have some in the nut pocket)
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000158%20Stealth%20Filter%20Interface%20Sanyo.stl[Filter Interface]
 
 | Filter Frame
 | P-TET-000159
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000159%20Stealth%20Filter%20Frame%20Sanyo.stl[Filter Frame]
 
 | Weather Guard
 | P-TET-000143
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000159%20Stealth%20Filter%20Frame%20Sanyo.stl[Weather Guard]
 
 | Fan Outlet Spout
 | P-TET-000144
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000144%20Spout.stl[Fan Outlet Spout]
 
 | Fan Outlet Spacer
 | P-TET-000145
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000145%20Spacer.stl[Fan Outlet Spacer]
 
 | Fan Outlet Interface
 | P-TET-000152
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000152%20Spout%20Interface.stl[Fan Outlet Interface]
 
 | Spout ring
 | P-TET-000191
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000191%20Spout%20Ring.stl[Spout ring]
 
 | MOLLE Strap
 | P-TET-000153
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000153%20MOLLE%20Strap.stl[MOLLE Strap]
 
 | MOLLE Catch
 | P-TET-000154
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000154%20MOLLE%20Catch.stl[MOLLE Catch]
 
 | MOLLE Spacer
 | P-TET-000193
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000193%20MOLLE%20Spacer.stl[MOLLE Spacer]
 

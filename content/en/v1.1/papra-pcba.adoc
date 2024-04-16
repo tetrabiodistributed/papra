@@ -209,7 +209,7 @@ Enter at your own risk.
 
 | Tetra-PCB-jig-v3
 | 1
-| PLA/PETG
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/d0c51e8a21a43540b39c50ecf9295a17e224a93b/STLs/Tetra-PCB-jig-v3.stl[PCB Jig]
 
