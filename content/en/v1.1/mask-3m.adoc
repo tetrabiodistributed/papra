@@ -27,14 +27,14 @@ The Tetra Powered Air Purified Respirator requires a Mask component to deliver p
 | Right-angle Connector
 | P-TET-000150
 | 2
-| PET/PLA
+| PETG
 | Yes
 | https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000150_Right_Angle_Hose_Connector.stl[Right-angle Connector]
 
 | Y Connector
 | P-TET-000150
 | 1
-| PET/PLA
+| PETG
 | No
 | https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000151_Y_Splitter.stl[Y Connector]
 

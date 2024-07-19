@@ -167,7 +167,7 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 | Count | Description | URL | Number in Package 
 | 1 
 | Sanyo Denki 9BMB12F201
-| https://octopart.com/9bmb12f201-sanyo+denki-24320259[Sanyo Denki ]
+| https://octopart.com/9bmb12f201-sanyo+denki-24320259[Sanyo Denki]
 | 1 
 
 | 1 
@@ -182,7 +182,7 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 
 | 1
 | BNC Cable Jack Connector
-| https://octopart.com/112517-amphenol+rf-50123148[ Jack Connector]
+| https://octopart.com/112517-amphenol+rf-50123148[Jack Connector]
 | 1
 
 | 13
@@ -219,7 +219,7 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html[Long Nose Pliers]
 
 | A hex screwdriver for the m4 screws
-| https://www.amazon.com/gp/product/B007ICWAJC[hex screwdriver ]
+| https://www.amazon.com/gp/product/B007ICWAJC[hex screwdriver]
 
 | Flush cutter
 | https://www.harborfreight.com/micro-flush-cutter-90708.html[Flush cutter]
@@ -228,19 +228,19 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ[X-acto knife]
 
 | 3D Printer (note the size of the print bed for the fan box)
-| https://www.prusa3d.com/category/original-prusa-mk4/[3D Printer ]
+| https://www.prusa3d.com/category/original-prusa-mk4/[3D Printer]
 
 | #0 Phillips head screwdriver
 | https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976[head screwdriver]
 
 | CPAP hose cleaner (for maintenance)
-| https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/[ CPAP hose cleaner]
+| https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/[CPAP hose cleaner]
 
 | Cable Crimper
 | https://www.amazon.com/IWISS-Crimping-Swaging-Aluminum-Sleeves/dp/B00JW4X4TO/ref=sr_1_20?dchild=1&keywords=cable+crimping+tool&qid=1630860032&sr=8-20[Cable Crimper]
 
 | 9/16 Nut Driver for the BNC
-| https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427[9/16 Nut Driver ]
+| https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427[9/16 Nut Driver]
 
 |===
 
