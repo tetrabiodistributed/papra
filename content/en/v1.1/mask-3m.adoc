@@ -27,16 +27,16 @@ The Tetra Powered Air Purified Respirator requires a Mask component to deliver p
 | Right-angle Connector
 | P-TET-000150
 | 2
-| PET/PLA
+| PETG
 | Yes
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000150_Right_Angle_Hose_Connector.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000150_Right_Angle_Hose_Connector.stl[Right-angle Connector]
 
 | Y Connector
 | P-TET-000150
 | 1
-| PET/PLA
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000151_Y_Splitter.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/ae647b7905ae6b9a0845f862daef6b815cd362d1/STLs/3M%20Adapter/P-TET-000151_Y_Splitter.stl[Y Connector]
 
 |===
 
@@ -52,19 +52,19 @@ You will need these components.  Prices fluctuate, and so are not included here.
 
 | 1
 | CPAP Hose (possible candidate-- this product is 3 feet, you may want something longer or shorter.  Refer to https://github.com/tetrabiodistributed/papra/issues/48 for alternatives)
-| https://www.amazon.com/Gray-Standard-CPAP-Tubing-foot/dp/B073GBQN73
+| https://www.amazon.com/Gray-Standard-CPAP-Tubing-foot/dp/B073GBQN73[CPAP Hose]
 | 1, 3ft
 
 
 | 2 
 | Stiff Ventilator hosing (999) 22mm 
-| https://hitechmedical.net/products/999-2/
+| https://hitechmedical.net/products/999-2/[Stiff Ventilator hosing]
 | 1 length, 200 yards
 
 
 | 1
 | 3M 6200 Model Mask
-| https://www.amazon.com/3M-Respirator-6200-Respiratory-Protection/dp/B007JZ1N00
+| https://www.amazon.com/3M-Respirator-6200-Respiratory-Protection/dp/B007JZ1N00[Mask]
 | 1
 
 |===
@@ -112,4 +112,4 @@ Changing the filter depends on how much you use the device.  If you're using the
 
 ## My hose is smelling.  What can I do about that?
 
-You can clean the hose with a 22mm cleaning brush (like https://www.amazon.com/JAKIA-CPAP-Brush-Cleaning-7inch/dp/B089Q6QH1X).  Soap and water should be sufficient.  We've found that the hose material can begin to smell if exposed to quite a bit of sunlight, such as wearing the PAPR in the desert, and this smell wears off after some time.
+You can clean the hose with a 22mm cleaning brush (like https://www.amazon.com/JAKIA-CPAP-Brush-Cleaning-7inch/dp/B089Q6QH1X)[Cleaning Brush].  Soap and water should be sufficient.  We've found that the hose material can begin to smell if exposed to quite a bit of sunlight, such as wearing the PAPR in the desert, and this smell wears off after some time.

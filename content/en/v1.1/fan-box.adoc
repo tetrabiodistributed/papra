@@ -41,79 +41,79 @@ These parts should be printed at 0.2 or 0.15 spacing.  They should be oriented s
 | The Fan Box (holds the fan) 
 | P-TET-000140
 | 1
-| PLA/PETG
+| PETG
 | No (Can have some in the nut pocket)
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000140%20Base%20Sanyo.st
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000140%20Base%20Sanyo.stl[Fan box]
 
 | Filter Interface
 | P-TET-000158
 | 1
-| PLA/PETG
+| PETG
 | No (Can have some in the nut pocket)
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000158%20Stealth%20Filter%20Interface%20Sanyo.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000158%20Stealth%20Filter%20Interface%20Sanyo.stl[Filter Interface]
 
 | Filter Frame
 | P-TET-000159
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000159%20Stealth%20Filter%20Frame%20Sanyo.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000159%20Stealth%20Filter%20Frame%20Sanyo.stl[Filter Frame]
 
 | Weather Guard
 | P-TET-000143
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000159%20Stealth%20Filter%20Frame%20Sanyo.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000159%20Stealth%20Filter%20Frame%20Sanyo.stl[Weather Guard]
 
 | Fan Outlet Spout
 | P-TET-000144
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000144%20Spout.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000144%20Spout.stl[Fan Outlet Spout]
 
 | Fan Outlet Spacer
 | P-TET-000145
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000145%20Spacer.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000145%20Spacer.stl[Fan Outlet Spacer]
 
 | Fan Outlet Interface
 | P-TET-000152
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000152%20Spout%20Interface.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000152%20Spout%20Interface.stl[Fan Outlet Interface]
 
 | Spout ring
 | P-TET-000191
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000191%20Spout%20Ring.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000191%20Spout%20Ring.stl[Spout ring]
 
 | MOLLE Strap
 | P-TET-000153
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000153%20MOLLE%20Strap.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000153%20MOLLE%20Strap.stl[MOLLE Strap]
 
 | MOLLE Catch
 | P-TET-000154
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000154%20MOLLE%20Catch.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000154%20MOLLE%20Catch.stl[MOLLE Catch]
 
 | MOLLE Spacer
 | P-TET-000193
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000193%20MOLLE%20Spacer.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/STLs/fan_box/96mm%20Stealth%20Parts/P-TET-000193%20MOLLE%20Spacer.stl[MOLLE Spacer]
 
 |===
 
@@ -130,31 +130,31 @@ Gaskets should be cut from 2mm craft foam.  Ideally, they should be cut by somet
 | P-TET-000146
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000146%2096mm%20Base%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000146%2096mm%20Base%20Gasket.svg[Base Gasket]
 
 | Fan Gasket
 | P-TET-000147
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000147%2096mm%20Fan%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000147%2096mm%20Fan%20Gasket.svg[Fan Gasket]
 
 | Filter Gasket
 | P-TET-000148
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/db2500507c2c03987185a34bd57795aa45caed02/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000148%2096mm%20Filter%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/db2500507c2c03987185a34bd57795aa45caed02/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000148%2096mm%20Filter%20Gasket.svg[Filter Gasket]
 
 | Outlet Gasket
 | P-TET-000149
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/db2500507c2c03987185a34bd57795aa45caed02/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000149%2096mm%20Outlet%20Gasket.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/db2500507c2c03987185a34bd57795aa45caed02/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000149%2096mm%20Outlet%20Gasket.svg[Outlet Gasket]
 
 | Fan Outlet Spout Interface
 | P-TET-000152
 | 1
 | Craft Foam
-| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000152%2096mm%20Fan%20Outlet%20Spout%20Interface.svg
+| https://github.com/tetrabiodistributed/papr-print-files/blob/f77c5bc3c5f0d8fadfdf2757c59a09a8cd5e584b/Gaskets/96mm%20Stealth%20Sanyo%20PAPRa/P-TET-000152%2096mm%20Fan%20Outlet%20Spout%20Interface.svg[Fan Outlet Spout Interface]
 
 |===
 
@@ -167,22 +167,22 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 | Count | Description | URL | Number in Package 
 | 1 
 | Sanyo Denki 9BMB12F201
-| https://octopart.com/9bmb12f201-sanyo+denki-24320259
+| https://octopart.com/9bmb12f201-sanyo+denki-24320259[Sanyo Denki]
 | 1 
 
 | 1 
 | 20 American Wire Gauge (awg) BNC cable
-| https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html
+| https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html[BNC cable]
 | 1
 
 | 1
 | Dryer Vent Installation Tape
-| http://www.nashuatape.com/
+| http://www.nashuatape.com/[DryerTape]
 | 1
 
 | 1
 | BNC Cable Jack Connector
-| https://octopart.com/112517-amphenol+rf-50123148
+| https://octopart.com/112517-amphenol+rf-50123148[Jack Connector]
 | 1
 
 | 13
@@ -197,7 +197,7 @@ These are components that need to be purchased.  Prices fluctuate, and so are no
 
 | 1
 | BNC 20 gauge wire stays
-| https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html
+| https://www.jameco.com/z/205-523-Steren-Electronics-Cable-Assembly-RG58-U-36-Bnc-To-Bnc-50-Ohm_11404.html[Wire stays]
 | 1
 
 | 1
@@ -216,31 +216,31 @@ These tools are recommended. URLs are for tools purchased and used in the buildi
 | Description | URL
 
 | 4-3/4 In. Bent Long Nose Pliers
-| https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html
+| https://www.harborfreight.com/4-34-in-bent-long-nose-pliers-63819.html[Long Nose Pliers]
 
 | A hex screwdriver for the m4 screws
-| https://www.amazon.com/gp/product/B007ICWAJC
+| https://www.amazon.com/gp/product/B007ICWAJC[hex screwdriver]
 
 | Flush cutter
-| https://www.harborfreight.com/micro-flush-cutter-90708.html
+| https://www.harborfreight.com/micro-flush-cutter-90708.html[Flush cutter]
 
 | X-acto knife
-| https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ
+| https://www.amazon.com/Xacto-X3201-N0-Precision-Knife/dp/B00004Z2TQ[X-acto knife]
 
 | 3D Printer (note the size of the print bed for the fan box)
-| https://www.prusa3d.com/category/original-prusa-mk4/
+| https://www.prusa3d.com/category/original-prusa-mk4/[3D Printer]
 
 | #0 Phillips head screwdriver
-| https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976
+| https://www.homedepot.com/p/Husky-8-in-1-Screwdriver-with-LED-Light-232360016/301959976[head screwdriver]
 
 | CPAP hose cleaner (for maintenance)
-| https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/
+| https://www.amazon.com/Cleaning-DreamStation-Diameter-Stainless-Cleaner/dp/B08HLQV2VK/[CPAP hose cleaner]
 
 | Cable Crimper
-| https://www.amazon.com/IWISS-Crimping-Swaging-Aluminum-Sleeves/dp/B00JW4X4TO/ref=sr_1_20?dchild=1&keywords=cable+crimping+tool&qid=1630860032&sr=8-20
+| https://www.amazon.com/IWISS-Crimping-Swaging-Aluminum-Sleeves/dp/B00JW4X4TO/ref=sr_1_20?dchild=1&keywords=cable+crimping+tool&qid=1630860032&sr=8-20[Cable Crimper]
 
 | 9/16 Nut Driver for the BNC
-| https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427
+| https://www.milwaukeetool.com/Products-Repository/North-America/Hand-Tools/Screwdrivers/48-22-2427[9/16 Nut Driver]
 
 |===
 

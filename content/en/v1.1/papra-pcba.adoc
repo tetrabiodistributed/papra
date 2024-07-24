@@ -13,7 +13,7 @@ aliases:
 
 The following is the board diagram for the M12 controller PCB.  Further information can be found in https://github.com/tetrabiodistributed/PAPRA-PCB[the PAPRA-PCB project.]
 
-WARNING: we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
+WARNING:we provide no warranty, implicit or explicit, that this device will work up to an N95 specification, when built outside of a facility rated to do so.  The only way to truly test one of these devices using something like a https://tsi.com/products/respirator-fit-testers/portacount-respirator-fit-tester-8038/[Portacount] under controlled conditions.
 
 
 Enter at your own risk.
@@ -209,29 +209,29 @@ Enter at your own risk.
 
 | Tetra-PCB-jig-v3
 | 1
-| PLA/PETG
+| PETG
 | No
-| https://github.com/tetrabiodistributed/papr-print-files/blob/d0c51e8a21a43540b39c50ecf9295a17e224a93b/STLs/Tetra-PCB-jig-v3.stl
+| https://github.com/tetrabiodistributed/papr-print-files/blob/d0c51e8a21a43540b39c50ecf9295a17e224a93b/STLs/Tetra-PCB-jig-v3.stl[PCB Jig]
 
 |===
 
 
 == Build instructions ==
 
-Download the PCB Jig STL from Github and print it. 
+* Download the PCB Jig STL from Github and print it. 
 
 image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-Vxkbtqr/0/Dvq4ZSMp9rSHhpZV8s4VmFNvCrWSjgv2WjtqhZ9wj/M/pcb-jig-M.png[420]
 The larger gaps are to aid the positioning of the battery terminals.
 
-Place the board on the PCB Jig. The markings should be upside down.
+* Place the board on the PCB Jig. The markings should be upside down.
 
-Insert the LEDs with the Anode facing away from the test points.
+* Insert the LEDs with the Anode facing away from the test points.
 
-Insert the LEDS in the D1, D3, D4, D5 and D7
+* Insert the LEDS in the D1, D3, D4, D5 and D7
 
 image::https://photos.smugmug.com/Tetra-Testing/PCBA-Thruhole-Board-Assembly-v1/i-xLnHxBj/0/DKFtHJwLHKF22dwXTxZKXMFW4QNJt77mhmCpBmDpM/M/pcb-on-jig-M.png[420]
 
-Flip the Board carefully and align the LEDs with the holes in the jig 
+* Flip the Board carefully and align the LEDs with the holes in the jig 
 Push them into place until they touch the work surface.
 
 
