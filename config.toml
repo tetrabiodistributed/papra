@@ -58,10 +58,6 @@ anchor = "smart"
     name = "Slack"
     weight = 50
     url = "https://app.slack.com/client/T010W922ZUN/"
-[[menu.main]]
-    name = "Store"
-    weight = 60
-    url = "https://www.tetrabio.org/store"
 
 [services]
 [services.googleAnalytics]
