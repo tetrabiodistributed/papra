@@ -11,3 +11,5 @@ static/
 
 # this file should be brought in through submodules and build.sh
 layouts/shortcodes/embed-pdf.html
+content/en/DFM/devplan2.md
+content/en/DFM/devplan.md

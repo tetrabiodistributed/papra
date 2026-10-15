@@ -1,0 +1,94 @@
+To make *The Tetra Biodistributed Project PAPR* (PAPRa) fully adherent
+to *Design for Manufacturing (DFM)* and *Design for Assembly (DFA)*
+guidelines, several key engineering principles from manufacturing
+literature can be integrated into its design.
+
+Because open-source personal protective equipment (PPE) like PAPRa often
+begins as a 3D-printed prototype, transitioning it to scalable mass
+production requires incorporating design adjustments across assembly
+reduction, molding rules, component standardization, and alignment
+features:
+
+'''''
+
+==== *1. Part Consolidation and Part Count Reduction*
+
+* *Combine Multi-Piece Housings*: The single most effective way to lower
+total manufacturing and assembly costs is to reduce the total number of
+parts in an assembly. +
+* *Functional Integration*: Merge separate housing shells, battery
+brackets, airflow ducts, and filter mounting rings into unified
+single-piece components. Integrating functional features into a single
+molded part eliminates individual piece-parts, fasteners, and manual
+assembly steps.
+
+==== *2. Fastener Elimination and Tool-less Assembly*
+
+* *Incorporate Snap-Fits and Press-Fits*: Threaded fasteners (screws,
+nuts, washers) add significant labor costs due to manual alignment and
+driving time. Replacing metal screws with integrated *plastic
+snap-fits*, *living hinges*, or *press-fit retention tabs* allows
+tool-less assembly and quick access for battery or filter changes. +
+* *Single-Direction (Top-Down) Assembly*: Configure the internal blower,
+circuit board, and wiring harness so they drop into the enclosure in a
+straight line along the Z-axis, avoiding complex multi-angle assembly
+steps.
+
+==== *3. Transitioning from Additive Prototyping to Injection Molding DFM*
+
+If the respirator housing is scaled from low-volume 3D printing to
+mass-production injection molding, specific molding DFM rules must be
+applied to the CAD models:
+
+* *Add Draft Angles and Define Parting Planes*: Ensure all vertical
+walls have appropriate draft angles in the direction of mold closure to
+allow clean part ejection without requiring expensive side-action cores
+or slides. +
+* *Maintain Uniform Wall Thickness*: Non-uniform wall thicknesses cause
+uneven cooling, warping, and long cycle times. Use *multidirectional or
+concentric stiffening ribs* and gussets to provide structural rigidity
+rather than thick, solid walls. +
+* *Eliminate Undercuts and Narrow Features*: Avoid internal and external
+undercuts, narrow slots, or sharp projections that complicate mold
+tooling and accelerate tool wear.
+
+==== *4. Standardization and Off-the-Shelf (COTS) Hardware*
+
+* *Use Standard Modules*: Ensure that electric blowers, fans, HEPA
+filter cartridges, power jacks, and batteries conform to widely
+available standard commercial sizes. Designing around standard
+commercial parts eliminates the high tooling and production costs of
+custom special-purpose hardware.
+
+==== *5. Self-Locating and Error-Proofing (Poka-Yoke) Features*
+
+* *Lead-in Chamfers and Keyways*: Add chamfers, guiding recesses, and
+keyway alignment tabs to component interfaces so that operators can
+align and insert filters or seals quickly and correctly. +
+* *Symmetry vs. Pronounced Asymmetry*: Make parts either completely
+symmetric (so they fit in any orientation) or clearly asymmetric (so
+they can only be inserted the correct way), preventing assembly errors.
+
+==== *6. Standardized Sealing and Tolerance Optimization*
+
+* *Avoid Unnecessary Tight Tolerances*: Specifying overly tight
+dimensions dramatically increases scrap rates and manufacturing costs. +
+* *Gaskets over Tight Machining*: Since a PAPR requires airtight seal
+integrity, rely on standardized elastomeric O-rings, over-molded
+flexible lips, or silicone gaskets to maintain an airtight seal rather
+than requiring hyper-precise manufacturing tolerances on rigid housing
+parts.
+
+'''''
+
+💡 Possible next steps are to draft a detailed DFM evaluation report or
+checklist for a specific component of the PAPR (such as the main blower
+housing or filter manifold)
+
+Poli, Corrado. _Design for manufacturing: a structured approach_.
+Elsevier Science & Technology Books, 2001.
+
+Gebisa, Aboma Wagari, and Hirpa G. Lemu. "`Design for manufacturing to
+design for Additive Manufacturing: Analysis of implications for design
+optimality and product sustainability.`" _Procedia Manufacturing_ 13
+(2017): 724-731.
